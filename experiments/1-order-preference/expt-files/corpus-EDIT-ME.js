@@ -8,7 +8,7 @@
 var adjectives = _.shuffle([
 		{"Predicate":"red", "Class":"color", "Translation" : "red"},
 		{"Predicate":"yellow", "Class":"color", "Translation" : "yellow"},
-		{"Predicate":"green", "Class":"color"},
+		{"Predicate":"green", "Class":"color", "Translation" : "green"},
 		{"Predicate":"blue", "Class":"color"},
 		{"Predicate":"purple", "Class":"color"},
 		{"Predicate":"brown", "Class":"color"},											
