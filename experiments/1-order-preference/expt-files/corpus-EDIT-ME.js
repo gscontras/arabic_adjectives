@@ -5,47 +5,92 @@
 //		{"Sentence": "box big", "Predicate": "big", "Noun": "box"}
 //		]
 
-var adjectives = _.shuffle([
-		{"Predicate":"red", "Class":"color", "Translation" : "red"},
-		{"Predicate":"yellow", "Class":"color", "Translation" : "yellow"},
-		{"Predicate":"green", "Class":"color", "Translation" : "green"},
-		{"Predicate":"blue", "Class":"color"},
-		{"Predicate":"purple", "Class":"color"},
-		{"Predicate":"brown", "Class":"color"},											
-		{"Predicate":"big", "Class":"size"},
-		{"Predicate":"small", "Class":"size"},					
-		{"Predicate":"huge", "Class":"size"},					
-		{"Predicate":"tiny", "Class":"size"},					
-		{"Predicate":"short", "Class":"size"},					
-		{"Predicate":"long", "Class":"size"},							
-		{"Predicate":"wooden", "Class":"material"},
-		{"Predicate":"plastic", "Class":"material"},
-		{"Predicate":"metal", "Class":"material"},
-		{"Predicate":"smooth", "Class":"texture"},
-		{"Predicate":"hard", "Class":"texture"},
-		{"Predicate":"soft", "Class":"texture"},
-		{"Predicate":"old", "Class":"age"},
-		{"Predicate":"new", "Class":"age"},
-		{"Predicate":"rotten", "Class":"age"},
-		{"Predicate":"fresh", "Class":"age"},
-		{"Predicate":"good", "Class":"quality"},
-		{"Predicate":"bad", "Class":"quality"},
-		{"Predicate":"round", "Class":"shape"},						
-		{"Predicate":"square", "Class":"shape"}
+var adjectives = _.shuffle([ 
+		{"Predicate":"«‰√ÕÂ—", "Class":"color", "Translation":"red"},
+		{"Predicate":"«‰√’·—", "Class":"color", "Translation":"yellow"},
+		{"Predicate":"«‰√Œ÷—", "Class":"color", "Translation":"green"},
+		{"Predicate":"«‰√“—‚", "Class":"color", "Translation":"blue"},
+		{"Predicate":"«‰»Ê·”ÃÍ", "Class":"color", "Translation":"purple"},
+		{"Predicate":"«‰»ÊÍ", "Class":"color", "Translation":"brown"},											
+		{"Predicate":"«‰„»Í—", "Class":"size", "Translation":"big"},
+		{"Predicate":"«‰’⁄Í—", "Class":"size", "Translation":"small"},					
+		{"Predicate":"«‰÷ŒÂ", "Class":"size", "Translation":"huge"},					
+		//{"Predicate":"tiny", "Class":"size", "Translation":"tiny"},					
+		{"Predicate":"«‰‚’Í—", "Class":"size", "Translation":"short"},					
+		{"Predicate":"«‰◊ËÍ‰", "Class":"size", "Translation":"long"},							
+		{"Predicate":"«‰Œ‘»Í", "Class":"material", "Translation":"wooden"},
+		{"Predicate":"«‰»‰«” Í„Í", "Class":"material", "Translation":"plastic"},
+		{"Predicate":"«‰ÂŸœÊÍ", "Class":"material", "Translation":"metal"},
+		{"Predicate":"«‰√Â‰”", "Class":"texture", "Translation":"smooth"},
+		{"Predicate":"«‰’‰»", "Class":"texture", "Translation":"hard"},
+		{"Predicate":"«‰Ê«ŸÂ", "Class":"texture", "Translation":"soft"},
+		{"Predicate":"«‰‚œÍÂ", "Class":"age", "Translation":"old"},
+		{"Predicate":"«‰ÃœÍœ", "Class":"age", "Translation":"new"},
+		{"Predicate":"«‰·«”œ", "Class":"age", "Translation":"rotten"},
+		{"Predicate":"«‰◊«“Ã", "Class":"age", "Translation":"fresh"},
+		{"Predicate":"«‰ÃÍœ", "Class":"quality", "Translation":"good"},
+		{"Predicate":"«‰”Í∆", "Class":"quality", "Translation":"bad"},
+		{"Predicate":"«‰Â” œÍ—", "Class":"shape", "Translation":"round"},						
+		{"Predicate":"«‰Â—»Ÿ", "Class":"shape", "Translation":"square"}
 ]);
 
+// var she_adjectives = _.shuffle([
+// 		{"Predicate":"«‰ÕÂ—«¡", "Class":"color", "Translation":"red"},
+// 		{"Predicate":"«‰’·—«¡", "Class":"color", "Translation":"yellow"},
+// 		{"Predicate":"«‰Œ÷—«¡", "Class":"color", "Translation":"green"},
+// 		{"Predicate":"«‰“—‚«¡", "Class":"color", "Translation":"blue"},
+// 		{"Predicate":"«‰»Ê·”ÃÍ…", "Class":"color", "Translation":"purple"},
+// 		{"Predicate":"«‰»ÊÍ…", "Class":"color", "Translation":"brown"},											
+// 		{"Predicate":"«‰„»Í—…", "Class":"size", "Translation":"big"},
+// 		{"Predicate":"«‰’⁄Í—…", "Class":"size", "Translation":"small"},					
+// 		{"Predicate":"«‰÷ŒÂ…", "Class":"size", "Translation":"huge"},					
+// 		//{"Predicate":"tiny", "Class":"size", "Translation":"tiny"},					
+// 		{"Predicate":"«‰‚’Í—…", "Class":"size", "Translation":"short"},					
+// 		{"Predicate":"«‰◊ËÍ‰…", "Class":"size", "Translation":"long"},							
+// 		{"Predicate":"«‰Œ‘»Í…", "Class":"material", "Translation":"wooden"},
+// 		{"Predicate":"«‰»‰«” Í„Í…", "Class":"material", "Translation":"plastic"},
+// 		{"Predicate":"«‰ÂŸœÊÍ…", "Class":"material", "Translation":"metal"},
+// 		{"Predicate":"«‰Â‰”«¡ ", "Class":"texture", "Translation":"smooth"},
+// 		{"Predicate":"«‰’‰»…", "Class":"texture", "Translation":"hard"},
+// 		{"Predicate":"«‰Ê«ŸÂ…", "Class":"texture", "Translation":"soft"},
+// 		{"Predicate":"«‰‚œÍÂ…", "Class":"age", "Translation":"old"},
+// 		{"Predicate":"«‰ÃœÍœ…", "Class":"age", "Translation":"new"},
+// 		{"Predicate":"«‰·«”œ…", "Class":"age", "Translation":"rotten"},
+// 		{"Predicate":"«‰◊«“Ã…", "Class":"age", "Translation":"fresh"},
+// 		{"Predicate":"«‰ÃÍœ…", "Class":"quality", "Translation":"good"},
+// 		{"Predicate":"«‰”Í∆…", "Class":"quality", "Translation":"bad"},
+// 		{"Predicate":"«‰Â” œÍ—…", "Class":"shape", "Translation":"round"},						
+// 		{"Predicate":"«‰Â—»Ÿ…", "Class":"shape", "Translation":"square"}
+// ]);
+
 var nouns = [
-		{"Noun":"apple", "NounClass":"food", "Translation" : "apple"},
-		{"Noun":"banana", "NounClass":"food"},
-		{"Noun":"carrot", "NounClass":"food"},
-		{"Noun":"cheese", "NounClass":"food"},
-		{"Noun":"tomato", "NounClass":"food"},								
-		{"Noun":"chair", "NounClass":"furniture"},								
-		{"Noun":"couch", "NounClass":"furniture"},								
-		{"Noun":"fan", "NounClass":"furniture"},								
-		{"Noun":"TV", "NounClass":"furniture"},								
-		{"Noun":"desk", "NounClass":"furniture"}								
+		{"Noun":"«‰Ã»Ê", "NounClass":"food", "Translation":"cheese"},
+		{"Noun":"«‰„—”Í", "NounClass":"furniture", "Translation":"chair"},								
+		{"Noun":"«‰ ‰·«“", "NounClass":"furniture", "Translation":"TV"},								
+		{"Noun":"«‰Â„ »", "NounClass":"furniture", "Translation": "desk"},								
+		{"Noun":"«‰ ·«Õ…", "NounClass":"food", "Translation":"apple"},
+		{"Noun":"«‰ÂË“…", "NounClass":"food", "Translation":"banana" },
+		{"Noun":"«‰Ã“—…", "NounClass":"food", "Translation":"carrot"},
+		{"Noun":"«‰◊Â«◊Â", "NounClass":"food", "Translation":"tomato"},								
+		{"Noun":"«‰„Ê»…", "NounClass":"furniture", "Translation":"couch"},								
+		{"Noun":"«‰Â—ËÕ…", "NounClass":"furniture", "Translation":"fan"}								
 ];
+
+// var nouns = [
+// 		{"Noun":"«‰Ã»Ê", "NounClass":"food", "Translation":"cheese"},
+// 		{"Noun":"«‰„—”Í", "NounClass":"furniture", "Translation":"chair"},								
+// 		{"Noun":"«‰ ‰·«“", "NounClass":"furniture", "Translation":"TV"},								
+// 		{"Noun":"«‰Â„ »", "NounClass":"furniture", "Translation": "desk"}								
+// ];
+
+// var she_nouns = [
+// 		{"Noun":"«‰ ·«Õ…", "NounClass":"food", "Translation":"apple"},
+// 		{"Noun":"«‰ÂË“…", "NounClass":"food", "Translation":"banana" },
+// 		{"Noun":"«‰Ã“—…", "NounClass":"food", "Translation":"carrot"},
+// 		{"Noun":"«‰◊Â«◊Â", "NounClass":"food", "Translation":"tomato"},								
+// 		{"Noun":"«‰„Ê»…", "NounClass":"furniture", "Translation":"couch"},								
+// 		{"Noun":"«‰Â—ËÕ…", "NounClass":"furniture", "Translation":"fan"}								
+// ];
 
 var stimuli =  makeStims();
 
