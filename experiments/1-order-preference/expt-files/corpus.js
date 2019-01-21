@@ -110,7 +110,8 @@ function makeStims() {
 					"Class2":pred2.Class,			
 					"Noun":noun.Noun,
 					"NounClass":noun.NounClass,
-					"NounGender":noun.Gender
+					"NounGender":noun.Gender,
+					"NounTranslation":noun.Translation
 				}			
 			);
 		}

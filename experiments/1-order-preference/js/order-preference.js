@@ -87,11 +87,11 @@ function make_slides(f) {
     log_responses : function() {
         exp.data_trials.push({
           "response" : exp.sliderPost,
-          "noun" : this.stim.Noun,
+          "noun" : this.stim.NounTranslation,
           "gender" : this.stim.NounGender,  
           "nounclass" : this.stim.NounClass,        
-          "predicate1" : this.stim.Predicate1.Predicate,
-          "predicate2" : this.stim.Predicate2.Predicate,
+          "predicate1" : this.stim.Predicate1.Translation,
+          "predicate2" : this.stim.Predicate2.Translation,
           "class1" : this.stim.Class1,
           "class2" : this.stim.Class2,                     
           "slide_number" : exp.phase
