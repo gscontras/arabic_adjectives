@@ -104,12 +104,13 @@ function makeStims() {
 		if (pred1.Class!=pred2.Class) {
 			stims.push(
 				{
-					"Predicate1":pred1.Predicate,
+					"Predicate1":pred1,
 					"Class1":pred1.Class,	
-					"Predicate2":pred2.Predicate,
+					"Predicate2":pred2,
 					"Class2":pred2.Class,			
 					"Noun":noun.Noun,
-					"NounClass":noun.NounClass
+					"NounClass":noun.NounClass,
+					"NounGender":noun.Gender
 				}			
 			);
 		}

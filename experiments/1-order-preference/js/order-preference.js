@@ -15,7 +15,6 @@ function make_slides(f) {
   slides.instructions1 = slide({
     name : "instructions1",
     start: function() {
-      $(".instruction_condition").html("Between subject intruction manipulation: "+ exp.instruction);
     }, 
     button : function() {
       exp.go(); //use exp.go() if and only if there is no "present" data.
@@ -49,36 +48,19 @@ function make_slides(f) {
 
       $(".noun").html(stim.Noun);
 
-      //$(".woman1").html(woman1);
+      var gender = stim.NounGender
 
-      //$(".woman2").html(man2);
+      if (gender == "masculine") {
+        $(".low").html("\""+ stim.Noun + " " + stim.Predicate1.Predicate + " " + stim.Predicate2.Predicate + "\"");
 
-      $(".low").html("\"the "+ stim.Predicate2 + " " + stim.Predicate1 + " " + stim.Noun + "\"");
+        $(".high").html("\""+ stim.Noun + " " + stim.Predicate2.Predicate + " " + stim.Predicate1.Predicate + "\"");
+      } else {
+        $(".low").html("\""+ stim.Noun + " " + stim.Predicate1.FemPredicate + " " + stim.Predicate2.FemPredicate + "\"");
 
-      $(".high").html("\"the "+ stim.Predicate1 + " " + stim.Predicate2 + " " + stim.Noun + "\"");
+        $(".high").html("\""+ stim.Noun + " " + stim.Predicate2.FemPredicate + " " + stim.Predicate1.FemPredicate + "\"");
+      }
 
-      // $(".utterance1").html("\"That "+ stim.Noun + " " + this.verbs[0] + " " + stim.Predicate + ".\"");
-
-      // $(".utterance2").html("\"You're wrong. That "+ stim.Noun + " " + this.verbs[1] + " "  + stim.Predicate + ".\"");
-
-//      this.sentence_types = _.shuffle(["yes","no"]);
-//      this.sentence_types = ["no","yes"];
-//      var sentences = {
-//        "yes": "Yes, it's a matter of opinion.",
-//        "no": "No, somebody must be wrong.",
-//      };
-
-//      this.n_sliders = this.sentence_types.length;
-		this.n_sliders = 1;
-//      $(".slider_row").remove();
-//      for (var i=0; i<this.n_sliders; i++) {
-//        var sentence_type_left = this.sentence_types[0];
-//        var sentence_type_left = this.sentence_types[1];        
-//        var sentence_left = sentences[sentence_type_left];
-//        var sentence_right = sentences[sentence_type_right];        
-//        $("#multi_slider_table").append('<tr class="slider_row"><td class="slider_target" id="sentence0">' + "<font size='4'>" + sentence_left + "</font>" + '</td><td colspan="2"><div id="slider0" class="slider">-------[ ]--------</div></td><td class="slider_target" id="sentence1">' + "<font size='4'>" + sentence_right + "</font>" + '</td></tr>');
-//        utils.match_row_height("#multi_slider_table", ".slider_target");
-//      }
+  		this.n_sliders = 1;
 
     },
 
@@ -105,10 +87,11 @@ function make_slides(f) {
     log_responses : function() {
         exp.data_trials.push({
           "response" : exp.sliderPost,
-          "noun" : this.stim.Noun,  
+          "noun" : this.stim.Noun,
+          "gender" : this.stim.NounGender,  
           "nounclass" : this.stim.NounClass,        
-          "predicate1" : this.stim.Predicate1,
-          "predicate2" : this.stim.Predicate2,
+          "predicate1" : this.stim.Predicate1.Predicate,
+          "predicate2" : this.stim.Predicate2.Predicate,
           "class1" : this.stim.Class1,
           "class2" : this.stim.Class2,                     
           "slide_number" : exp.phase
