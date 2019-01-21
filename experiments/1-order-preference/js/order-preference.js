@@ -138,7 +138,7 @@ function make_slides(f) {
 function init() {
   repeatWorker = false;
   (function(){
-    var ut_id = "gscontras-arabic-adjectives";
+    var ut_id = "gscontras-arabic-ordering-2";
     if (UTWorkerLimitReached(ut_id)) {
       $('.slide').empty();
       repeatWorker = true;
