@@ -1,0 +1,10 @@
+workerid,language,enjoyment,gender,age,comments,asses,education
+0,English,0,Female,27,Nice,Confused,1
+1,ENGLISH,0,Male,25,,NA,1
+2,ENGLISH,-1,Male,26,أنا أحب الكثير لجعل هذا المسح.,Yes,3
+3,العربية,1,Male,25,,Yes,2
+4,Arabic ,2,Male,36,,Yes,3
+5,العربية,1,Male,30,بعض الأوصاف كانت غير ملائمة للموصوف واي الخيرين لم يكن مناسب,Yes,1
+6,Arabic,1,Male,24,,Yes,3
+7,Arabic,2,Male,48,,Yes,4
+8,,0,Male,25,,Confused,1
