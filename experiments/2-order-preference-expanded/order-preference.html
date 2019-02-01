@@ -1,0 +1,166 @@
+
+
+  <!-- <html dir="rtl"> -->
+  <html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    
+    <title>Arabic adjectives</title>
+
+    <!--JS-->
+
+    <!-- external general utilities -->
+    <script src="../_shared/js/jquery-1.11.1.min.js "></script>
+    <script src="../_shared/full-projects/jquery-ui/jquery-ui.min.js"></script>
+    <script src="../_shared/js/underscore-min.js"></script>
+    <!-- if you want to draw stuff: -->
+    <script src="../_shared/js/raphael-min.js"></script>
+
+    <!-- cocolab experiment logic -->
+    <script src="../_shared/js/exp-V2.js"></script>
+    <script src="../_shared/js/stream-V2.js"></script>
+
+    <!-- cocolab general utilities -->
+    <script src="../_shared/js/mmturkey.js "></script>
+    <script src="../_shared/js/browserCheck.js"></script>
+    <script src="../_shared/js/utils.js"></script>
+    <!-- if you want to draw cute creatures (depends on raphael): -->
+    <!-- <script src="../_shared/js/ecosystem.js"></script> -->
+
+    <!-- experiment specific helper functions -->
+    <!-- <script src="js/local-utils.js"></script> -->
+
+    <!--CSS-->
+    <link href="../_shared/full-projects/jquery-ui/jquery-ui.min.css" rel="stylesheet" type="text/css"/>
+    <link href="../_shared/css/meaninglab-style.css" rel="stylesheet" type="text/css"/>
+    <link href="css/local-style.css" rel="stylesheet" type="text/css"/>
+
+    <!-- experiment file -->
+    <script src="js/order-preference.js"></script>
+    <script src="expt-files/corpus.js"></script>
+    <script src="expt-files/names.js"></script>
+
+    <!-- check unique turkers -->
+    <script src="../_shared/js/uniqueturker.js"></script>
+    
+</head>
+
+<body onload="init();">
+  <noscript>This task requires JavaScript.</noscript>
+
+  <div class="slide" id="i0" dir="rtl">
+    <img src="../_shared/images/meaningLab.png" alt="UCI meaning lab" id="meaningLabLogo"></img>
+    <p id="instruct-text">هذا HIT يشتمل على تفسير جمل من اللغة العربية. سوف تستغرق هذه المهمة حوالي ست دقائق. الرجاء الانتباه. شكرًا!</p>
+    <button id="start_button" type="button">ابدأ التجربة</button>
+    <p id="legal" dir="rtl">معلومات قانونية: عن طريق الإجابة على الأسئلة التالية ، أنت تشارك في دراسة يقوم بها علماء معرفيون في جامعة كاليفورنيا ، إرفاين. إذا كانت لديك أسئلة حول هذا البحث ، فيرجى الاتصال بـGreg Scontras على العنوان <a href="mailto://g.scontras@uci.edu">g.scontras@uci.edu</a>. يجب أن يكون عمرك 18 عامًا على الأقل للمشاركة في هذه الدراسة. مشاركتك في هذا البحث تطوعية. يمكنك رفض الإجابة عن أي من الأسئلة التالية أو جميعها. يمكنك رفض المزيد من المشاركة ، في أي وقت ، دون عواقب سلبية. عدم الكشف عن هويتك مضمون. لن يتلقى الباحثون الذين طلبوا مشاركتك أي معلومات شخصية عنك.</p>
+  </div>
+
+  <div class="slide" id="instructions1" dir="rtl">
+    <h3>التعليمات</h3>
+    <p> سترى 26 زوجًا من العبارات الوصفية القصيرة.
+مهمتك هي أن تقرر أي وصف يبدو أفضل.</p>
+    <!-- <p class="instruction_condition">{{}}</p> -->
+    <button onclick="_s.button()">تابع</button>
+  </div>
+
+  <div class="slide" id="multi_slider">
+
+  <p class="name_said" dir="rtl"></p>
+
+    <!-- <p>Consider the following situation:</p> -->
+
+<!--    <p><span class = "woman">{{}}</span> sold a <span class="noun">{{}}</span> in her store.</p>
+
+    <p><span class="man1">{{}}</span> entered <span class = "woman">{{}}</span>'s store, noticed the <span class="noun">{{}}</span>, and said:</p>
+    -->
+    <!-- <p><span class="man1">{{}}</span> and <span class="man2">{{}}</span> see the same <span class="noun">{{}}</span>.</p> 
+    <p><span class="man1">{{}}</span> says: <b><span class="utterance1">{{}}</span></b></p>
+
+    <p><span class="man2">{{}}</span> responds: <b><span class="utterance2">{{}}</span></b></p> -->
+
+<!--     <p>Do the statements make sense?</p>
+    <label><input type="radio"  name="sense" value="Yes"/>Yes</label>
+    <label><input type="radio"  name="sense" value="No"/>No</label>
+    </br></br>
+ -->
+    <br>
+
+    <p dir="rtl">أي وصف ل "<span class="noun">{{}}</span>" يبدو أكثر طبيعية؟</p>
+
+    <table id="multi_slider_table" class="slider_table" dir="rtl">
+<!--      <tr><td class="left">No, somebody must be wrong.</td><td class="right">Yes, it's a matter of opinion.</td></tr> -->
+      <tr><td><span class="low">{{}}</span></td><td>
+      <div id="slider0" class="slider"></div>
+      </td><td><span class="high">{{}}</span></td></tr>
+    </table>
+
+    <p dir="rtl">اضبط شريط التمرير للإشارة إلى تفضيلك.</p><br>
+
+    <button onclick="_s.button()" dir="rtl">تابع</button>
+    <div class="err" dir="rtl">اضبط شريط التمرير قبل المتابعة </div>
+  </div>
+
+  <div class="slide"  id="subj_info" dir="rtl">
+    <div class="long_form">
+      <div class="subj_info_title">معلومات إضافية</div>
+      <p class="info">إن الإجابة على هذه الأسئلة أمر اختياري ، ولكن سوف يساعدنا في فهم إجاباتك.</p>
+      <p>هل قرأت التعليمات وهل تعتقد أنك قمت بهذه المهمة بشكل صحيح؟</p>
+      <label><input type="radio"  name="assess" value="No"/>كلا</label>
+      <label><input type="radio"  name="assess" value="Yes"/>نعم</label>
+      <label><input type="radio"  name="assess" value="Confused"/> الأسئلة لم تكن واضحة </label>
+
+      <p>الجنس:
+        <select id="gender">
+          <label><option value=""/></label>
+          <label><option value="Male"/>ذكر</label>
+          <label><option value="Female"/>أنثى</label>
+          <label><option value="Other"/>مختلف</label>
+        </select>
+      </p>
+
+      <p>العمر: <input type="text" id="age"/></p>
+
+      <p>المستوى التعليمي:
+        <select id="education">
+          <label><option value="-1"/></label>
+          <label><option value="0"/>بعض الثانوي </label>
+          <label><option value="1"/>متخرج من الثانوية </label>
+          <label><option value="2"/>بعض  الكلية</label>
+          <label><option value="3"/>متخرج من الكلية</label>
+          <label><option value="4"/>تحمل شهادة أعلى</label>
+        </select>
+      </p>
+
+      <p>اللغة الأم: <input type="text" id="language"/></p>
+      <label>(اللغة (اللغات) التي تم التحدث بها في المنزل عندما كنت طفلاً)</label>
+
+      <p>هل استمتعت بالمهمة؟</p>
+      <select id="enjoyment">
+        <label><option value="-1"></option></label>
+        <label><option value="0">أسوأ من المتوسط</option></label>
+        <label><option value="1" >متوسط</option></label>
+        <label><option value="2">أفضل من المتوسط</option></label>
+      </select>
+
+      <p>نحن مهتمون بأي تعليقات لديك عن هذه التجربة. يرجى كتابتها هنا:</p>
+      <textarea id="comments" rows="3" cols="50"></textarea>
+      <br/>
+      <button onclick="_s.submit()">تقديم</button>
+    </div>
+  </div>
+
+  <div id="thanks" class="slide js" dir="rtl">
+    <p  class="big">شكرا على وقتك!</p>
+  </div>
+
+  <div class="progress" dir="rtl">
+    <span>التقدم:</span>
+    <div class="bar-wrapper">
+      <div class="bar" width="0%">
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
