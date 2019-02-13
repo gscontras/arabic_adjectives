@@ -111,6 +111,17 @@ function make_slides(f) {
         gender : $("#gender").val(),
         education : $("#education").val(),
         comments : $("#comments").val(),
+        describe : $("#describe").val(),
+        lived : $("#lived").val(),
+        years : $("#years").val(),
+        dialect : $("#dialect").val(),
+        other-dialect : $("#other-dialect").val(),
+        home-language : $("#home-language").val(),
+        dominant-language : $("#dominant-language").val(),
+        proficiency : $("#proficiency").val(),
+        test1 : $("#test1").val(),
+        test2 : $("#test2").val(),
+        test3 : $("#test3").val()
       };
       exp.go(); //use exp.go() if and only if there is no "present" data.
     }
