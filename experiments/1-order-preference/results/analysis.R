@@ -22,7 +22,7 @@ d <- d1
 d = d[d$language == "العربية"|d$language == "العربية"|d$language == "العربيه"|d$language == "العربیه"|d$language == "Arabic"|d$language == "Arabic "|d$language == "العربية Arabic"|d$language == "arabic"|d$language == "Arebic"|d$language == "عربى",]
 d = d[d$asses=="Yes",]
 
-length(unique(d$workerid))
+length(unique(d$workerid)) # n=15
 
 t <- d
 
