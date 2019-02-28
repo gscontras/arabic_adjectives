@@ -4,25 +4,32 @@ library(hydroGOF)
 library(dplyr)
 source("../results/helpers.R")
 
-setwd("~/git/arabic_adjectives/experiments/1-order-preference/Submiterator-master")
+setwd("~/git/arabic_adjectives/experiments/2-order-preference-expanded/Submiterator-master")
 
-num_round_dirs = 5
+num_round_dirs = 15
 df1 = do.call(rbind, lapply(1:num_round_dirs, function(i) {
   return (read.csv(paste(
-    'round', i, '/arabic-order.csv', sep=''),stringsAsFactors=FALSE) %>% 
+    'round', i, '/arabic-order-expanded.csv', sep=''),stringsAsFactors=FALSE) %>% 
       mutate(workerid = (workerid + (i-1)*9)))}))
 df1$workerid = paste("vi.",df1$workerid)
 
-d1 = subset(df1, select=c("workerid","noun","gender","nounclass","slide_number", "predicate1", "predicate2", "class1","class2","response","language","comments","asses"))
-
-unique(d1$language)
+d1 = subset(df1, select=c("workerid","noun","gender","nounclass","slide_number", "predicate1", "predicate2", "class1","class2","response","language","comments","asses","gender.1","test1","test2","test3","dialect","lived","describe","years","proficiency"))
 
 d <- d1
 
-d = d[d$language == "العربية"|d$language == "العربية"|d$language == "العربيه"|d$language == "العربیه"|d$language == "Arabic"|d$language == "Arabic "|d$language == "العربية Arabic"|d$language == "arabic"|d$language == "Arebic"|d$language == "عربى",]
-d = d[d$asses=="Yes",]
+# got all the test questions correct
+d = d[d$test1=="correct"&d$test2=="correct"&d$test3=="correct",]
+# lived more than 5 years both before and after age 8 in arabic country
+d = d[d$lived=="both"&d$years=="5+",]
+# describe as arabic-arabic
+d = d[d$describe=="arabic-arabic",]
 
-length(unique(d$workerid))
+unique(d$language)
+
+d = d[d$language != "البلوشية، العربية، الانجليزيه"&d$language!="",]
+#d = d[d$asses=="Yes",]
+
+length(unique(d$workerid)) #n=24
 
 t <- d
 
