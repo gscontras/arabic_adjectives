@@ -7,6 +7,7 @@ Sat Feb 16 14:51:52 PST 2019,A1ZKC0TEXMF5T5,0.5
 Sat Feb 16 16:51:29 PST 2019,A35KK6F378H3UV,0.5
 Sun Feb 17 01:57:52 PST 2019,A1VN1RZWHY1TOR,0.5
 Sun Feb 17 05:14:58 PST 2019,A20A4AY0RSV5JR,0.5
-,total paid to workers:,=SUM(c2:c9)
-,40% paid to Amazon:,=.4*c10
-,total:,=SUM(c10:c11
+Sun Feb 17 14:42:00 PST 2019,AS9SXT42OA70Q,0.5
+,total paid to workers:,=SUM(c2:c10)
+,40% paid to Amazon:,=.4*c11
+,total:,=SUM(c11:c12

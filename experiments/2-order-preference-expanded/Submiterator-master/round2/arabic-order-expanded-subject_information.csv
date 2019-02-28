@@ -7,3 +7,4 @@ workerid,test1,dialect,test3,lived,language,enjoyment,gender,age,describe,commen
 5,correct,moroccan,correct,both,العربية,2,Male,21,arabic-arabic,كانت الاسئلة صعبة شيء ما,5+,advanced,Confused,correct,2
 6,correct,gulf,correct,before,Female,1,Female,27,arabic-arabic,Nice,never,advanced,Yes,correct,1
 7,correct,levantine,correct,before,العربية,1,Male,26,arabic-arabic,,1,advanced,Yes,incorrect,2
+8,correct,egyptian,correct,both,United States,1,Male,,arabic-arabic,,never,basic,NA,incorrect,1
