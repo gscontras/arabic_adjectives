@@ -6,45 +6,45 @@
 //		]
 
 var adjectives = _.shuffle([
-		{"Predicate":"red", "Class":"color"},
-		{"Predicate":"yellow", "Class":"color"},
-		{"Predicate":"green", "Class":"color"},
-		{"Predicate":"blue", "Class":"color"},
-		{"Predicate":"purple", "Class":"color"},
-		{"Predicate":"brown", "Class":"color"},											
-		{"Predicate":"big", "Class":"size"},
-		{"Predicate":"small", "Class":"size"},					
-		{"Predicate":"huge", "Class":"size"},					
-		{"Predicate":"tiny", "Class":"size"},					
-		{"Predicate":"short", "Class":"size"},					
-		{"Predicate":"long", "Class":"size"},							
-		{"Predicate":"wooden", "Class":"material"},
-		{"Predicate":"plastic", "Class":"material"},
-		{"Predicate":"metal", "Class":"material"},
-		{"Predicate":"smooth", "Class":"texture"},
-		{"Predicate":"hard", "Class":"texture"},
-		{"Predicate":"soft", "Class":"texture"},
-		{"Predicate":"old", "Class":"age"},
-		{"Predicate":"new", "Class":"age"},
-		{"Predicate":"rotten", "Class":"age"},
-		{"Predicate":"fresh", "Class":"age"},
-		{"Predicate":"good", "Class":"quality"},
-		{"Predicate":"bad", "Class":"quality"},
-		{"Predicate":"round", "Class":"shape"},						
-		{"Predicate":"square", "Class":"shape"}
+		{"Predicate":"الأحمر", "Class":"color", "Translation":"red", "FemPredicate" : "الحمراء"},
+		{"Predicate":"الأصفر", "Class":"color", "Translation":"yellow", "FemPredicate" : "الصفراء"},
+		{"Predicate":"الأخضر", "Class":"color", "Translation":"green", "FemPredicate" : "الخضراء"},
+		{"Predicate":"الأزرق", "Class":"color", "Translation":"blue", "FemPredicate" : "الزرقاء" },
+		{"Predicate":"البنفسجي", "Class":"color", "Translation":"purple", "FemPredicate" : "البنفسجية"},
+		{"Predicate":"البني", "Class":"color", "Translation":"brown", "FemPredicate" : "البنية"},											
+		{"Predicate":"الكبير", "Class":"size", "Translation":"big", "FemPredicate" : "الكبيرة"},
+		{"Predicate":"الصغير", "Class":"size", "Translation":"small", "FemPredicate" : "الصغيرة"},					
+		{"Predicate":"الضخم", "Class":"size", "Translation":"huge", "FemPredicate" : "الضخمة"},					
+		//{"Predicate":"tiny", "Class":"size", "Translation":"tiny"},					
+		{"Predicate":"القصير", "Class":"size", "Translation":"short", "FemPredicate" : "القصيرة"},					
+		{"Predicate":"الطويل", "Class":"size", "Translation":"long", "FemPredicate" : "الطويلة"},							
+		{"Predicate":"الخشبي", "Class":"material", "Translation":"wooden", "FemPredicate" : "الخشبية"},
+		{"Predicate":"البلاستيكي", "Class":"material", "Translation":"plastic", "FemPredicate" : "البلاستيكية"},
+		{"Predicate":"المعدني", "Class":"material", "Translation":"metal", "FemPredicate" : "المعدنية"},
+		{"Predicate":"الناعم", "Class":"texture", "Translation":"smooth", "FemPredicate" : "الناعمة"},
+		{"Predicate":"الصلب", "Class":"texture", "Translation":"hard", "FemPredicate" : "الصلبة"},
+		{"Predicate":"الأملس", "Class":"texture", "Translation":"soft", "FemPredicate" : "الملساء"},
+		{"Predicate":"القديم", "Class":"age", "Translation":"old", "FemPredicate" : "القديمة"},
+		{"Predicate":"الجديد", "Class":"age", "Translation":"new", "FemPredicate" : "الجديدة"},
+		{"Predicate":"الفاسد", "Class":"age", "Translation":"rotten", "FemPredicate" : "الفاسدة"},
+		{"Predicate":"الطازج", "Class":"age", "Translation":"fresh", "FemPredicate" : "الطازجة"},
+		{"Predicate":"الجيد", "Class":"quality", "Translation":"good", "FemPredicate" : "الجيدة"},
+		{"Predicate":"السيئ", "Class":"quality", "Translation":"bad", "FemPredicate" : "السيئة"},
+		{"Predicate":"المستدير", "Class":"shape", "Translation":"round", "FemPredicate" : "المستديرة"},						
+		{"Predicate":"المربع", "Class":"shape", "Translation":"square", "FemPredicate" : "المربعة"}
 ]);
 
 var nouns = [
-		{"Noun":"apple", "NounClass":"food"},
-		{"Noun":"banana", "NounClass":"food"},
-		{"Noun":"carrot", "NounClass":"food"},
-		{"Noun":"cheese", "NounClass":"food"},
-		{"Noun":"tomato", "NounClass":"food"},								
-		{"Noun":"chair", "NounClass":"furniture"},								
-		{"Noun":"couch", "NounClass":"furniture"},								
-		{"Noun":"fan", "NounClass":"furniture"},								
-		{"Noun":"TV", "NounClass":"furniture"},								
-		{"Noun":"desk", "NounClass":"furniture"}								
+		{"Noun":"الجبن", "NounClass":"food", "Translation":"cheese", "Gender" : "masculine"},
+		{"Noun":"الكرسي", "NounClass":"furniture", "Translation":"chair", "Gender" : "masculine"},								
+		{"Noun":"التلفاز", "NounClass":"furniture", "Translation":"TV", "Gender" : "masculine"},								
+		{"Noun":"المكتب", "NounClass":"furniture", "Translation": "desk", "Gender" : "masculine"},								
+		{"Noun":"التفاحة", "NounClass":"food", "Translation":"apple", "Gender" : "feminine"},
+		{"Noun":"الموزة", "NounClass":"food", "Translation":"banana" , "Gender" : "feminine"},
+		{"Noun":"الجزرة", "NounClass":"food", "Translation":"carrot", "Gender" : "feminine"},
+		{"Noun":"الطماطم", "NounClass":"food", "Translation":"tomato", "Gender" : "feminine"},								
+		{"Noun":"الكنبة", "NounClass":"furniture", "Translation":"couch", "Gender" : "feminine"},								
+		{"Noun":"المروحة", "NounClass":"furniture", "Translation":"fan", "Gender" : "feminine"}								
 ];
 
 var stimuli =  makeStims();
@@ -61,8 +61,9 @@ function makeStims() {
 				"Noun":noun.Noun,
 				"NounClass":noun.NounClass
 			}
-			);
-		}
+
+		);
+	}
 		
 	return stims;
 	
