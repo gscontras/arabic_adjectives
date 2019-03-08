@@ -53,9 +53,9 @@ function make_slides(f) {
 
       //$(".woman2").html(man2);
 
-      $(".utterance1").html("\"That "+ stim.Noun + " " + this.verbs[0] + " " + stim.Predicate + ".\""); //female that: "هذه", male: "هذا"
+      $(".utterance1").html("\"That "+ stim.Noun + " " + this.verbs[0] + " " + stim.Predicate + ".\""); //female that: "تلك", male: "ذلك"
 
-      $(".utterance2").html("\"You're wrong. That "+ stim.Noun + " " + this.verbs[1] + " "  + stim.Predicate + ".\"");
+      $(".utterance2").html("\"You're wrong. That "+ stim.Noun + " " + this.verbs[1] + " "  + stim.Predicate + ".\""); //You're wrong male: "أنتَ مخطئ". You're wrong female version: "أنتِ مخطئة".
 
 //      this.sentence_types = _.shuffle(["yes","no"]);
 //      this.sentence_types = ["no","yes"];
