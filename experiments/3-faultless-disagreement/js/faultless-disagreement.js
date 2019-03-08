@@ -36,26 +36,67 @@ function make_slides(f) {
       //var noun = noun_data.noun;
       //var animacy = noun_data.animacy;
 
-      this.verbs = _.shuffle(["is","is not"]) //female "is not": "ليست", male: ليس
 
-      var names_list = _.shuffle(names);
+      var names_list = _.shuffle(nameGenerator());
 
       var man1 = names_list[0];
       var man2 = names_list[1];
 
-      $(".man1").html(man1);
+      $(".man1").html(man1.theName);
 
-      $(".man2").html(man2);
+      $(".man2").html(man2.theName);
 
       $(".noun").html(stim.Noun);
 
-      //$(".woman1").html(woman1);
+      if (man1.gender=="feminine") { 
+        wrong = "أنتِ مخطئة"
+      } else if  (man1.gender=="masculine") { 
+        wrong = "أنتَ مخطئ"
+      }
+      if (man1.gender=="feminine") { 
+        says = "تقول"
+      } else if  (man1.gender=="masculine") { 
+        says = "يقول"
+      }
+      if (man2.gender=="feminine") { 
+        responds = "تجيب"
+      } else if  (man2.gender=="masculine") { 
+        responds = "يجيب"
+      }
 
-      //$(".woman2").html(man2);
+      if (man1.gender=="feminine" & man2.gender=="feminine") { 
+        sees = "تريان"
+      } else { 
+        sees = "يريان"
+      }
 
-      $(".utterance1").html("\"That "+ stim.Noun + " " + this.verbs[0] + " " + stim.Predicate + ".\""); //female that: "تلك", male: "ذلك"
+      $(".says").html(says)
+      $(".responds").html(responds)
+      $(".sees").html(sees)
 
-      $(".utterance2").html("\"You're wrong. That "+ stim.Noun + " " + this.verbs[1] + " "  + stim.Predicate + ".\""); //You're wrong male: "أنتَ مخطئ". You're wrong female version: "أنتِ مخطئة".
+      if (stim.NounGender=="feminine") {
+        this.verbs = _.shuffle(["","ليست"]) //female "is not": "ليست", male: ليس
+        $(".same").html("ذاتها")
+
+        $(".utterance1").html("\"تلك "+ stim.Noun + " " + this.verbs[0] + " " + stim.FemPredicate + ".\""); //female that: "تلك", male: "ذلك"
+
+        $(".utterance2").html("\"أنتَ مخطئ. تلك "+ stim.Noun + " " + this.verbs[1] + " "  + stim.FemPredicate + ".\""); //You're wrong male: "أنتَ مخطئ". You're wrong female version: "أنتِ مخطئة".
+      } else if (stim.NounGender=="masculine") {
+        this.verbs = _.shuffle(["","ليس"]) //female "is not": "ليست", male: ليس
+        $(".same").html("ذاته")
+
+        if (this.verbs[0]=="ليس") {
+          $(".utterance1").html("\"ذلك "+ stim.Noun + " " + this.verbs[0] + " " + stim.Predicate + "ًا.\""); //female that: "تلك", male: "ذلك"
+
+          $(".utterance2").html("\"أنتَ مخطئ. ذلك "+ stim.Noun + " " + this.verbs[1] + " "  + stim.Predicate + ".\""); //You're wrong male: "أنتَ مخطئ". You're wrong female version: "أنتِ مخطئة".
+        } else if (this.verbs[1]=="ليس") {
+          $(".utterance1").html("\"ذلك "+ stim.Noun + " " + this.verbs[0] + " " + stim.Predicate + ".\""); //female that: "تلك", male: "ذلك"
+
+          $(".utterance2").html("\"أنتَ مخطئ. ذلك "+ stim.Noun + " " + this.verbs[1] + " "  + stim.Predicate + "ًا.\""); //You're wrong male: "أنتَ مخطئ". You're wrong female version: "أنتِ مخطئة".
+        }
+
+        
+      }
 
 //      this.sentence_types = _.shuffle(["yes","no"]);
 //      this.sentence_types = ["no","yes"];
@@ -101,8 +142,8 @@ function make_slides(f) {
     log_responses : function() {
         exp.data_trials.push({
           "response" : exp.sliderPost,
-          "noun" : this.stim.Noun,          
-          "predicate" : this.stim.Predicate,
+          "noun" : this.stim.NounTranslation,          
+          "predicate" : this.stim.Translation,
           "nounclass" : this.stim.NounClass,
           "class" : this.stim.Class,                    
           "firstutterance" : this.verbs[0],
@@ -124,6 +165,17 @@ function make_slides(f) {
         gender : $("#gender").val(),
         education : $("#education").val(),
         comments : $("#comments").val(),
+        describe : $("#describe").val(),
+        lived : $("#lived").val(),
+        years : $("#years").val(),
+        dialect : $("#dialect").val(),
+        otherDialect : $("#otherDialect").val(),
+        homeLanguage : $("#homeLanguage").val(),
+        dominantLanguage : $("#dominantLanguage").val(),
+        proficiency : $("#proficiency").val(),
+        test1 : $("#test1").val(),
+        test2 : $("#test2").val(),
+        test3 : $("#test3").val()
       };
       exp.go(); //use exp.go() if and only if there is no "present" data.
     }

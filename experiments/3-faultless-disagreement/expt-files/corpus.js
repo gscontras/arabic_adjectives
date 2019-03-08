@@ -57,9 +57,13 @@ function makeStims() {
 		stims.push(
 			{
 				"Predicate":adjectives[i].Predicate,
+				"FemPredicate":adjectives[i].FemPredicate,
 				"Class":adjectives[i].Class,				
 				"Noun":noun.Noun,
-				"NounClass":noun.NounClass
+				"NounClass":noun.NounClass,
+				"NounGender":noun.Gender,
+				"Translation":adjectives[i].Translation,
+				"NounTranslation":noun.Translation
 			}
 
 		);
