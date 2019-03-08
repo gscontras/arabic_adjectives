@@ -4,7 +4,11 @@
 <html>
 
 <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+
     <title>Corpus-based faultless disagreement</title>
+
+    <!--JS-->
 
     <!--JS-->
 
@@ -31,7 +35,7 @@
 
     <!--CSS-->
     <link href="../_shared/full-projects/jquery-ui/jquery-ui.min.css" rel="stylesheet" type="text/css"/>
-    <link href="../_shared/css/cocolab-style.css" rel="stylesheet" type="text/css"/>
+    <link href="../_shared/css/meaninglab-style.css" rel="stylesheet" type="text/css"/>
     <link href="css/local-style.css" rel="stylesheet" type="text/css"/>
 
     <!-- experiment file -->
@@ -39,15 +43,8 @@
     <script src="expt-files/corpus.js"></script>
     <script src="expt-files/names.js"></script>
 
-    <script> 
-      var myimages=new Array("../expt-files/images/context1.1.png","../expt-files/images/context1.3.png","../expt-files/images/context1.3reg.png","../expt-files/images/context2.1.png","../expt-files/images/context2.3.png","../expt-files/images/context2.3reg.png","../expt-files/images/context3.1.png","../expt-files/images/context3.3.png","../expt-files/images/context3.3reg.png","../expt-files/images/context4.1.png","../expt-files/images/context4.3.png","../expt-files/images/context4.3reg.png","../expt-files/images/contextX.2.png")
-      function preloadimages(){
-        for (i=0;i<preloadimages.arguments.length;i++){
-          myimages[i]=new Image()
-          myimages[i].src=preloadimages.arguments[i]
-          }
-          }
-    </script>
+    <!-- check unique turkers -->
+    <script src="../_shared/js/uniqueturker.js"></script>
     
 </head>
 
@@ -55,8 +52,7 @@
   <noscript>This task requires JavaScript.</noscript>
 
   <div class="slide" id="i0" dir="rtl">
-    <img src="../_shared/images/cocologo.png" alt="Stanford CoCoLab" id="cocologo"></img>
-    <p id="cocolab">Stanford CoCoLab</p>
+    <img src="../_shared/images/meaningLab.png" alt="UCI meaning lab" id="meaningLabLogo"></img>
     <p id="instruct-text">هذا HIT يشتمل على تفسير جمل من اللغة العربية. سوف تستغرق هذه المهمة حوالي ست دقائق. الرجاء الانتباه. شكرًا!</p>
     <button id="start_button" type="button">ابدأ التجربة</button>
     <p id="legal"dir="rtl">معلومات قانونية: عن طريق الإجابة على الأسئلة التالية ، أنت تشارك في دراسة يقوم بها علماء معرفيون في جامعة كاليفورنيا ، إرفاين. إذا كانت لديك أسئلة حول هذا البحث ، فيرجى الاتصال بـGreg Scontras على العنوان <a href="mailto://g.scontras@uci.edu">g.scontras@uci.edu</a>. يجب أن يكون عمرك 18 عامًا على الأقل للمشاركة في هذه الدراسة. مشاركتك في هذا البحث تطوعية. يمكنك رفض الإجابة عن أي من الأسئلة التالية أو جميعها. يمكنك رفض المزيد من المشاركة ، في أي وقت ، دون عواقب سلبية. عدم الكشف عن هويتك مضمون. لن يتلقى الباحثون الذين طلبوا مشاركتك أي معلومات شخصية عنك.</p>
