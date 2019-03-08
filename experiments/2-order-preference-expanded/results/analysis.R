@@ -56,7 +56,7 @@ agr$rightresponse = NULL
 agr$class1 = NULL
 agr$class2 = NULL
 nrow(agr) #XXX
-#write.csv(agr,"~/git/tagalog_adjectives/experiments/2-tagalog-preference/results/naturalness-duplicated.csv")
+#write.csv(agr,"~/git/arabic_adjectives/experiments/2-order-preference-expanded/results/arabic-naturalness-duplicated.csv")
 agr$correctresponse = 1 - agr$correctresponse
 
 agr = agr[!is.na(agr$correctresponse),]
