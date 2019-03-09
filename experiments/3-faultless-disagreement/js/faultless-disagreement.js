@@ -69,7 +69,7 @@ function make_slides(f) {
       } else { 
         sees = "يريان"
       }
-
+      //$(".wrong").html(wrong)
       $(".says").html(says)
       $(".responds").html(responds)
       $(".sees").html(sees)
