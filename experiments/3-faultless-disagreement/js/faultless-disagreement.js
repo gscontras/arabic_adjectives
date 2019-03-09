@@ -69,7 +69,8 @@ function make_slides(f) {
       } else { 
         sees = "يريان"
       }
-      //$(".wrong").html(wrong)
+
+      $(".wrong").html(wrong)
       $(".says").html(says)
       $(".responds").html(responds)
       $(".sees").html(sees)
@@ -80,7 +81,7 @@ function make_slides(f) {
 
         $(".utterance1").html("\"تلك "+ stim.Noun + " " + this.verbs[0] + " " + stim.FemPredicate + ".\""); //female that: "تلك", male: "ذلك"
 
-        $(".utterance2").html("\"أنتَ مخطئ. تلك "+ stim.Noun + " " + this.verbs[1] + " "  + stim.FemPredicate + ".\""); //You're wrong male: "أنتَ مخطئ". You're wrong female version: "أنتِ مخطئة".
+        $(".utterance2").html("تلك "+ stim.Noun + " " + this.verbs[1] + " "  + stim.FemPredicate + ".\""); //You're wrong male: "أنتَ مخطئ". You're wrong female version: "أنتِ مخطئة".
       } else if (stim.NounGender=="masculine") {
         this.verbs = _.shuffle(["","ليس"]) //female "is not": "ليست", male: ليس
         $(".same").html("ذاته")
@@ -88,11 +89,11 @@ function make_slides(f) {
         if (this.verbs[0]=="ليس") {
           $(".utterance1").html("\"ذلك "+ stim.Noun + " " + this.verbs[0] + " " + stim.Predicate + "ًا.\""); //female that: "تلك", male: "ذلك"
 
-          $(".utterance2").html("\"أنتَ مخطئ. ذلك "+ stim.Noun + " " + this.verbs[1] + " "  + stim.Predicate + ".\""); //You're wrong male: "أنتَ مخطئ". You're wrong female version: "أنتِ مخطئة".
+          $(".utterance2").html("ذلك "+ stim.Noun + " " + this.verbs[1] + " "  + stim.Predicate + ".\""); //You're wrong male: "أنتَ مخطئ". You're wrong female version: "أنتِ مخطئة".
         } else if (this.verbs[1]=="ليس") {
           $(".utterance1").html("\"ذلك "+ stim.Noun + " " + this.verbs[0] + " " + stim.Predicate + ".\""); //female that: "تلك", male: "ذلك"
 
-          $(".utterance2").html("\"أنتَ مخطئ. ذلك "+ stim.Noun + " " + this.verbs[1] + " "  + stim.Predicate + "ًا.\""); //You're wrong male: "أنتَ مخطئ". You're wrong female version: "أنتِ مخطئة".
+          $(".utterance2").html("ذلك "+ stim.Noun + " " + this.verbs[1] + " "  + stim.Predicate + "ًا.\""); //You're wrong male: "أنتَ مخطئ". You're wrong female version: "أنتِ مخطئة".
         }
 
         
