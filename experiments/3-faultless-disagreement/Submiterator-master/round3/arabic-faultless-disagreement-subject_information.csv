@@ -1,0 +1,8 @@
+workerid,test1,dialect,test3,lived,language,enjoyment,gender,age,describe,comments,years,proficiency,otherDialect,asses,test2,education,dominantLanguage,homeLanguage
+0,correct,levantine,correct,no,,0,Male,31,arabic-arabic,حسن,never,advanced,,Confused,incorrect,0,arabic,arabic
+1,incorrect,saudi,correct,both,4526,1,Female,24,arabic-english,4256,1-5,intermediate,4526,Yes,incorrect,2,other,english
+2,correct,other,correct,before,عربية ,2,Female,25,arabic-arabic,تجربة مرحة ذات بعد فكري,5+,advanced,تونسية,Yes,correct,3,other,arabic
+3,correct,iraqi,correct,before,,1,Male,,arabic-english,,1,intermediate,,Yes,correct,3,arabic,english
+4,incorrect,levantine,incorrect,no,"., TELUGU",1,Male,24,arabic-english,"كان هذا مسح رهيبة هادئة.
+",never,advanced,ENGLISH,Yes,incorrect,0,arabic,arabic
+5,correct,saudi,correct,both,,0,Female,24,arabic-english,,never,superior,,NA,correct,2,english,arabic

@@ -1,0 +1,16 @@
+workerid,test1,dialect,test3,lived,language,enjoyment,gender,age,describe,comments,years,proficiency,otherDialect,asses,test2,education,dominantLanguage,homeLanguage
+0,incorrect,levantine,correct,both,English,1,Female,19,arabic-arabic,,never,basic,,Yes,correct,2,english,arabic
+1,correct,other,correct,no,الانجليزية,2,Female,٤٦,english-arabic,شكرا,5+,intermediate,اليمنية,Yes,correct,0,english,english
+2,correct,gulf,correct,before,عربى,1,Female,22,english-arabic,لا شيء,1,no-response,,NA,correct,3,english,english
+3,correct,egyptian,correct,both,arabic,2,Male,48,arabic-arabic,اشكركم كان اختبار جديد,5+,intermediate,,Yes,correct,2,arabic,arabic
+4,correct,iraqi,correct,both,اللغة ألعربية,2,Female,28,arabic-arabic,"هناك بعض ألاخطاء اللغوية وجدتها اثناء اكمال مهمتي في هذا الدراسة.
+الخطاء كان في خانة الأسالة الشخصية ، تحديداً في المستوى التعليمي
+وكان هناك خيار بعض الجامعة ! وهذا جملة خاطئة باللغة العربية
+اظن انها تمت ترجمتها حرفياً من اللغة الانجليزية
+والاصح ان يكون الخيار : لم اكمل دراستي الجامعية .
+هذا كل ما لدي. لقد استمتعت حقاً بمشاركتي في هذا الدراسة.
+اتمنى لكم حظاً سعيداً يارفاق",5+,advanced,,Yes,correct,2,english,arabic
+5,correct,other,correct,both,العربية,2,Male,30,arabic-arabic,,5+,advanced,السودانية,Yes,correct,2,english,arabic
+6,correct,gulf,correct,both,العربيه,2,Female,29,arabic-english,,5+,superior,,Yes,correct,3,english,english
+7,correct,levantine,correct,no,,0,Male,,arabic-english,,1-5,intermediate,,Confused,correct,1,english,arabic
+8,correct,egyptian,correct,no,,0,Male,,arabic-arabic,,1,basic,,NA,incorrect,0,arabic,arabic

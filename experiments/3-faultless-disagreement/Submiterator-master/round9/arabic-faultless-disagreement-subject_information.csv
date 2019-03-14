@@ -1,0 +1,6 @@
+workerid,test1,dialect,test3,lived,language,enjoyment,gender,age,describe,comments,years,proficiency,otherDialect,asses,test2,education,dominantLanguage,homeLanguage
+0,correct,saudi,correct,both,christian,1,Female,48,arabic-english,none,1,advanced,n/a,No,correct,1,english,english
+1,correct,saudi,correct,before,cgfgfgf,1,Female,fdd,arabic-english,no more importance,1,advanced,,Yes,correct,1,english,english
+2,correct,saudi,incorrect,both,english,1,Male,25,arabic-english,nothing,1-5,superior,arabic,Yes,correct,4,english,arabic
+3,incorrect,egyptian,incorrect,no,english,0,Male,24,arabic-english,I LIKE IT,1,advanced,NO,NA,incorrect,2,english,other
+4,incorrect,other,correct,before,Gggggg,1,Male,Ttttt,arabic-english,,never,basic,Ttttt,No,correct,1,arabic,english

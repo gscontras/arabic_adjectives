@@ -1,0 +1,7 @@
+workerid,test1,dialect,test3,lived,language,enjoyment,gender,age,describe,comments,years,proficiency,otherDialect,asses,test2,education,dominantLanguage,homeLanguage
+0,correct,egyptian,correct,both,العربية,2,Male,32,arabic-arabic,,5+,advanced,,Yes,correct,4,english,english
+1,incorrect,levantine,-1,both,english,-1,Male,27,other,,1,intermediate,0,Confused,-1,1,english,other
+2,correct,iraqi,correct,both,2654,0,Female,24,arabic-english,24653,1-5,advanced,2546,Yes,correct,2,arabic,english
+3,correct,moroccan,correct,before,arabe,2,Female,56,arabic-arabic,very good,5+,intermediate,español,Yes,correct,1,other,other
+4,correct,moroccan,correct,after,Arab,2,Male,32,arabic-arabic,هذا الاستطلاع مثير جدا للاهتمام شكرا لكم,5+,superior,,Yes,correct,3,arabic,arabic
+5,correct,gulf,correct,no,عربى,0,Female,31,arabic-english,,1-5,intermediate,,Yes,incorrect,3,arabic,arabic

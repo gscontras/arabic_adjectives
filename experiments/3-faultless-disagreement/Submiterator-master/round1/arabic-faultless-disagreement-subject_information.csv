@@ -1,0 +1,6 @@
+workerid,test1,dialect,test3,lived,language,enjoyment,gender,age,describe,comments,years,proficiency,otherDialect,asses,test2,education,dominantLanguage,homeLanguage
+0,correct,egyptian,correct,no,,0,Male,,arabic-arabic,,never,basic,,Confused,incorrect,0,arabic,arabic
+1,correct,gulf,correct,no,tamil,0,Male,33,arabic-arabic,"This seems like a pretty straightforward question, right? Wrong. Sure, you may have heard about them via a job post, a friend or any other means. In terms of this question (and job interviews in general), unfortunately, complete and utter honesty is not always the best policy. Sometimes it is. Read the below answer for an explanation.",never,superior,no,Yes,incorrect,2,english,other
+2,correct,levantine,correct,after,العربية,2,Female,38,arabic-arabic,لا تعليق,5+,intermediate,,Yes,correct,2,english,arabic
+3,correct,egyptian,correct,both,,0,,,arabic-english,كيف تقيم مستوى إجادتك للغة العربية الفصحى,never,no-response,24,NA,correct,-1,english,english
+4,correct,egyptian,correct,before,,1,Male,,english-arabic,,1-5,intermediate,,Yes,incorrect,0,arabic,arabic
