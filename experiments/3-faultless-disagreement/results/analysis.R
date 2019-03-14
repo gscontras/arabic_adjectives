@@ -1,68 +1,60 @@
 library(ggplot2)
-library(reshape2)
 library(lme4)
+library(hydroGOF)
+library(dplyr)
+source("../results/helpers.R")
 
-setwd("~/Documents/git/cocolab/adjective_ordering/experiments/2-faultless-disagreement/Submiterator-master")
+setwd("~/git/arabic_adjectives/experiments/3-faultless-disagreement/Submiterator-master")
 
-d = read.table("faultless-disagreement-2-trials.tsv",sep="\t",header=T)
-head(d)
-s = read.table("faultless-disagreement-2-subject_information.tsv",sep="\t",header=T)
-head(s)
-d$language = s$language[match(d$workerid,s$workerid)]
-summary(d)
+num_round_dirs =6
+df1 = do.call(rbind, lapply(1:num_round_dirs, function(i) {
+  return (read.csv(paste(
+    'round', i, '/arabic-faultless-disagreement.csv', sep=''),stringsAsFactors=FALSE) %>% 
+      mutate(workerid = (workerid + (i-1)*9)))}))
+df1$workerid = paste("vi.",df1$workerid)
 
-model.7 = lm(response~predicate, data=d)
-model.11 = lm(response~predicate+noun:predicate, data=d)
-anova(model.7,model.11)
-summary(model.7)
-summary(model.11)
+d1 = subset(df1, select=c("workerid","noun","gender","nounclass","slide_number", "predicate", "class","response","language","comments","asses","test1","test2","test3","dialect","lived","describe","years","proficiency"))
 
-pairwise.t.test(d$response, d$class, p.adj = "bonf")
+d <- d1
 
-aggregate(response~class,data=d,mean)
+# got all the test questions correct
+d = d[d$test1=="correct"&d$test2=="correct"&d$test3=="correct",]
+# lived more than 5 years both before and after age 8 in arabic country
+d = d[d$lived=="both"&d$years=="5+",]
+# describe as arabic-arabic
+d = d[d$describe=="arabic-arabic",]
 
-d$class <- factor(d$class,levels=c("quality","size","age","texture","color","shape","material"))
+unique(d$language)
 
-table(d$class,d$nounclass)
+#d = d[d$language != "البلوشية، العربية، الانجليزيه"&d$language!="",]
+#d = d[d$asses=="Yes",]
 
-## class plot
-d_s = bootsSummary(data=d, measurevar="response", groupvars=c("class"))
-# save data for aggregate plot
-#write.csv(d_s,"~/Documents/git/cocolab/adjective_ordering/presentations/DGfS/plots/faultless.csv")
+length(unique(d$workerid)) #n=5
 
-class_plot <- ggplot(d_s, aes(x=reorder(class,-response,mean),y=response)) +
-  geom_bar(stat="identity",position=position_dodge()) +
-  geom_errorbar(aes(ymin=bootsci_low, ymax=bootsci_high, x=reorder(class,-response,mean), width=0.1),position=position_dodge(width=0.9))+
+t <- d
+
+#####
+## duplicate observations by first predicate
+#####
+
+library(tidyr)
+
+d$response = 1-d$response
+
+class_agr = aggregate(response~class,FUN=mean,data=d)
+
+class_s = bootsSummary(data=d, measurevar="response", groupvars=c("class"))
+#write.csv(class_s,"../results/tagalog_class_s.csv")
+
+ggplot(data=class_s,aes(x=reorder(class,-response,mean),y=response))+
+  geom_bar(stat="identity",fill="lightgray",color="black")+
+  geom_errorbar(aes(ymin=bootsci_low, ymax=bootsci_high, x=reorder(class,-response,mean), width=0.1))+
+  geom_hline(yintercept=0.5,linetype="dashed") + 
+  xlab("\nadjective class")+
   ylab("faultless disagreement\n")+
-  xlab("\nadjective class") +
-  ylim(0,1) +
-  theme_bw()
-class_plot
-ggsave("../results/class_plot.pdf",height=3)
-
-
-## predicate plot by class
-p_s = bootsSummary(data=d, measurevar="response", groupvars=c("class","predicate"))
-p_s$predicate <- factor(p_s$predicate,ordered=is.ordered(p_s$predicate))
-pred_plot <- ggplot(p_s, aes(x=reorder(predicate,-response,mean),y=response)) +
-  geom_bar(stat="identity",position=position_dodge()) +
-  geom_errorbar(aes(ymin=bootsci_low, ymax=bootsci_high, x=reorder(predicate,response,is.ordered=T), width=0.1),position=position_dodge(width=0.9))+
-  ylab("faultless disagreement\n")+
-  xlab("predicate") +
-  facet_wrap(~class,scale="free_x") +
-  theme(axis.text.x=element_text(angle=45,vjust=1,hjust=1))
-pred_plot
-ggsave("../results/pred_plot.pdf",height=5)
-
-## predicate plot by class and noun
-n_s = bootsSummary(data=d, measurevar="response", groupvars=c("class","predicate","nounclass"))
-n_s$predicate <- factor(n_s$predicate,ordered=is.ordered(n_s$predicate))
-noun_plot <- ggplot(n_s, aes(x=reorder(predicate,-response,mean),y=response,fill=nounclass)) +
-  geom_bar(stat="identity",position=position_dodge()) +
-  geom_errorbar(aes(ymin=bootsci_low, ymax=bootsci_high, x=reorder(predicate,response,is.ordered=T), width=0.1),position=position_dodge(width=0.9))+
-  ylab("faultless disagreement\n")+
-  xlab("predicate") +
-  facet_wrap(~class,scale="free_x") +
-  theme(axis.text.x=element_text(angle=45,vjust=1,hjust=1))
-noun_plot
-ggsave("../results/noun_plot.pdf",height=5)
+  ylim(0,1)+
+  #labs("order\npreference")+
+  theme_bw()#+
+#theme(axis.text.x=element_text(angle=90,vjust=0.35,hjust=1))
+#ggsave("../results/class_distance.pdf",height=3)
+#ggsave("../results/LSA_class_distance.png",height=2,width=4.3)
