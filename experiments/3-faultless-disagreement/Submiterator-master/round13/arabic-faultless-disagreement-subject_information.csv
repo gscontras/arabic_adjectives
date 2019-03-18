@@ -3,3 +3,8 @@ workerid,test1,dialect,test3,lived,language,enjoyment,gender,age,describe,commen
 1,correct,gulf,correct,both,2436,1,Male,24,arabic-english,45489,1-5,intermediate,598,Yes,correct,2,arabic,english
 2,correct,saudi,incorrect,before,,0,Female,30,arabic-english,,1,intermediate,,No,incorrect,2,english,other
 3,correct,saudi,correct,no,هذه الأسئلة أمر,0,Male,إن الإجابة على,arabic-english,معلومات إضافية,never,basic,هل عشت في,Yes,incorrect,1,arabic,arabic
+4,correct,egyptian,correct,no,,0,Male,,arabic-arabic,,never,basic,,Confused,incorrect,0,arabic,arabic
+5,correct,saudi,correct,both,العربية,1,Male,27,arabic-arabic,,5+,advanced,,Yes,correct,3,arabic,arabic
+6,-1,-1,-1,-1,,-1,Male,21,-1,,-1,-1,,Yes,-1,1,-1,-1
+7,incorrect,gulf,correct,no,english,0,Male,29,arabic-english,no,1,advanced,english,Yes,correct,2,english,arabic
+8,incorrect,levantine,correct,no,,2,Male,24,arabic-english,,never,intermediate,,Yes,incorrect,-1,english,english

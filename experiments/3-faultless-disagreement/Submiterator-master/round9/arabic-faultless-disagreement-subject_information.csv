@@ -4,3 +4,7 @@ workerid,test1,dialect,test3,lived,language,enjoyment,gender,age,describe,commen
 2,correct,saudi,incorrect,both,english,1,Male,25,arabic-english,nothing,1-5,superior,arabic,Yes,correct,4,english,arabic
 3,incorrect,egyptian,incorrect,no,english,0,Male,24,arabic-english,I LIKE IT,1,advanced,NO,NA,incorrect,2,english,other
 4,incorrect,other,correct,before,Gggggg,1,Male,Ttttt,arabic-english,,never,basic,Ttttt,No,correct,1,arabic,english
+5,correct,egyptian,correct,no,,0,Male,,arabic-arabic,حسن,never,basic,,Confused,incorrect,3,arabic,arabic
+6,incorrect,levantine,incorrect,both,عربى,1,Male,24,english-arabic,كلا,1-5,intermediate,كلا ,Yes,correct,3,arabic,english
+7,correct,moroccan,incorrect,both,YES,0,Female,26,arabic-english,GOOD,never,intermediate,YES,Yes,incorrect,1,english,english
+8,correct,iraqi,correct,both,العربية,1,Male,30,arabic-english,شكرا لكم,5+,superior,,Yes,correct,3,other,arabic

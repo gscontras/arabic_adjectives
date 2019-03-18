@@ -1,2 +1,9 @@
-workerid
-0
+workerid,test1,dialect,test3,lived,language,enjoyment,gender,age,describe,comments,years,proficiency,otherDialect,asses,test2,education,dominantLanguage,homeLanguage
+0,correct,saudi,incorrect,before,Hindi,0,Other,27,arabic-english,Nice,1,superior,Hindi,Yes,correct,3,english,english
+1,-1,-1,-1,-1,,-1,Female,,-1,,-1,-1,,No,-1,-1,-1,-1
+2,incorrect,other,correct,both,/ldjfilwrei;w,0,Male,ksdhfuwelk,arabic-english,"kljdfkhuherfwe,jbyuj mkmikmkmik",1,intermediate,sjdfkjwe;,Yes,correct,4,english,other
+3,correct,levantine,incorrect,both,India,1,Other,26,arabic-english,GOOD,never,basic,YES,Confused,incorrect,0,arabic,english
+4,correct,moroccan,correct,both,عربى,0,Male,24,arabic-arabic,لا,1,basic,كلا,Yes,incorrect,0,arabic,english
+5,correct,saudi,correct,before,Italia,1,Female,42,arabic-english,,never,superior,,NA,incorrect,1,english,arabic
+6,correct,other,correct,both, العربية,2,Male,35,arabic-arabic,الغة الجزائرية هي لغة عربية ولكن يوجد كلمات أمازغية و كلمات فرنسية  في اللهجة الجزائرية، و لكن نحن نطقن العرية الفصحى جيدا، انا اتكلم بطلاقة، العربية، والفرنسية و الانجليزية و الالمانية والامازغية و الجزائرية التي يتكلم بها  42 مليون نسمة و للجزائرية عدة لهجاة حوالي 48 لهجة,5+,superior,الجزائرية,Yes,correct,4,other,other
+7,correct,levantine,correct,no,,2,Other,24,english-arabic,,1,advanced,,Yes,correct,1,english,english

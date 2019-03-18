@@ -3,3 +3,8 @@ workerid,test1,dialect,test3,lived,language,enjoyment,gender,age,describe,commen
 1,incorrect,saudi,incorrect,both,United States,1,Female,23,english-arabic,,1-5,intermediate,لا شيء,Yes,incorrect,3,arabic,other
 2,correct,moroccan,correct,before,francais,2,Male,30,other,,5+,-1,,Yes,correct,3,english,other
 3,correct,moroccan,correct,both,arabic,2,Male,27,arabic-english,,5+,superior,,Yes,correct,4,english,arabic
+4,correct,levantine,correct,before,india,1,Female,24,arabic-arabic,,1,advanced,india,NA,incorrect,0,arabic,english
+5,incorrect,levantine,correct,before,عربى,2,Male,25,english-arabic,كلا,1,superior,كلا,Yes,incorrect,3,arabic,english
+6,correct,saudi,correct,no,India,2,Male,26,arabic-arabic,GOOD,never,advanced,,NA,correct,1,arabic,arabic
+7,correct,moroccan,correct,both,Arabe,1,Male,22,arabic-arabic,,5+,superior,,NA,correct,-1,other,other
+8,incorrect,levantine,correct,no,عربي انجليزي,1,Male,29,arabic-english,,1,basic,عربي انجليزي,Confused,correct,1,english,english

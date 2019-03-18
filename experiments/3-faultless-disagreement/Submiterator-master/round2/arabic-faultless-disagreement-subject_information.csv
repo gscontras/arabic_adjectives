@@ -6,3 +6,5 @@ workerid,test1,dialect,test3,lived,language,enjoyment,gender,age,describe,commen
 4,incorrect,moroccan,correct,before,الإنجليزية,0,Other,32,english-arabic,استطلاع جميل,never,advanced,,Yes,correct,3,arabic,english
 5,correct,levantine,correct,no,,0,Male,,arabic-arabic,,1,basic,,Yes,incorrect,0,arabic,arabic
 6,correct,saudi,correct,both,,1,Male,,arabic-english,,1-5,basic,,Confused,incorrect,0,arabic,english
+7,correct,egyptian,correct,no,,0,Male,,arabic-arabic,,never,basic,,Confused,incorrect,0,arabic,arabic
+8,correct,egyptian,correct,after,العربية,1,Male,39,arabic-arabic,,5+,intermediate,,Yes,correct,4,english,arabic

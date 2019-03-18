@@ -3,3 +3,7 @@ workerid,test1,dialect,test3,lived,language,enjoyment,gender,age,describe,commen
 1,incorrect,iraqi,incorrect,no,United States,1,Female,,english-arabic,,1-5,advanced,التحديد,Yes,-1,2,other,english
 2,correct,gulf,incorrect,before,english,0,,25,arabic-arabic,nothing,1,intermediate,arabic,Yes,incorrect,2,arabic,english
 3,correct,levantine,correct,no,NO,0,Male,26,arabic-arabic,GOOD,never,intermediate,NO,Yes,correct,0,english,arabic
+4,incorrect,levantine,incorrect,both,,0,Female,,arabic-english,,never,basic,,NA,incorrect,1,english,arabic
+5,correct,levantine,correct,both,العربية,1,Male,31,arabic-english,,5+,superior,,Yes,correct,3,other,english
+6,correct,moroccan,correct,both,العربية,2,Male,34,arabic-arabic,,5+,superior,,Yes,correct,4,other,arabic
+7,correct,levantine,correct,both,العربيه,1,Male,22,arabic-arabic,,5+,advanced,,NA,correct,2,english,english

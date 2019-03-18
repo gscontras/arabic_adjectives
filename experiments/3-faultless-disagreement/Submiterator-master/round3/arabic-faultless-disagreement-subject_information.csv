@@ -6,3 +6,6 @@ workerid,test1,dialect,test3,lived,language,enjoyment,gender,age,describe,commen
 4,incorrect,levantine,incorrect,no,"., TELUGU",1,Male,24,arabic-english,"كان هذا مسح رهيبة هادئة.
 ",never,advanced,ENGLISH,Yes,incorrect,0,arabic,arabic
 5,correct,saudi,correct,both,,0,Female,24,arabic-english,,never,superior,,NA,correct,2,english,arabic
+6,correct,moroccan,correct,both,العربية,2,Female,29,arabic-english,,5+,superior,,Yes,correct,4,english,arabic
+7,correct,gulf,correct,both,الأردية,0,Male,28,arabic-english,,1-5,intermediate,الأردية,Confused,incorrect,3,arabic,english
+8,-1,-1,-1,after,English,-1,Male,26,other,,-1,-1,,Yes,-1,3,-1,-1

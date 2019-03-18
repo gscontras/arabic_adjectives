@@ -6,7 +6,7 @@ source("../results/helpers.R")
 
 setwd("~/git/arabic_adjectives/experiments/3-faultless-disagreement/Submiterator-master")
 
-num_round_dirs =6
+num_round_dirs =15
 df1 = do.call(rbind, lapply(1:num_round_dirs, function(i) {
   return (read.csv(paste(
     'round', i, '/arabic-faultless-disagreement.csv', sep=''),stringsAsFactors=FALSE) %>% 
@@ -29,7 +29,7 @@ unique(d$language)
 #d = d[d$language != "البلوشية، العربية، الانجليزيه"&d$language!="",]
 #d = d[d$asses=="Yes",]
 
-length(unique(d$workerid)) #n=5
+length(unique(d$workerid)) #n=12
 
 t <- d
 

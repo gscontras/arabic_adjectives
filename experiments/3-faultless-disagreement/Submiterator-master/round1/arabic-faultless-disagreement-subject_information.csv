@@ -4,3 +4,7 @@ workerid,test1,dialect,test3,lived,language,enjoyment,gender,age,describe,commen
 2,correct,levantine,correct,after,العربية,2,Female,38,arabic-arabic,لا تعليق,5+,intermediate,,Yes,correct,2,english,arabic
 3,correct,egyptian,correct,both,,0,,,arabic-english,كيف تقيم مستوى إجادتك للغة العربية الفصحى,never,no-response,24,NA,correct,-1,english,english
 4,correct,egyptian,correct,before,,1,Male,,english-arabic,,1-5,intermediate,,Yes,incorrect,0,arabic,arabic
+5,correct,moroccan,correct,no,DFFERD,0,Male,SSDS,arabic-arabic,,never,superior,ACD,NA,incorrect,0,arabic,arabic
+6,-1,-1,-1,-1,,-1,,,-1,,-1,-1,,NA,-1,-1,-1,-1
+7,correct,levantine,correct,both,arabic ,2,Male,36,arabic-english,,5+,basic,,Confused,correct,3,english,arabic
+8,correct,gulf,correct,both,عربى,0,Male,26,arabic-arabic,لا,never,intermediate,لا,Yes,correct,1,arabic,arabic

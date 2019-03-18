@@ -2,3 +2,8 @@ workerid,test1,dialect,test3,lived,language,enjoyment,gender,age,describe,commen
 0,incorrect,iraqi,correct,no,ngnng,1,Male,fbfdh,arabic-english,gfjnfjfjnfcjnjn,never,advanced,hftg,Yes,correct,1,arabic,arabic
 1,incorrect,saudi,correct,both,Hindi,1,Male,25,arabic-english,"لا توجد تعليقات خاصة
 ",1,advanced,العربية الأساسية أنا أتكلم,Yes,correct,2,other,english
+2,correct,egyptian,correct,both,العربية,2,Female,31,arabic-arabic,,5+,superior,,No,correct,3,english,arabic
+3,incorrect,gulf,correct,no,YES,0,Female,26,english-arabic,GOOD,1,intermediate,YES,Confused,correct,0,english,arabic
+4,incorrect,saudi,incorrect,no,,1,Female,26,arabic-arabic,GOOD,1,intermediate,,NA,incorrect,1,english,english
+5,-1,-1,-1,-1,,-1,,,-1,,-1,-1,,NA,-1,-1,-1,-1
+6,correct,egyptian,correct,no,India,0,Male,,arabic-arabic,,never,basic,,Yes,incorrect,0,arabic,arabic

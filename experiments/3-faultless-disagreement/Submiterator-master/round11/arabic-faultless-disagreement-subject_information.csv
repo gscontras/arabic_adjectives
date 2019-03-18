@@ -2,3 +2,5 @@ workerid,test1,dialect,test3,lived,language,enjoyment,gender,age,describe,commen
 0,correct,gulf,incorrect,both,,0,Male,28,arabic-english,no,never,intermediate,,Yes,incorrect,1,english,english
 1,incorrect,iraqi,correct,both,fdsf,0,Female,RSFGSD,english-arabic,No,1,advanced,sdgsd,NA,incorrect,1,other,other
 2,correct,gulf,correct,no,,0,Male,,english-arabic,,1,advanced,,Yes,incorrect,1,english,arabic
+3,correct,levantine,correct,before,,0,Female,,arabic-english,,1,intermediate,,NA,incorrect,1,english,arabic
+4,correct,levantine,incorrect,both,Italia,0,Female,matteo,arabic-arabic,non ho capito niente grazie ciao,1,basic,bonollo,Yes,incorrect,0,arabic,arabic
