@@ -26,10 +26,10 @@ d = d[d$describe=="arabic-arabic",]
 
 unique(d$language)
 
-#d = d[d$language != "البلوشية، العربية، الانجليزيه"&d$language!="",]
+d = d[d$language != "Arabic English",]
 #d = d[d$asses=="Yes",]
 
-length(unique(d$workerid)) #n=12
+length(unique(d$workerid)) #n=16
 
 t <- d
 
