@@ -7,3 +7,4 @@ workerid,test1,dialect,test3,lived,language,enjoyment,gender,age,describe,commen
 5,correct,saudi,correct,before,Italia,1,Female,42,arabic-english,,never,superior,,NA,incorrect,1,english,arabic
 6,correct,other,correct,both, العربية,2,Male,35,arabic-arabic,الغة الجزائرية هي لغة عربية ولكن يوجد كلمات أمازغية و كلمات فرنسية  في اللهجة الجزائرية، و لكن نحن نطقن العرية الفصحى جيدا، انا اتكلم بطلاقة، العربية، والفرنسية و الانجليزية و الالمانية والامازغية و الجزائرية التي يتكلم بها  42 مليون نسمة و للجزائرية عدة لهجاة حوالي 48 لهجة,5+,superior,الجزائرية,Yes,correct,4,other,other
 7,correct,levantine,correct,no,,2,Other,24,english-arabic,,1,advanced,,Yes,correct,1,english,english
+8,correct,levantine,correct,both,Arabic,1,Female,37,arabic-arabic,,5+,advanced,,Yes,correct,3,english,arabic

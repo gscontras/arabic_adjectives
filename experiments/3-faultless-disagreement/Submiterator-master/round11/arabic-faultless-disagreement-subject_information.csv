@@ -4,3 +4,7 @@ workerid,test1,dialect,test3,lived,language,enjoyment,gender,age,describe,commen
 2,correct,gulf,correct,no,,0,Male,,english-arabic,,1,advanced,,Yes,incorrect,1,english,arabic
 3,correct,levantine,correct,before,,0,Female,,arabic-english,,1,intermediate,,NA,incorrect,1,english,arabic
 4,correct,levantine,incorrect,both,Italia,0,Female,matteo,arabic-arabic,non ho capito niente grazie ciao,1,basic,bonollo,Yes,incorrect,0,arabic,arabic
+5,correct,egyptian,correct,no,United States,0,Other,40,arabic-arabic,,never,basic,,Confused,incorrect,1,arabic,arabic
+6,incorrect,saudi,correct,no,Female,1,Male,27,english-arabic,Nice,never,basic,English,Yes,correct,1,english,english
+7,correct,gulf,correct,both,,0,Male,28,arabic-arabic,,1,intermediate,,Confused,incorrect,0,arabic,arabic
+8,-1,-1,-1,-1,,-1,,,-1,,-1,-1,,NA,-1,-1,-1,-1

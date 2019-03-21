@@ -6,3 +6,5 @@ workerid,OS,screenH,screenW,Browser
 4,Windows,768,1366,Chrome
 5,Windows,1080,1920,Chrome
 6,Windows,768,1360,Chrome
+7,Mac,900,1440,Safari
+8,Linux,712,400,Chrome

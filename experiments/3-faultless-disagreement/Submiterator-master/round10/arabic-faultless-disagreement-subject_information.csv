@@ -7,3 +7,5 @@ workerid,test1,dialect,test3,lived,language,enjoyment,gender,age,describe,commen
 4,incorrect,saudi,incorrect,no,,1,Female,26,arabic-arabic,GOOD,1,intermediate,,NA,incorrect,1,english,english
 5,-1,-1,-1,-1,,-1,,,-1,,-1,-1,,NA,-1,-1,-1,-1
 6,correct,egyptian,correct,no,India,0,Male,,arabic-arabic,,never,basic,,Yes,incorrect,0,arabic,arabic
+7,correct,saudi,incorrect,before,كنت,0,Female,a,english-arabic,,5+,no-response,,Yes,correct,2,other,english
+8,correct,egyptian,correct,before,العربية,2,Male,25,arabic-english,,1,advanced,,Yes,correct,3,english,english
