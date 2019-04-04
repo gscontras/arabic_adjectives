@@ -33,15 +33,12 @@ length(unique(d$workerid)) #n=16
 
 t <- d
 
-#####
-## duplicate observations by first predicate
-#####
-
 library(tidyr)
 
 d$response = 1-d$response
 
 class_agr = aggregate(response~class,FUN=mean,data=d)
+d_agr = aggregate(response~predicate,FUN=mean,data=d)
 
 class_s = bootsSummary(data=d, measurevar="response", groupvars=c("class"))
 #write.csv(class_s,"../results/tagalog_class_s.csv")
@@ -57,4 +54,29 @@ ggplot(data=class_s,aes(x=reorder(class,-response,mean),y=response))+
   theme_bw()#+
 #theme(axis.text.x=element_text(angle=90,vjust=0.35,hjust=1))
 #ggsave("../results/class_distance.pdf",height=3)
-#ggsave("../results/LSA_class_distance.png",height=2,width=4.3)
+
+#### comparison with faultless disgareement
+
+o = read.csv("../../2-order-preference-expanded/results/arabic-naturalness-duplicated.csv",header=T)
+
+o_agr = aggregate(correctresponse~predicate,data=o,FUN=mean)
+
+o_agr$subjectivity = d_agr$response[match(o_agr$predicate,d_agr$predicate)]
+
+gof(o_agr$correctresponse,o_agr$subjectivity)
+# r = 0.87, r2 = 0.76
+results <- boot(data=o_agr, statistic=rsq, R=10000, formula=correctresponse~subjectivity)
+boot.ci(results, type="bca") 
+# 95%   ( 0.5655,  0.8793 )
+
+ggplot(o_agr, aes(x=subjectivity,y=correctresponse)) +
+  geom_point() +
+  #geom_smooth()+
+  stat_smooth(method="lm",color="black")+
+  #geom_text(aes(label=predicate),size=2.5,vjust=1.5)+
+  ylab("preferred distance from noun\n")+
+  xlab("\nsubjectivity score")+
+  #ylim(0,1)+
+  theme_bw()
+#ggsave("../results/naturalness-subjectivity.pdf",height=3,width=4)
+#ggsave("../results/LSA-naturalness-subjectivity.png",height=3,width=3.5)
