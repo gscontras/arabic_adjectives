@@ -31,8 +31,6 @@ d = d[d$language != "البلوشية، العربية، الانجليزيه"&d
 
 length(unique(d$workerid)) #n=24
 
-table(d$dialect)
-
 t <- d
 
 #####
