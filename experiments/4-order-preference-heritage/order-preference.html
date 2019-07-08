@@ -49,17 +49,18 @@
 <body onload="init();">
   <noscript>This task requires JavaScript.</noscript>
 
-  <div class="slide" id="i0" dir="rtl">
+  <div class="slide" id="i0">
     <img src="../_shared/images/meaningLab.png" alt="UCI meaning lab" id="meaningLabLogo"></img>
-    <p id="instruct-text">هذا HIT يشتمل على تفسير جمل من اللغة العربية. سوف تستغرق هذه المهمة حوالي ست دقائق. الرجاء الانتباه. شكرًا! <br><br><font color = "blue"><em> This HIT involves interpreting phrases of Arabic. The task should take about six minutes. Please pay attention. Thanks! </em></font></p>
+    <p  dir="rtl" id="instruct-text">هذا HIT يشتمل على تفسير جمل من اللغة العربية. سوف تستغرق هذه المهمة حوالي ست دقائق. الرجاء الانتباه. شكرًا! 
+    <p><font color = "blue"><em> This HIT involves interpreting phrases of Arabic. The task should take about six minutes. Please pay attention. Thanks! </em></font></p>
     <button id="start_button" type="button">ابدأ التجربة/start experiment</button>
     <p id="legal" dir="rtl">معلومات قانونية: عن طريق الإجابة على الأسئلة التالية ، أنت تشارك في دراسة يقوم بها علماء معرفيون في جامعة كاليفورنيا ، إرفاين. إذا كانت لديك أسئلة حول هذا البحث ، فيرجى الاتصال بـGreg Scontras على العنوان <a href="mailto://g.scontras@uci.edu">g.scontras@uci.edu</a>. يجب أن يكون عمرك 18 عامًا على الأقل للمشاركة في هذه الدراسة. مشاركتك في هذا البحث تطوعية. يمكنك رفض الإجابة عن أي من الأسئلة التالية أو جميعها. يمكنك رفض المزيد من المشاركة ، في أي وقت ، دون عواقب سلبية. عدم الكشف عن هويتك مضمون. لن يتلقى الباحثون الذين طلبوا مشاركتك أي معلومات شخصية عنك. 
-    <br><br><font color = "blue"><em> <span dir="ltr"> Legal information: By answering the following questions, you are participating in a study being performed by cognitive scientists at the University of California, Irvine. If you have questions about this research, please contact Greg Scontras at <a href="mailto://g.scontras@uci.edu">g.scontras@uci.edu</a>. You must be  at least 18 years old to participate. Your participation in this research is voluntary. You may decline to answer any or all of the following questions. You may decline further participation, at any time, without adverse consequences. Your anonymity is assured; the researchers who have requested your participation will not receive any personal information about you.</span></em></font></b></p>
+    <br><br><font color = "blue"><em><span dir="ltr"> Legal information: By answering the following questions, you are participating in a study being performed by cognitive scientists at the University of California, Irvine. If you have questions about this research, please contact Greg Scontras at <a href="mailto://g.scontras@uci.edu">g.scontras@uci.edu</a>. You must be  at least 18 years old to participate. Your participation in this research is voluntary. You may decline to answer any or all of the following questions. You may decline further participation, at any time, without adverse consequences. Your anonymity is assured; the researchers who have requested your participation will not receive any personal information about you.</em></font></b></p>
   </div>
 
-  <div class="slide" id="instructions1" dir="rtl">
-    <h3>التعليمات</h3>
-    <p> سترى 26 زوجًا من العبارات الوصفية القصيرة.
+  <div class="slide" id="instructions1">
+    <h3><dir="rtl">التعليمات</h3>
+    <p dir="rtl"> سترى 26 زوجًا من العبارات الوصفية القصيرة.
 مهمتك هي أن تقرر أي وصف يبدو أفضل.</p>
   <h3>Instructions</h3>
   <font color = "blue"><em>You will see 26 pairs of short object descriptions.<br>
@@ -101,26 +102,26 @@
       </td><td><span class="high">{{}}</span></td></tr>
     </table>
 
-    <p dir="rtl">اضبط شريط التمرير للإشارة إلى تفضيلك/ Adjust the slider to indicate your preference.</p><br>
+    <p> <span dir="rtl">اضبط شريط التمرير للإشارة إلى تفضيلك. <span dir="ltr"><font color = "blue"><em> Adjust the slider to indicate your preference.</font><br><em><p>
 
     <button onclick="_s.button()" dir="rtl">تابع</button>
     <div class="err" dir="rtl">اضبط شريط التمرير قبل المتابعة </div>
-    <div class="err"><font color = "blue"><em>Please adjust the slider before continuing.</em></font></div>
+    <p><div class="err"><font color = "blue"><em>Please adjust the slider before continuing.</font></em></div>
   </div>
 
-  <div class="slide"  id="subj_info" dir="rtl">
+  <div class="slide"  id="subj_info" >
     <div class="long_form">
-      <div class="subj_info_title">معلومات إضافية / Additional information </div> 
+      <div class="subj_info_title" dir="rtl">معلومات إضافية / Additional information </div> 
       
-      <p class="info">إن الإجابة على هذه الأسئلة أمر اختياري ، ولكن سوف يساعدنا في فهم إجاباتك.</p>
+      <p class="info" dir="rtl">إن الإجابة على هذه الأسئلة أمر اختياري ، ولكن سوف يساعدنا في فهم إجاباتك.</p>
       <font color = "blue"><em> Answering these questions is optional, but will help us understand your answers.</em></font></p>
-      <p>هل قرأت التعليمات وهل تعتقد أنك قمت بهذه المهمة بشكل صحيح؟</p>
+      <p dir="rtl">هل قرأت التعليمات وهل تعتقد أنك قمت بهذه المهمة بشكل صحيح؟</p>
       <br><font color = "blue"><em>Did you read the instructions and do you think you did the HIT correctly? </em></font></p>
       <label><input type="radio"  name="assess" value="No"/>كلا/ No</label>
       <label><input type="radio"  name="assess" value="Yes"/>نعم/ Yes</label>
       <label><input type="radio"  name="assess" value="Confused"/> الأسئلة لم تكن واضحة / I was confused </label>
 
-      <p>الجنس/ Gender:
+      <p  dir="rtl">الجنس/ Gender:
         <select id="gender">
           <label><option value=""/></label>
           <label><option value="Male"/>ذكر/ Male</label>
@@ -131,7 +132,7 @@
 
       <p>العمر/ Age: <input type="text" id="age"/></p>
 
-      <p>المستوى التعليمي/ Level Of Education:
+      <p dir="rtl">المستوى التعليمي/ Level Of Education:
         <select id="education">
           <label><option value="-1"/></label>
           <label><option value="0"/>بعض الثانوي/ Some High School</label>
@@ -142,41 +143,41 @@
         </select>
       </p>
 
-      <p>اللغة الأم/ Native Language: <input type="text" id="language"/></p>
+      <p dir="rtl">اللغة الأم/ Native Language: <input type="text" id="language"/></p>
       <label>(اللغة (اللغات) التي تم التحدث بها في المنزل عندما كنت طفلاً)</label>
       <br><font color = "blue"><em><label>(the language(s) spoken at home when you were a child)</em></font></p></label>
 
-     <p>أي من الخيارات التالية تصفك بشكل أفضل؟/ Which of the following options best describes you?
+     <p><span dir="rtl">أي من الخيارات التالية تصفك بشكل أفضل؟ <span dir="ltr"> Which of the following options best describes you?
         <select id="describe">
           <label><option value="-1"/></label>
-          <label><option value="arabic-arabic"/>تعلمت اللغة العربية كلغة أولى، وما زالت العربية لغتي الأساسية حتى الآن / I learned Arabic as my first language and Arabic is still my primary language </label>
-          <label><option value="arabic-english"/>تعلمت اللغة العربية كلغة أولى ولكن اللغة الإنجليزية هي لغتي الأساسية الآن/ I learned Arabic as my first language but now English is my primary language </label>
-          <label><option value="english-arabic"/>تعلمت الإنجليزية كلغة أولى ثم تعلمت العربية فيما بعد/ I learned English as my first language and then learned Arabic later</label>
-          <label><option value="other"/>تعلمت لغة أخرى غير الإنجليزية أو العربية كلغة أولى ، ثم تعلمت اللغة العربية في وقت لاحق/ I learned a language other than English or Arabic as my first language, and then learned Arabic later</label>
+          <label><option value="arabic-arabic"/>تعلمت اللغة العربية كلغة أولى، وما زالت العربية لغتي الأساسية حتى الآن <span dir="ltr">I learned Arabic as my first language and Arabic is still my primary language </label>
+          <label><option value="arabic-english"/><span dir="rtl">تعلمت اللغة العربية كلغة أولى ولكن اللغة الإنجليزية هي لغتي الأساسية الآن <span dir="ltr"> I learned Arabic as my first language but now English is my primary language </label>
+          <label><option value="english-arabic"/><span dir="rtl">تعلمت الإنجليزية كلغة أولى ثم تعلمت العربية فيما بعد <span dir="ltr"> I learned English as my first language and then learned Arabic later</label>
+          <label><option value="other"/><span dir="rtl">تعلمت لغة أخرى غير الإنجليزية أو العربية كلغة أولى ، ثم تعلمت اللغة العربية في وقت لاحق <span dir="ltr"> I learned a language other than English or Arabic as my first language, and then learned Arabic later</label>
         </select>
       </p>
 
-      <p>هل عشت في بلد يتحدث اللغة العربية؟/ Have you lived in an Arabic-speaking country?
+      <p><span dir="rtl">هل عشت في بلد يتحدث اللغة العربية؟ <span dir="ltr">Have you lived in an Arabic-speaking country?
         <select id="lived">
           <label><option value="-1"/></label>
-          <label><option value="no"/>لا ، لم أعش قط في بلد يتحدث اللغة العربية/ No, I have never lived in an Arabic-speaking country </label>
-          <label><option value="both"/>نعم ، قبل وبعد سن الثامنة من عمري/ Yes, both before and after the age of 8 </label>
-          <label><option value="before"/>نعم ، قبل سن الثامنة من عمري/ Yes, before the age of 8</label>
-          <label><option value="after"/>نعم ، بعد سن الثامنة من عمري/ Yes, after the age of 8</label>
+          <label><option value="no"/>لا ، لم أعش قط في بلد يتحدث اللغة العربية <span dir="ltr">No, I have never lived in an Arabic-speaking country </label>
+          <label><option value="both"/>نعم ، قبل وبعد سن الثامنة من عمري <span dir="ltr"> Yes, both before and after the age of 8 </label>
+          <label><option value="before"/>نعم ، قبل سن الثامنة من عمري <span dir="ltr"> Yes, before the age of 8</label>
+          <label><option value="after"/>نعم ، بعد سن الثامنة من عمري <span dir="ltr"> Yes, after the age of 8</label>
         </select>
       </p>
 
-      <p>كم سنة عشت في بلد يتحدث اللغة العربية؟/ How many years have you lived in an Arabic-speaking country?
+      <p dir="rtl">كم سنة عشت في بلد يتحدث اللغة العربية؟ <span dir="ltr"> How many years have you lived in an Arabic-speaking country?
         <select id="years">
           <label><option value="-1"/></label>
-          <label><option value="never"/>لم أعش قط في بلد يتحدث اللغة العربية/ I have never lived in an Arabic-speaking country</label>
-          <label><option value="1"/>أقل من سنة واحدة/ Less than 1 year </label>
-          <label><option value="1-5"/>من سنة إلى خمس سنوات/ 1-5 years </label>
-          <label><option value="5+"/>أكثر من خمس سنوات/ More than 5 years</label>
+          <label><option value="never"/>لم أعش قط في بلد يتحدث اللغة العربية/ <span dir="ltr"> I have never lived in an Arabic-speaking country</label>
+          <label><option value="1"/>أقل من سنة واحدة/ <span dir="ltr">Less than 1 year </label>
+          <label><option value="1-5"/>من سنة إلى خمس سنوات/ <span dir="ltr">1-5 years </label>
+          <label><option value="5+"/>أكثر من خمس سنوات/ <span dir="ltr">More than 5 years</label>
         </select>
       </p>
 
-      <p>ما هي اللهجة العربية التي تتحدثها؟/ What dialect of Arabic do you speak?
+      <p dir="rtl">ما هي اللهجة العربية التي تتحدثها؟ <span dir="ltr">  What dialect of Arabic do you speak?
         <select id="dialect">
           <label><option value="-1"/></label>
           <label><option value="egyptian"/>المصرية/ Egyptian</label>
@@ -189,9 +190,9 @@
         </select>
       </p>
 
-      <p>إذا كنت تتحدث لهجة مختلفة الرجاء التحديد/ If other, please specify: <input type="text" id="otherDialect"/></p>
+      <p dir="rtl">إذا كنت تتحدث لهجة مختلفة الرجاء التحديد <span dir="ltr"> If other, please specify: <input type="text" id="otherDialect"/></p>
 
-      <p>ما اللغة التي تتكلمها أكثر في المنزل؟/ Which language do you use most frequently at home?
+      <p dir="rtl">ما اللغة التي تتكلمها أكثر في المنزل؟ <span dir="ltr"> Which language do you use most frequently at home?
         <select id="homeLanguage">
           <label><option value="-1"/></label>
           <label><option value="arabic"/>العربية/ Arabic</label>
@@ -201,7 +202,7 @@
       </p>
 
 
-      <p>ما اللغة التي تستخدمها أكثر خارج المنزل؟/ Which language do you use most frequently outside the home?
+      <p dir="rtl">ما اللغة التي تستخدمها أكثر خارج المنزل؟ <span dir="ltr"> Which language do you use most frequently outside the home?
         <select id="dominantLanguage">
           <label><option value="-1"/></label>
           <label><option value="arabic"/>العربية/ Arabic</label>
@@ -211,7 +212,7 @@
       </p>
 
 
-      <p>كيف تقيم مستوى إجادتك للغة العربية الفصحى؟/ How would you evaluate your proficiency in Arabic?
+      <p dir="rtl">كيف تقيم مستوى إجادتك للغة العربية الفصحى؟ <span dir="ltr">How would you evaluate your proficiency in Arabic?
         <select id="proficiency">
           <label><option value="-1"/></label>
           <label><option value="basic"/>مستوى أساسي/ Basic</label>
@@ -222,7 +223,7 @@
         </select>
       </p>
 
-      <p>أي وصف يبدو أصح؟/ Which description sounds more correct?
+      <p dir="rtl">أي وصف يبدو أصح؟ <span dir="ltr">Which description sounds more correct?
         <select id="test1">
           <label><option value="-1"/></label>
           <label><option value="correct"/>التفاحة الصغيرة الحمراء</label>
@@ -230,7 +231,7 @@
         </select>
       </p>
 
-      <p>أي وصف يبدو أصح؟ Which description sounds more correct?
+      <p dir="rtl">أي وصف يبدو أصح؟ <span dir="ltr">Which description sounds more correct?
         <select id="test2">
           <label><option value="-1"/></label>
           <label><option value="incorrect"/>الطاولة الأزرق الكبير</label>
@@ -239,7 +240,7 @@
       </p>
 
 
-      <p>أي وصف يبدو أصح؟ Which description sounds more correct?
+      <p dir="rtl">أي وصف يبدو أصح؟ <span dir="ltr">Which description sounds more correct?
         <select id="test3">
           <label><option value="-1"/></label>
           <label><option value="correct"/>البحر الأزرق الواسع</label>
@@ -248,7 +249,7 @@
       </p>
 
 
-      <p>هل استمتعت بالمهمة؟/ Did you enjoy the hit?</p> 
+      <p dir="rtl">هل استمتعت بالمهمة؟ <span dir="ltr">Did you enjoy the hit?</p> 
       <select id="enjoyment">
         <label><option value="-1"></option></label>
         <label><option value="0">أسوأ من المتوسط</option></label>
@@ -256,7 +257,7 @@
         <label><option value="2">أفضل من المتوسط</option></label>
       </select>
 
-      <p>نحن مهتمون بأي تعليقات لديك عن هذه التجربة. يرجى كتابتها هنا/ We would be interested in any comments you have about this experiment. Please type them here:</p>
+      <p dir="rtl">نحن مهتمون بأي تعليقات لديك عن هذه التجربة. يرجى كتابتها هنا <span dir="ltr">We would be interested in any comments you have about this experiment. Please type them here:</p>
       <textarea id="comments" rows="3" cols="50"></textarea>
       <br/>
       <button onclick="_s.submit()">تقديم/ Submit</button>
