@@ -1,0 +1,10 @@
+,catch_trials,subject_information_age,subject_information_asses,subject_information_comments,subject_information_describe,subject_information_dialect,subject_information_education,subject_information_enjoyment,subject_information_gender,subject_information_language,subject_information_lived,subject_information_proficiency,subject_information_test1,subject_information_test2,subject_information_test3,subject_information_years,system_Browser,system_OS,system_screenH,system_screenW,time_in_minutes,trials_class1,trials_class2,trials_gender,trials_noun,trials_nounclass,trials_predicate1,trials_predicate2,trials_response,trials_slide_number
+0,[],12,Confused,GREG0,-1,-1,-1,-1,Other,sd,both,-1,-1,correct,-1,-1,Safari,Mac,1440,2560,0.52715,age,size,feminine,couch,furniture,fresh,huge,0.68,3
+1,[],12,Confused,GREG0,-1,-1,-1,-1,Other,sd,both,-1,-1,correct,-1,-1,Safari,Mac,1440,2560,0.52715,color,texture,feminine,apple,food,blue,soft,0.3,4
+2,[],12,Confused,GREG0,-1,-1,-1,-1,Other,sd,both,-1,-1,correct,-1,-1,Safari,Mac,1440,2560,0.52715,texture,color,feminine,banana,food,smooth,green,0.66,5
+3,[],12,Confused,GREG0,-1,-1,-1,-1,Other,sd,both,-1,-1,correct,-1,-1,Safari,Mac,1440,2560,0.52715,age,color,feminine,apple,food,rotten,brown,0.34,6
+0,[],23,Confused,GREG1,-1,-1,-1,-1,Female,asdffds,before,intermediate,-1,correct,-1,-1,Safari,Mac,1440,2560,0.4175833333333333,quality,age,masculine,TV,furniture,bad,rotten,0.66,3
+1,[],23,Confused,GREG1,-1,-1,-1,-1,Female,asdffds,before,intermediate,-1,correct,-1,-1,Safari,Mac,1440,2560,0.4175833333333333,age,size,feminine,apple,food,old,small,0.19,4
+2,[],23,Confused,GREG1,-1,-1,-1,-1,Female,asdffds,before,intermediate,-1,correct,-1,-1,Safari,Mac,1440,2560,0.4175833333333333,texture,material,feminine,fan,furniture,smooth,metal,0.75,5
+3,[],23,Confused,GREG1,-1,-1,-1,-1,Female,asdffds,before,intermediate,-1,correct,-1,-1,Safari,Mac,1440,2560,0.4175833333333333,texture,quality,masculine,desk,furniture,smooth,good,0.48,6
+4,[],23,Confused,GREG1,-1,-1,-1,-1,Female,asdffds,before,intermediate,-1,correct,-1,-1,Safari,Mac,1440,2560,0.4175833333333333,texture,shape,masculine,chair,furniture,smooth,round,0.35,7
