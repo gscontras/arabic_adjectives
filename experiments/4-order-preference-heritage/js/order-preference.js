@@ -169,6 +169,7 @@ function init() {
       screenUW: exp.width
     };
   //blocks of the experiment:
+  // exp.structure=['subj_info', 'thanks'];
   exp.structure=["i0", "instructions1",'multi_slider', 'subj_info', 'thanks'];
   
   exp.data_trials = [];
