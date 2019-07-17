@@ -1,0 +1,9 @@
+,catch_trials,subject_information_age,subject_information_comments,subject_information_dialect,subject_information_education,subject_information_enjoyment,subject_information_gender,subject_information_language,subject_information_lived,subject_information_proficiency,subject_information_test1,subject_information_test2,subject_information_test3,subject_information_years,system_Browser,system_OS,system_screenH,system_screenW,time_in_minutes,trials_class1,trials_class2,trials_gender,trials_noun,trials_nounclass,trials_predicate1,trials_predicate2,trials_response,trials_slide_number,workerID
+0,[],,"GREG0
+",-1,-1,-1,,,-1,-1,-1,-1,-1,-1,Safari,Mac,1440,2560,0.15906666666666666,age,color,masculine,TV,furniture,new,red,0.69,3,0.7039029139851313
+1,[],,"GREG0
+",-1,-1,-1,,,-1,-1,-1,-1,-1,-1,Safari,Mac,1440,2560,0.15906666666666666,age,texture,feminine,fan,furniture,old,soft,0.32,4,0.7039029139851313
+2,[],,"GREG0
+",-1,-1,-1,,,-1,-1,-1,-1,-1,-1,Safari,Mac,1440,2560,0.15906666666666666,quality,color,feminine,banana,food,good,purple,0.52,5,0.7039029139851313
+0,[],,GREG1,-1,-1,-1,,,-1,-1,-1,-1,-1,-1,Safari,Mac,1440,2560,0.13511666666666666,age,size,feminine,carrot,food,old,big,0.45,3,0.47943876903419946
+1,[],,GREG1,-1,-1,-1,,,-1,-1,-1,-1,-1,-1,Safari,Mac,1440,2560,0.13511666666666666,color,texture,masculine,cheese,food,purple,soft,0.55,4,0.47943876903419946

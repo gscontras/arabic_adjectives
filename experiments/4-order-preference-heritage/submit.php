@@ -8,6 +8,7 @@ if ($json != NULL && is_string($json)) {
     print("json valid writing to file");
     $file = fopen("results/new_map_data.json", "a+");                                                                                           
     fwrite($file, $json);
+    fwrite($file, ",");
     fclose($file);
 
     //  alternative using file_put_contents

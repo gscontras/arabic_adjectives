@@ -136,7 +136,8 @@ function make_slides(f) {
           "system" : exp.system,
           //"condition" : exp.condition,
           "subject_information" : exp.subj_data,
-          "time_in_minutes" : (Date.now() - exp.startT)/60000
+          "time_in_minutes" : (Date.now() - exp.startT)/60000,
+          "workerID" : exp.workerID
       };
       setTimeout(function() {turk.submit(exp.data);}, 1000);
     }
@@ -157,6 +158,7 @@ function init() {
     }
   })();
 
+  exp.workerID = Math.random();
   exp.trials = [];
   exp.catch_trials = [];
   exp.instruction = _.sample(["instruction1","instruction2"]);
