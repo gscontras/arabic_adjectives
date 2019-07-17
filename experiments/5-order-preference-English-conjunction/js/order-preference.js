@@ -53,9 +53,9 @@ function make_slides(f) {
 
       //$(".woman2").html(man2);
 
-      $(".low").html("\"the "+ stim.Predicate2 + " " + stim.Predicate1 + " " + stim.Noun + "\"");
+      $(".low").html("\"the "+ stim.Predicate2 + " and " + stim.Predicate1 + " " + stim.Noun + "\"");
 
-      $(".high").html("\"the "+ stim.Predicate1 + " " + stim.Predicate2 + " " + stim.Noun + "\"");
+      $(".high").html("\"the "+ stim.Predicate1 + " and " + stim.Predicate2 + " " + stim.Noun + "\"");
 
       // $(".utterance1").html("\"That "+ stim.Noun + " " + this.verbs[0] + " " + stim.Predicate + ".\"");
 
