@@ -123,7 +123,7 @@ function make_slides(f) {
       exp.subj_data = {
         language : $("#language").val(),
         enjoyment : $("#enjoyment").val(),
-        asses : $('input[name="assess"]:checked').val(),
+        assess : $('input[name="assess"]:checked').val(),
         age : $("#age").val(),
         gender : $("#gender").val(),
         education : $("#education").val(),
@@ -153,6 +153,16 @@ function make_slides(f) {
 
 /// init ///
 function init() {
+  repeatWorker = false;
+  (function(){
+    var ut_id = "english-order-preference";
+    if (UTWorkerLimitReached(ut_id)) {
+      $('.slide').empty();
+      repeatWorker = true;
+      alert("You have already completed the maximum number of HITs allowed by this requester. Please click 'Return HIT' to avoid any impact on your approval rating.");
+    }
+  })();
+
   exp.trials = [];
   exp.catch_trials = [];
   exp.instruction = _.sample(["instruction1","instruction2"]);
