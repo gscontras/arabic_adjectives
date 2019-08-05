@@ -111,7 +111,7 @@ function make_slides(f) {
         gender : $("#gender").val(),
         education : $("#education").val(),
         comments : $("#comments").val(),
-        describe : $("#describe").val(),
+        describe : $('input[name="describe"]:checked').val(),
         lived : $("#lived").val(),
         years : $("#years").val(),
         dialect : $("#dialect").val(),
