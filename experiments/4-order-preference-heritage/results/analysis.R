@@ -2,20 +2,14 @@ library(ggplot2)
 library(lme4)
 library(hydroGOF)
 library(dplyr)
-source("../results/helpers.R")
 
-setwd("~/git/arabic_adjectives/experiments/2-order-preference-expanded/Submiterator-master")
+setwd("~/git/arabic_adjectives/experiments/4-order-preference-heritage/results/")
+source("helpers.R")
 
-num_round_dirs = 15
-df1 = do.call(rbind, lapply(1:num_round_dirs, function(i) {
-  return (read.csv(paste(
-    'round', i, '/arabic-order-expanded.csv', sep=''),stringsAsFactors=FALSE) %>% 
-      mutate(workerid = (workerid + (i-1)*9)))}))
-df1$workerid = paste("vi.",df1$workerid)
 
-d1 = subset(df1, select=c("workerid","noun","gender","nounclass","slide_number", "predicate1", "predicate2", "class1","class2","response","language","comments","asses","gender.1","test1","test2","test3","dialect","lived","describe","years","proficiency"))
-
-d <- d1
+df = read.csv("results.csv",header=T)
+    
+d = subset(df, select=c("subject_information_age","subject_information_asses","subject_information_comments","subject_information_describe","subject_information_dialect", "subject_information_education", "subject_information_enjoyment", "subject_information_gender","subject_information_language","subject_information_lived","subject_information_proficiency","subject_information_test1","subject_information_test2","subject_information_test3","subject_information_years","time_in_minutes","trials_class1","trials_class2","trials_gender","trials_noun","trials_nounclass","trials_predicate1","trials_predicate2","trials_response","trials_slide_number","workerID"))
 
 # got all the test questions correct
 d = d[d$test1=="correct"&d$test2=="correct"&d$test3=="correct",]
@@ -24,12 +18,12 @@ d = d[d$lived=="both"&d$years=="5+",]
 # describe as arabic-arabic
 d = d[d$describe=="arabic-arabic",]
 
-unique(d$language)
+unique(d$subject_information_language)
 
-d = d[d$language != "البلوشية، العربية، الانجليزيه"&d$language!="",]
+d = d[d$subject_information_language != "English"&d$subject_information_language!="English "&d$subject_information_language!=""&d$subject_information_language!="انجليزي",]
 #d = d[d$asses=="Yes",]
 
-length(unique(d$workerid)) #n=24
+length(unique(d$workerID)) #n=6
 
 t <- d
 
@@ -40,28 +34,28 @@ t <- d
 library(tidyr)
 
 o <- t
-o$rightpredicate1 = o$predicate2
-o$rightpredicate2 = o$predicate1
-o$rightresponse = 1-o$response
+o$rightpredicate1 = o$trials_predicate2
+o$rightpredicate2 = o$trials_predicate1
+o$rightresponse = 1-o$trials_response
 agr = o %>% 
-  select(predicate1,rightpredicate1,response,rightresponse,workerid,noun,nounclass,class1,class2) %>%
-  gather(predicateposition,predicate,predicate1:rightpredicate1,-workerid,-noun,-nounclass,-class1,-class2)
-agr$correctresponse = agr$response
+  select(trials_predicate1,rightpredicate1,trials_response,rightresponse,workerID,trials_noun,trials_nounclass,trials_class1,trials_class2) %>%
+  gather(predicateposition,trials_predicate,trials_predicate1:rightpredicate1,-workerID,-trials_noun,-trials_nounclass,-trials_class1,-trials_class2)
+agr$correctresponse = agr$trials_response
 agr[agr$predicateposition == "rightpredicate1",]$correctresponse = agr[agr$predicateposition == "rightpredicate1",]$rightresponse
-agr$correctclass = agr$class1
-agr[agr$predicateposition == "rightpredicate1",]$correctclass = agr[agr$predicateposition == "rightpredicate1",]$class2
+agr$correctclass = agr$trials_class1
+agr[agr$predicateposition == "rightpredicate1",]$correctclass = agr[agr$predicateposition == "rightpredicate1",]$trials_class2
 head(agr[agr$predicateposition == "rightpredicate1",])
-agr$response = NULL
+agr$trails_response = NULL
 agr$rightresponse = NULL
-agr$class1 = NULL
-agr$class2 = NULL
+agr$trials_class1 = NULL
+agr$trials_class2 = NULL
 nrow(agr) #XXX
 #write.csv(agr,"~/git/arabic_adjectives/experiments/2-order-preference-expanded/results/arabic-naturalness-duplicated.csv")
 agr$correctresponse = 1 - agr$correctresponse
 
 agr = agr[!is.na(agr$correctresponse),]
 
-adj_agr = aggregate(correctresponse~predicate*correctclass,FUN=mean,data=agr)
+adj_agr = aggregate(correctresponse~trials_predicate*correctclass,FUN=mean,data=agr)
 adj_agr
 
 class_agr = aggregate(correctresponse~correctclass,FUN=mean,data=agr)
