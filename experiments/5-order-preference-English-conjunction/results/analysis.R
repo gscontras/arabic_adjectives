@@ -70,3 +70,29 @@ ggplot(data=class_s,aes(x=reorder(correctclass,-correctresponse,mean),y=correctr
 #theme(axis.text.x=element_text(angle=90,vjust=0.35,hjust=1))
 #ggsave("../results/class_distance.pdf",height=3)
 #ggsave("../results/LSA_class_distance.png",height=2,width=4.3)
+
+
+#### comparison with subjectivity
+
+s = read.csv("~/git/adjective_ordering/experiments/6-subjectivity/results/subjectivity-aggregate.csv",header=T)
+
+o_agr <- adj_agr
+
+o_agr$subjectivity = s$response[match(o_agr$predicate,s$predicate)]
+
+gof(o_agr$correctresponse,o_agr$subjectivity)
+# r = 0.82, r2 = 0.68
+results <- boot(data=o_agr, statistic=rsq, R=10000, formula=correctresponse~subjectivity)
+boot.ci(results, type="bca") 
+# 95%   ( 0.4549,  0.8038 )
+
+ggplot(o_agr, aes(x=subjectivity,y=correctresponse)) +
+  geom_point() +
+  #geom_smooth()+
+  stat_smooth(method="lm",color="black")+
+  #geom_text(aes(label=predicate),size=2.5,vjust=1.5)+
+  ylab("preferred distance from noun\n")+
+  xlab("\nsubjectivity score")+
+  #ylim(0,1)+
+  theme_bw()
+#ggsave("../results/naturalness-subjectivity-english-conjunction.pdf",height=3,width=3.5)
