@@ -54,6 +54,12 @@ function make_slides(f) {
         $(".low").html("\""+ stim.Noun + " " + stim.Predicate1.Predicate + " " + stim.Predicate2.Predicate + "\"");
 
         $(".high").html("\""+ stim.Noun + " " + stim.Predicate2.Predicate + " " + stim.Predicate1.Predicate + "\"");
+
+      if (gender == "neuter") {
+        $(".low").html("\""+ stim.Noun + " " + stim.Predicate1.NeuPredicate + " " + stim.Predicate2.NeuPredicate + "\"");
+
+        $(".high").html("\""+ stim.Noun + " " + stim.Predicate2.NuePredicate + " " + stim.Predicate1.NeuPredicate + "\"");
+
       } else {
         $(".low").html("\""+ stim.Noun + " " + stim.Predicate1.FemPredicate + " " + stim.Predicate2.FemPredicate + "\"");
 
