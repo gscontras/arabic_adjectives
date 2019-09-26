@@ -20,7 +20,7 @@ var adjectives = _.shuffle([
 		{"Predicate":"μακρύς", "Class":"size", "Translation":"long", "FemPredicate" : "μακριά", "NeuPredicate" :"μακρύ"},							
 		{"Predicate":"ξύλινος", "Class":"material", "Translation":"wooden", "FemPredicate" : "ξύλινη", "NeuPredicate" :"ξύλινο"},
 		{"Predicate":"πλαστικός", "Class":"material", "Translation":"plastic", "FemPredicate" : "πλαστική", "NeuPredicate" :"πλαστικό"},
-		{"Predicate":"μεταλικός", "Class":"material", "Translation":"metal", "FemPredicate" : "μεταλική", "NeuPredicate" :"μεταλικό"},
+		{"Predicate":"μεταλλικός", "Class":"material", "Translation":"metal", "FemPredicate" : "μεταλλική", "NeuPredicate" :"μεταλλικό"},
 		{"Predicate":"απαλός", "Class":"texture", "Translation":"smooth", "FemPredicate" : "απαλή", "NeuPredicate" :"απαλό"},
 		{"Predicate":"σκληρός", "Class":"texture", "Translation":"hard", "FemPredicate" : "σκληρή", "NeuPredicate" :"σκληρό"},
 		{"Predicate":"μαλακός", "Class":"texture", "Translation":"soft", "FemPredicate" : "μαλακή", "NeuPredicate" :"μαλακό"},
@@ -73,7 +73,7 @@ var nouns = [
 		{"Noun":"καρότο", "NounClass":"food", "Translation":"carrot", "Gender" : "neuter"},
 		{"Noun":"ντομάτα", "NounClass":"food", "Translation":"tomato", "Gender" : "feminine"},								
 		{"Noun":"καναπές", "NounClass":"furniture", "Translation":"couch", "Gender" : "masculine"},								
-		{"Noun":"ανεμιστήρας", "NounClass":"furniture", "Translation":"fan", "Gender" : "masculine"}								
+		{"Noun":"βεντάλια", "NounClass":"furniture", "Translation":"fan", "Gender" : "masculine"}								
 ];
 
 // var nouns = [
