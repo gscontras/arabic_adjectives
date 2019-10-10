@@ -12,18 +12,18 @@ df = read.csv("results.csv",header=T)
 d = subset(df, select=c("subject_information_age","subject_information_asses","subject_information_comments","subject_information_describe","subject_information_dialect", "subject_information_education", "subject_information_enjoyment", "subject_information_gender","subject_information_language","subject_information_lived","subject_information_proficiency","subject_information_test1","subject_information_test2","subject_information_test3","subject_information_years","time_in_minutes","trials_class1","trials_class2","trials_gender","trials_noun","trials_nounclass","trials_predicate1","trials_predicate2","trials_response","trials_slide_number","workerID"))
 
 # got all the test questions correct
-d = d[d$test1=="correct"&d$test2=="correct"&d$test3=="correct",]
-# lived more than 5 years both before and after age 8 in arabic country
-d = d[d$lived=="both"&d$years=="5+",]
-# describe as arabic-arabic
-d = d[d$describe=="arabic-arabic",]
+d = d[d$subject_information_test1=="correct"&d$subject_information_test2=="correct"&d$subject_information_test3=="correct",]
+# haven't lived in arabic-speaking country after 8
+d = d[d$subject_information_lived!="both"&d$subject_information_lived!="after",]
+## describe as arabic-arabic
+#d = d[d$describe=="arabic-arabic",]
+# levantine arabic
+d = d[d$subject_information_dialect=="levantine",]
 
-unique(d$subject_information_language)
-
-d = d[d$subject_information_language != "English"&d$subject_information_language!="English "&d$subject_information_language!=""&d$subject_information_language!="انجليزي",]
+#d = d[d$subject_information_language != "English"&d$subject_information_language!="English "&d$subject_information_language!=""&d$subject_information_language!="انجليزي",]
 #d = d[d$asses=="Yes",]
 
-length(unique(d$workerID)) #n=6
+length(unique(d$workerID)) #n=11 (20)
 
 t <- d
 
