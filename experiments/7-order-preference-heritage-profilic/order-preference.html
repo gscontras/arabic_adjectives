@@ -1,0 +1,286 @@
+
+
+  <!-- <html dir="rtl"> -->
+  <html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    
+    <title>Arabic adjectives</title>
+
+    <!--JS-->
+
+    <!-- external general utilities -->
+    <script src="../_shared/js/jquery-1.11.1.min.js "></script>
+    <script src="../_shared/full-projects/jquery-ui/jquery-ui.min.js"></script>
+    <script src="../_shared/js/underscore-min.js"></script>
+    <!-- if you want to draw stuff: -->
+    <script src="../_shared/js/raphael-min.js"></script>
+
+    <!-- cocolab experiment logic -->
+    <script src="../_shared/js/exp-V2.js"></script>
+    <script src="../_shared/js/stream-V2.js"></script>
+
+    <!-- cocolab general utilities -->
+    <script src="../_shared/js/mmturkey.js "></script>
+    <script src="../_shared/js/browserCheck.js"></script>
+    <script src="../_shared/js/utils.js"></script>
+    <!-- if you want to draw cute creatures (depends on raphael): -->
+    <!-- <script src="../_shared/js/ecosystem.js"></script> -->
+
+    <!-- experiment specific helper functions -->
+    <!-- <script src="js/local-utils.js"></script> -->
+
+    <!--CSS-->
+    <link href="../_shared/full-projects/jquery-ui/jquery-ui.min.css" rel="stylesheet" type="text/css"/>
+    <link href="../_shared/css/meaninglab-style.css" rel="stylesheet" type="text/css"/>
+    <link href="css/local-style.css" rel="stylesheet" type="text/css"/>
+
+    <!-- experiment file -->
+    <script src="js/order-preference.js"></script>
+    <script src="expt-files/corpus.js"></script>
+    <script src="expt-files/names.js"></script>
+
+    <!-- check unique turkers -->
+    <script src="../_shared/js/uniqueturker.js"></script>
+    
+</head>
+
+<body onload="init();">
+  <noscript>This task requires JavaScript.</noscript>
+
+  <div class="slide" id="i0">
+    <img src="../_shared/images/meaningLab.png" alt="UCI meaning lab" id="meaningLabLogo"></img>
+    <p id="instruct-text"><span dir="rtl">هذا HIT يشتمل على تفسير جمل من اللغة العربية. سوف تستغرق هذه المهمة حوالي ست دقائق. الرجاء الانتباه. شكرًا! </span>
+    <br><font color = "blue"><em> This HIT involves interpreting phrases of Arabic. The task should take about six minutes. Please pay attention. Thanks! </em></font></p>
+    <button dir="rtl" id="start_button" type="button">ابدأ التجربة/Start experiment</button>
+    <p id="legal" dir="rtl">معلومات قانونية: عن طريق الإجابة على الأسئلة التالية ، أنت تشارك في دراسة يقوم بها علماء معرفيون في جامعة كاليفورنيا ، إرفاين. إذا كانت لديك أسئلة حول هذا البحث ، فيرجى الاتصال بـGreg Scontras على العنوان <a href="mailto://g.scontras@uci.edu">g.scontras@uci.edu</a>. يجب أن يكون عمرك 18 عامًا على الأقل للمشاركة في هذه الدراسة. مشاركتك في هذا البحث تطوعية. يمكنك رفض الإجابة عن أي من الأسئلة التالية أو جميعها. يمكنك رفض المزيد من المشاركة ، في أي وقت ، دون عواقب سلبية. عدم الكشف عن هويتك مضمون. لن يتلقى الباحثون الذين طلبوا مشاركتك أي معلومات شخصية عنك. 
+    <br><br><font color = "blue"><em><span dir="ltr"> Legal information: By answering the following questions, you are participating in a study being performed by cognitive scientists at the University of California, Irvine. If you have questions about this research, please contact Greg Scontras at <a href="mailto://g.scontras@uci.edu">g.scontras@uci.edu</a>. You must be  at least 18 years old to participate. Your participation in this research is voluntary. You may decline to answer any or all of the following questions. You may decline further participation, at any time, without adverse consequences. Your anonymity is assured; the researchers who have requested your participation will not receive any personal information about you.</em></font></b></p>
+  </div>
+
+  <div class="slide" id="instructions1">
+    <h3 dir="rtl">التعليمات/ <font color="blue">Instructions</font></h3>
+    <p><span dir="rtl"> سترى 26 زوجًا من العبارات الوصفية القصيرة.
+مهمتك هي أن تقرر أي وصف يبدو أفضل.</span>
+  <br><font color = "blue"><em>You will see 26 pairs of short object descriptions. 
+    Your task is to decide which description sounds better.</em></font></b></p>
+    <!-- <p class="instruction_condition">{{}}</p> -->
+    <button onclick="_s.button()" dir="rtl">تابع/Continue</button>
+  </div>
+
+  <div class="slide" id="multi_slider">
+
+  <p class="name_said" dir="rtl"></p>
+
+    <!-- <p>Consider the following situation:</p> -->
+
+<!--    <p><span class = "woman">{{}}</span> sold a <span class="noun">{{}}</span> in her store.</p>
+
+    <p><span class="man1">{{}}</span> entered <span class = "woman">{{}}</span>'s store, noticed the <span class="noun">{{}}</span>, and said:</p>
+    -->
+    <!-- <p><span class="man1">{{}}</span> and <span class="man2">{{}}</span> see the same <span class="noun">{{}}</span>.</p> 
+    <p><span class="man1">{{}}</span> says: <b><span class="utterance1">{{}}</span></b></p>
+
+    <p><span class="man2">{{}}</span> responds: <b><span class="utterance2">{{}}</span></b></p> -->
+
+<!--     <p>Do the statements make sense?</p>
+    <label><input type="radio"  name="sense" value="Yes"/>Yes</label>
+    <label><input type="radio"  name="sense" value="No"/>No</label>
+    </br></br>
+ -->
+    <br>
+
+    <p><span dir="rtl">أي وصف ل "<span class="noun">{{}}</span>" يبدو أصح؟</span><br>
+   
+   <font color = "blue"><em>Which description of <span class="noun">{{}}</span> sounds more natural?</font></em></p>
+
+    <table id="multi_slider_table" class="slider_table" dir="rtl">
+<!--      <tr><td class="left">No, somebody must be wrong.</td><td class="right">Yes, it's a matter of opinion.</td></tr> -->
+      <tr><td><span class="low">{{}}</span></td><td>
+      <div id="slider0" class="slider"></div>
+      </td><td><span class="high">{{}}</span></td></tr>
+    </table>
+
+    <p> <span dir="rtl">اضبط شريط التمرير للإشارة إلى تفضيلك. <span dir="ltr"><font color = "blue"><em> Adjust the slider to indicate your preference.</font><br><em><p>
+
+    <button onclick="_s.button()" dir="rtl">تابع/Continue</button>
+    <div class="err" dir="rtl">اضبط شريط التمرير قبل المتابعة 
+    <br><font color = "blue" dir="ltr"><em>Please adjust the slider before continuing.</font></em></div>
+  </div>
+
+  <div class="slide"  id="subj_info" >
+    <div class="long_form">
+      <div class="subj_info_title" dir="rtl">معلومات إضافية / Additional information </div> 
+      
+      <p class="info" dir="rtl">إن الإجابة على هذه الأسئلة أمر اختياري ، ولكن سوف يساعدنا في فهم إجاباتك.
+      <br><font color = "blue"><em><span dir= "ltr"> Answering these questions is optional, but will help us understand your answers.</span></em></font></p>
+      
+      <p dir="rtl"><b>هل قرأت التعليمات وهل تعتقد أنك قمت بهذه المهمة بشكل صحيح؟
+      <br><font color = "blue" dir="ltr"><em>Did you read the instructions and do you think you did the HIT correctly? </em></font></b>
+      <br>
+      <label><input type="radio"  name="assess" value="No"/>كلا/ No</label>
+      <label><input type="radio"  name="assess" value="Yes"/>نعم/ Yes</label>
+      <label><input type="radio"  name="assess" value="Confused"/> الأسئلة لم تكن واضحة/ I was confused </label>
+
+      </p>
+
+      <p  dir="rtl"><b>الجنس/ <span dir="ltr"><font color="blue"> Gender</font></span></b>
+        </p><select id="gender">
+          <label><option dir="rtl" value=""/></label>
+          <label><option dir="rtl" value="Male"/>ذكر/ Male</label>
+          <label><option dir="rtl" value="Female"/>أنثى/ Female</label>
+          <label><option dir="rtl" value="Other"/>مختلف/ Other</label>
+        </select>
+      
+
+      <p dir="rtl"><b>العمر/ <span dir ="ltr"><font color="blue"> Age </font></span></b></p><input type="text" id="age"/>
+
+      <p dir="rtl"><b>المستوى التعليمي/ <span dir ="ltr"><font color="blue">Level Of Education</font></span></b></p>
+        <select id="education">
+          <label><option dir="rtl" value="-1"/></label>
+          <label><option dir="rtl" value="0"/>بعض الثانوي/ Some High School</label>
+          <label><option dir="rtl" value="1"/>متخرج من الثانوية/ Graduated High School </label>
+          <label><option dir="rtl" value="2"/>بعض  الكلية/ Some College</label>
+          <label><option dir="rtl" value="3"/>متخرج من الكلية/ Graduated College</label>
+          <label><option dir="rtl" value="4"/>تحمل شهادة أعلى/ Hold a higher degree</label>
+        </select>
+      
+
+      <p dir="rtl">اللغة الأم <span dir="ltr"><font color = "blue">Native Language: </font><input type="text" id="language"/></span></p>
+      <label>(اللغة (اللغات) التي تم التحدث بها في المنزل عندما كنت طفلاً)</label>
+      <br><font color = "blue"><em><label>(the language(s) spoken at home when you were a child)</em></font></p></label>
+
+     <p dir="rtl"><b>أي من الخيارات التالية تصفك بشكل أفضل؟ <span dir="ltr"><font color = "blue"> Which of the following options best describes you?</font></span></b>
+      <br><br><label><input type="radio"  name="describe" value="arabic-arabic"/>تعلمت اللغة العربية كلغة أولى، وما زالت العربية لغتي الأساسية حتى الآن <br><span dir="ltr"><font color="blue">I learned Arabic as my first language and Arabic is still my primary language </font></span></label>
+      <br><br><label><input type="radio"  name="describe" value="arabic-english"/><span dir="rtl">تعلمت اللغة العربية كلغة أولى ولكن اللغة الإنجليزية هي لغتي الأساسية الآن <br><span dir="ltr"><font color="blue"> I learned Arabic as my first language but now English is my primary language </font></span></label>
+      <br><br><label><input type="radio"  name="describe" value="english-arabic"/><span dir="rtl">تعلمت الإنجليزية كلغة أولى ثم تعلمت العربية فيما بعد <br><span dir="ltr"><font color="blue"> I learned English as my first language and then learned Arabic later</font></span></label>
+      <br><br><label><input type="radio"  name="describe" value="other"/><span dir="rtl">تعلمت لغة أخرى غير الإنجليزية أو العربية كلغة أولى ، ثم تعلمت اللغة العربية في وقت لاحق <br><span dir="ltr"><font color="blue"> I learned a language other than English or Arabic as my first language, and then learned Arabic later</font></span></label>
+        
+      </p>
+
+      <p><span dir="rtl"><b>هل عشت في بلد يتحدث اللغة العربية؟ <span dir="ltr"><font color = "blue">Have you lived in an Arabic-speaking country?</font></span></b>
+        <select id="lived">
+          <label><option dir="rtl" value="-1"/></label>
+          <label><option dir="rtl" value="no"/>لا ، لم أعش قط في بلد يتحدث اللغة العربية <span dir="ltr">No, I have never lived in an Arabic-speaking country </label>
+          <label><option dir="rtl" value="both"/>نعم ، قبل وبعد سن الثامنة من عمري <span dir="ltr"> Yes, both before and after the age of 8 </label>
+          <label><option dir="rtl" value="before"/>نعم ، قبل سن الثامنة من عمري <span dir="ltr"> Yes, before the age of 8</label>
+          <label><option dir="rtl" value="after"/>نعم ، بعد سن الثامنة من عمري <span dir="ltr"> Yes, after the age of 8</label>
+        </select>
+      </p>
+
+      <p dir="rtl"><b>كم سنة عشت في بلد يتحدث اللغة العربية؟ <span dir="ltr"><font color = "blue"> How many years have you lived in an Arabic-speaking country?</font></span></b>
+        <select id="years">
+          <label><option dir="rtl" value="-1"/></label>
+          <label><option dir="rtl" value="never"/>لم أعش قط في بلد يتحدث اللغة العربية/ <span dir="ltr"> I have never lived in an Arabic-speaking country</span></label>
+          <label><option dir="rtl" value="1"/>أقل من سنة واحدة/ <span dir="ltr">Less than 1 year </label>
+          <label><option dir="rtl" value="1-5"/>من سنة إلى خمس سنوات/ <span dir="ltr">1-5 years </label>
+          <label><option dir="rtl" value="5+"/>أكثر من خمس سنوات/ <span dir="ltr">More than 5 years</label>
+        </select>
+      </p>
+
+      <p dir="rtl"><b>ما هي اللهجة العربية التي تتحدثها؟ <span dir="ltr"><font color = "blue">  What dialect of Arabic do you speak?</font></span></b>
+        <select id="dialect">
+          <label><option dir="rtl" value="-1"/></label>
+          <label><option dir="rtl" value="egyptian"/>المصرية/ Egyptian</label>
+          <label><option dir="rtl" value="levantine"/>الشامية(اللبنانية، السورية، الفلسطينية، والأردنية)/ Laventine(Lebanese, Syrian, Palastenian, or Joradanian) </label>
+          <label><option dir="rtl" value="gulf"/>الخليجية/ Gulf Arabic</label>
+          <label><option dir="rtl" value="saudi"/>السعودية/ Saudi</label>
+          <label><option dir="rtl" value="iraqi"/>العراقية/ Iragi</label>
+          <label><option dir="rtl" value="moroccan"/>المغربية/ Moroccan</label>
+          <label><option dir="rtl" value="other"/>لهجة مختلفة/ Other</label>
+        </select>
+      </p>
+
+      <p dir="rtl"><b>إذا كنت تتحدث لهجة مختلفة الرجاء التحديد/ <span dir="ltr"><font color = "blue"> If other, please specify </font></span></b></p><input type="text" id="otherDialect"/>
+
+      <p dir="rtl"><b>ما اللغة التي تتكلمها أكثر في المنزل؟ <span dir="ltr"><font color = "blue"> Which language do you use most frequently at home?</font></span></b></p>
+        <select id="homeLanguage">
+          <label><option dir="rtl" value="-1"/></label>
+          <label><option dir="rtl" value="arabic"/>العربية/ Arabic</label>
+          <label><option dir="rtl" value="english"/>الإنجليزية/ English</label>
+          <label><option dir="rtl" value="other"/>لغة أخرى/ Other</label>
+        </select>
+      
+
+
+      <p dir="rtl"><b>ما اللغة التي تستخدمها أكثر خارج المنزل؟ <span dir="ltr"><font color = "blue"> Which language do you use most frequently outside the home?</font></span></b></p>
+        <select id="dominantLanguage">
+          <label><option dir="rtl" value="-1"/></label>
+          <label><option dir="rtl" value="arabic"/>العربية/ Arabic</label>
+          <label><option dir="rtl" value="english"/>الإنجليزية/ English</label>
+          <label><option dir="rtl" value="other"/>لغة أخرى/ Other</label>
+        </select>
+      
+
+
+      <p dir="rtl"><b>كيف تقيم مستوى إجادتك للغة العربية الفصحى؟ <span dir="ltr"><font color = "blue">How would you evaluate your proficiency in Arabic?</font></span></b></p>
+        <select id="proficiency">
+          <label><option dir="rtl" value="-1"/></label>
+          <label><option dir="rtl" value="basic"/>مستوى أساسي/ Basic</label>
+          <label><option dir="rtl" value="intermediate"/>متوسط/ Intermediate </label>
+          <label><option dir="rtl" value="advanced"/>متقدم/ Advanced</label>
+          <label><option dir="rtl" value="superior"/>متفوق/ Superior</label>
+          <label><option dir="rtl" value="no-response"/>أفضل عدم الرد/ Prefer not to answer</label>
+        </select>
+      
+
+      <p dir="rtl"><b>أي وصف يبدو أصح؟ <span dir="ltr"><font color = "blue">Which description sounds more correct?</font></span></b></p>
+        <select id="test1">
+          <label><option dir="rtl" value="-1"/></label>
+          <label><option dir="rtl" value="correct"/>التفاحة الصغيرة الحمراء</label>
+          <label><option dir="rtl" value="incorrect"/>التفاحة الصغير الأحمر</label>
+        </select>
+      
+
+
+      <p dir="rtl"><b>أي وصف يبدو أصح؟ <span dir="ltr"><font color = "blue">Which description sounds more correct?</font></span></b></p>
+        <select id="test2">
+          <label><option dir="rtl" value="-1"/></label>
+          <label><option dir="rtl" value="incorrect"/>الطاولة الأزرق الكبير</label>
+          <label><option dir="rtl" value="correct"/>الطاولة الزرقاء الكبيرة</label>
+        </select>
+      
+
+
+      <p dir="rtl"><b>أي وصف يبدو أصح؟ <span dir="ltr"><font color = "blue">Which description sounds more correct?</font></span></b></p>
+        <select id="test3">
+          <label><option dir="rtl" value="-1"/></label>
+          <label><option dir="rtl" value="correct"/>البحر الأزرق الواسع</label>
+          <label><option dir="rtl" value="incorrect"/>البحر الزرقاء الواسعة</label>
+        </select>
+      
+
+
+      <p dir="rtl"><b>هل استمتعت بالمهمة؟ <span dir="ltr"><font color = "blue">Did you enjoy the hit?</font></span></b></p> 
+      <select id="enjoyment">
+        <label><option dir="rtl" value="-1"></option></label>
+        <label><option dir="rtl" value="0">أسوأ من المتوسط / Worse than average hit</option></label>
+        <label><option dir="rtl" value="1">متوسط / An average hit</option></label>
+        <label><option dir="rtl" value="2">أفضل من المتوسط / better than average hit</option></label>
+      </select>
+
+      <p dir="rtl"><b>نحن مهتمون بأي تعليقات لديك عن هذه التجربة. يرجى كتابتها هنا <br><span dir="ltr"><font color = "blue">We would be interested in any comments you have about this experiment. Please type them here:</font></span></b></p>
+      <textarea id="comments" rows="3" cols="50"></textarea>
+      <br/>
+      <button onclick="_s.submit()">تقديم/ Submit</button>
+    </div>
+  </div>
+
+  <div id="thanks" class="slide js">
+    <p  class="big" dir="rtl">شكرا على وقتك! <br><span dir="ltr"><font color="blue"> Thanks for your time!</font></span></p>
+    <p  dir="rtl"><b>الرجاء الضغط على هذا الرابط لإتمام المهمة:</b>
+    <p  dir="ltr"><font color="blue"> Please click on this link to complete the experiment:</font></p>
+    <p> <a href="https://app.prolific.co/submissions/complete?cc=1DC4F2EB"> https://app.prolific.co/submissions/complete?cc=1DC4F2EB</a> 
+  </div>
+  
+  <div class="progress">
+    <span><font color="blue"> Progress:</font></span>
+    <div class="bar-wrapper">
+      <div class="bar" width="0%">
+      </div>
+    </div>
+    <span dir= "rtl">التقدم:</span>
+  </div>
+
+</body>
+</html>
