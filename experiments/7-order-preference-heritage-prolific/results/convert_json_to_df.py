@@ -10,7 +10,7 @@ def convert_json_to_df(json_obj):
   from pandas.io.json import json_normalize
   
   # default index for json flatten is 3
-  json_flattened = flatten_preserve_lists(json_obj, max_list_index=100)
+  json_flattened = flatten_preserve_lists(json_obj, max_list_index=1000)
   df = json_normalize(json_flattened)
   
   return df
