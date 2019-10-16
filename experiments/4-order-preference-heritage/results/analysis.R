@@ -9,7 +9,35 @@ source("helpers.R")
 
 df = read.csv("results.csv",header=T)
     
-d = subset(df, select=c("subject_information_age","subject_information_asses","subject_information_comments","subject_information_describe","subject_information_dialect", "subject_information_education", "subject_information_enjoyment", "subject_information_gender","subject_information_language","subject_information_lived","subject_information_proficiency","subject_information_test1","subject_information_test2","subject_information_test3","subject_information_years","time_in_minutes","trials_class1","trials_class2","trials_gender","trials_noun","trials_nounclass","trials_predicate1","trials_predicate2","trials_response","trials_slide_number","workerID"))
+d = subset(df, select=c("subject_information_age",
+                        "subject_information_asses",
+                        "subject_information_comments",
+                        "subject_information_describe",
+                        "subject_information_dialect", 
+                        "subject_information_education", 
+                        "subject_information_enjoyment", 
+                        "subject_information_gender",
+                        "subject_information_language",
+                        "subject_information_lived",
+                        "subject_information_proficiency",
+                        "subject_information_test1",
+                        "subject_information_test2",
+                        "subject_information_test3",
+                        "subject_information_years",
+                        "time_in_minutes",
+                        "trials_class1",
+                        "trials_class2",
+                        "trials_gender",
+                        "trials_noun",
+                        "trials_nounclass",
+                        "trials_predicate1",
+                        "trials_predicate2",
+                        "trials_response",
+                        "trials_slide_number",
+                        "workerID",
+                        "time_in_minutes"))
+
+#d <- df
 
 # got all the test questions correct
 d = d[d$subject_information_test1=="correct"&d$subject_information_test2=="correct"&d$subject_information_test3=="correct",]
@@ -23,7 +51,7 @@ d = d[d$subject_information_dialect=="levantine",]
 #d = d[d$subject_information_language != "English"&d$subject_information_language!="English "&d$subject_information_language!=""&d$subject_information_language!="انجليزي",]
 #d = d[d$asses=="Yes",]
 
-length(unique(d$workerID)) #n=11 (20)
+length(unique(d$workerID)) #n=11 (23)
 
 t <- d
 

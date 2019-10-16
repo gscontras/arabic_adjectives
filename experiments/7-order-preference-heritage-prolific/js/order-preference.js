@@ -139,7 +139,12 @@ function make_slides(f) {
           "time_in_minutes" : (Date.now() - exp.startT)/60000,
           "workerID" : exp.workerID
       };
-      setTimeout(function() {turk.submit(exp.data);}, 1000);
+      submitFinal = function(){
+      console.log("SUBMIT")
+      turk.submit(exp.data)
+      // js_send()
+    }
+      // setTimeout(function() {turk.submit(exp.data);}, 1000);
     }
   });
 
