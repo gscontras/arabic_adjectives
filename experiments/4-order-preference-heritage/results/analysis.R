@@ -9,47 +9,49 @@ source("helpers.R")
 
 df = read.csv("results.csv",header=T)
     
-d = subset(df, select=c("subject_information_age",
-                        "subject_information_asses",
-                        "subject_information_comments",
-                        "subject_information_describe",
-                        "subject_information_dialect", 
-                        "subject_information_education", 
-                        "subject_information_enjoyment", 
-                        "subject_information_gender",
-                        "subject_information_language",
-                        "subject_information_lived",
-                        "subject_information_proficiency",
-                        "subject_information_test1",
-                        "subject_information_test2",
-                        "subject_information_test3",
-                        "subject_information_years",
+d = subset(df, select=c("age",
+                        "asses",
+                        "comments",
+                        "describe",
+                        "dialect", 
+                        "education", 
+                        "enjoyment", 
+                        "gender",
+                        "language",
+                        "lived",
+                        "proficiency",
+                        "test1",
+                        "test2",
+                        "test3",
+                        "years",
                         "time_in_minutes",
-                        "trials_class1",
-                        "trials_class2",
-                        "trials_gender",
-                        "trials_noun",
-                        "trials_nounclass",
-                        "trials_predicate1",
-                        "trials_predicate2",
-                        "trials_response",
-                        "trials_slide_number",
-                        "workerID",
+                        "class1",
+                        "class2",
+                        "gender",
+                        "noun",
+                        "nounclass",
+                        "predicate1",
+                        "predicate2",
+                        "response",
+                        "slide_number",
+                        "participant_id",
                         "time_in_minutes"))
 
 #d <- df
 
 # got all the test questions correct
-d = d[d$subject_information_test1=="correct"&d$subject_information_test2=="correct"&d$subject_information_test3=="correct",]
+d = d[d$test1=="correct"&d$test2=="correct"&d$test3=="correct",]
 # haven't lived in arabic-speaking country after 8
-d = d[d$subject_information_lived!="both"&d$subject_information_lived!="after",]
+d = d[d$lived!="both"&d$lived!="after",]
 ## describe as arabic-arabic
 #d = d[d$describe=="arabic-arabic",]
 # levantine arabic
-d = d[d$subject_information_dialect=="levantine",]
+d = d[d$dialect=="levantine",]
 
 #d = d[d$subject_information_language != "English"&d$subject_information_language!="English "&d$subject_information_language!=""&d$subject_information_language!="انجليزي",]
 #d = d[d$asses=="Yes",]
+
+d$workerID = d$participant_id
 
 length(unique(d$workerID)) #n=11 (23)
 
@@ -62,28 +64,28 @@ t <- d
 library(tidyr)
 
 o <- t
-o$rightpredicate1 = o$trials_predicate2
-o$rightpredicate2 = o$trials_predicate1
-o$rightresponse = 1-o$trials_response
+o$rightpredicate1 = o$predicate2
+o$rightpredicate2 = o$predicate1
+o$rightresponse = 1-o$response
 agr = o %>% 
-  select(trials_predicate1,rightpredicate1,trials_response,rightresponse,workerID,trials_noun,trials_nounclass,trials_class1,trials_class2) %>%
-  gather(predicateposition,trials_predicate,trials_predicate1:rightpredicate1,-workerID,-trials_noun,-trials_nounclass,-trials_class1,-trials_class2)
-agr$correctresponse = agr$trials_response
+  select(predicate1,rightpredicate1,response,rightresponse,workerID,noun,nounclass,class1,class2) %>%
+  gather(predicateposition,predicate,predicate1:rightpredicate1,-workerID,-noun,-nounclass,-class1,-class2)
+agr$correctresponse = agr$response
 agr[agr$predicateposition == "rightpredicate1",]$correctresponse = agr[agr$predicateposition == "rightpredicate1",]$rightresponse
-agr$correctclass = agr$trials_class1
-agr[agr$predicateposition == "rightpredicate1",]$correctclass = agr[agr$predicateposition == "rightpredicate1",]$trials_class2
+agr$correctclass = agr$class1
+agr[agr$predicateposition == "rightpredicate1",]$correctclass = agr[agr$predicateposition == "rightpredicate1",]$class2
 head(agr[agr$predicateposition == "rightpredicate1",])
 agr$trails_response = NULL
 agr$rightresponse = NULL
-agr$trials_class1 = NULL
-agr$trials_class2 = NULL
-nrow(agr) #XXX
+agr$class1 = NULL
+agr$class2 = NULL
+nrow(agr) #572
 #write.csv(agr,"~/git/arabic_adjectives/experiments/2-order-preference-expanded/results/arabic-naturalness-duplicated.csv")
 agr$correctresponse = 1 - agr$correctresponse
 
 agr = agr[!is.na(agr$correctresponse),]
 
-adj_agr = aggregate(correctresponse~trials_predicate*correctclass,FUN=mean,data=agr)
+adj_agr = aggregate(correctresponse~predicate*correctclass,FUN=mean,data=agr)
 adj_agr
 
 class_agr = aggregate(correctresponse~correctclass,FUN=mean,data=agr)
