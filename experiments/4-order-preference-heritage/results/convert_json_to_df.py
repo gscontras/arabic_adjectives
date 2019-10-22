@@ -1,37 +1,41 @@
 import pandas as pd
 import json
 
-def convert_json_to_df(json_obj):
-  """
-  This functions takes in a (nested) json object as input and converts it into a dataframe.
-  """
+def convert_json_to_df(trials_json):
+    
+    df = pd.DataFrame(trials_json['trials'])
 
-  from flatten_json import flatten_preserve_lists
-  from pandas.io.json import json_normalize
-  
-  # default index for json flatten is 3
-  json_flattened = flatten_preserve_lists(json_obj, max_list_index=100)
-  df = json_normalize(json_flattened)
-  
-  return df
+    for key in trials_json['subject_information'].keys():
+        df[key] = trials_json['subject_information'][key]
 
+    for key in trials_json['system'].keys():
+        df[key] = trials_json['system'][key]
 
+    df['time_in_minutes'] = trials_json['time_in_minutes']
+    # df['workerID'] = trials_json['workerID']
+    
+    return df
 
-#load data and name it json_trials1
+#load data and name it json_trials
 with open('new_map_data.json') as json_file:
     
     # add "[" as first element, remove last comma from end of string, then add "]" to end of string
     # json_file is an _io.textiowrapper object and the .read() method is converting it to a string
     json_file_string = '[' + json_file.read()[:-1] + ']'
 
-    #json.loads expects a string as an iput 
-    json_trials1 = json.loads(json_file_string)
+    # json.loads expects a string as an iput 
+    json_trials = json.loads(json_file_string)
 
-df_trials1 = pd.DataFrame() #this creates an empty dataframe
-for x in json_trials1:
+df_trials = pd.DataFrame() #this creates an empty dataframe
+participant_id = 1
+for x in json_trials:
   df_ = convert_json_to_df(x)
-  df_trials1 = pd.concat([df_trials1, df_])
+  df_['participant_id'] = participant_id
 
-df_trials1.to_csv("results.csv")
+  df_trials = pd.concat([df_trials, df_], sort=False)
 
-# print(json_trials1)
+  participant_id += 1
+
+df_trials.to_csv("results.csv")
+
+# print(json_trials)
