@@ -29,7 +29,7 @@ unique(d$language)
 d = d[d$language != "Arabic English",]
 #d = d[d$asses=="Yes",]
 
-length(unique(d$workerid)) #n=16
+length(unique(d$workerid)) #n=16 (135)
 
 t <- d
 

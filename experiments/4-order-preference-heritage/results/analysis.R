@@ -53,7 +53,7 @@ d = d[d$dialect=="levantine",]
 
 d$workerID = d$participant_id
 
-length(unique(d$workerID)) #n=11 (23)
+length(unique(d$workerID)) #n=12 (23)
 
 t <- d
 
@@ -98,7 +98,7 @@ ggplot(data=class_s,aes(x=reorder(correctclass,-correctresponse,mean),y=correctr
   geom_errorbar(aes(ymin=bootsci_low, ymax=bootsci_high, x=reorder(correctclass,-correctresponse,mean), width=0.1))+
   geom_hline(yintercept=0.5,linetype="dashed") + 
   xlab("\nadjective class")+
-  ylab("preferred\ndistance from noun\n")+
+  ylab("preferred distance from noun\n")+
   ylim(0,1)+
   #labs("order\npreference")+
   theme_bw()#+
