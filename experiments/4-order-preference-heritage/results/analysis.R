@@ -79,8 +79,8 @@ agr$trails_response = NULL
 agr$rightresponse = NULL
 agr$class1 = NULL
 agr$class2 = NULL
-nrow(agr) #572
-#write.csv(agr,"~/git/arabic_adjectives/experiments/2-order-preference-expanded/results/arabic-naturalness-duplicated.csv")
+nrow(agr) #624
+#write.csv(agr,"~/git/arabic_adjectives/experiments/4-order-preference-heritage/results/heritage-arabic-naturalness-duplicated.csv")
 agr$correctresponse = 1 - agr$correctresponse
 
 agr = agr[!is.na(agr$correctresponse),]
@@ -105,3 +105,4 @@ ggplot(data=class_s,aes(x=reorder(correctclass,-correctresponse,mean),y=correctr
 #theme(axis.text.x=element_text(angle=90,vjust=0.35,hjust=1))
 #ggsave("../results/class_distance.pdf",height=3)
 #ggsave("../results/LSA_class_distance.png",height=2,width=4.3)
+

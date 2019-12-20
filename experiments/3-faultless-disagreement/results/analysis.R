@@ -79,3 +79,34 @@ ggplot(o_agr, aes(x=subjectivity,y=correctresponse)) +
   #ylim(0,1)+
   theme_bw()
 #ggsave("../results/naturalness-subjectivity-arabic.pdf",height=3,width=3.5)
+
+
+
+
+
+#### HERITAGE comparison with faultless disgareement
+
+o = read.csv("../../4-order-preference-heritage/results/heritage-arabic-naturalness-duplicated.csv",header=T)
+o$correctresponse = 1 - o$correctresponse
+
+o_agr = aggregate(correctresponse~predicate,data=o,FUN=mean)
+
+o_agr$subjectivity = d_agr$response[match(o_agr$predicate,d_agr$predicate)]
+
+gof(o_agr$correctresponse,o_agr$subjectivity)
+# r = 0.51, r2 = 0.26
+results <- boot(data=o_agr, statistic=rsq, R=10000, formula=correctresponse~subjectivity)
+boot.ci(results, type="bca") 
+# 95%   ( 0.0097,  0.5708 )  
+
+ggplot(o_agr, aes(x=subjectivity,y=correctresponse)) +
+  geom_point() +
+  #geom_smooth()+
+  stat_smooth(method="lm",color="black")+
+  #geom_text(aes(label=predicate),size=2.5,vjust=1.5)+
+  ylab("preferred distance from noun\n")+
+  xlab("\nsubjectivity score")+
+  #ylim(0,1)+
+  theme_bw()
+#ggsave("../results/naturalness-subjectivity-arabic-heritage.pdf",height=3,width=3.5)
+#ggsave("../results/naturalness-subjectivity-arabic-heritage-labeled.pdf",height=3,width=3.5)
