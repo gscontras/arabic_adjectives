@@ -63,14 +63,14 @@ ggplot(data=class_s,aes(x=reorder(correctclass,-correctresponse,mean),y=correctr
   geom_errorbar(aes(ymin=bootsci_low, ymax=bootsci_high, x=reorder(correctclass,-correctresponse,mean), width=0.1))+
   geom_hline(yintercept=0.5,linetype="dashed") + 
   xlab("\nadjective class")+
-  ylab("preferred\ndistance from noun\n")+
+  ylab("preferred distance from noun\n")+
   ylim(0,1)+
   #labs("order\npreference")+
   theme_bw()#+
 #theme(axis.text.x=element_text(angle=90,vjust=0.35,hjust=1))
 #ggsave("../results/class_distance.pdf",height=3)
 #ggsave("../results/LSA_class_distance.png",height=2,width=4.3)
-
+#ggsave("../results/english-conjunction-ordering.pdf",height=2.5,width=7)
 
 #### comparison with subjectivity
 
@@ -97,3 +97,6 @@ ggplot(o_agr, aes(x=subjectivity,y=correctresponse)) +
   theme_bw()
 #ggsave("../results/naturalness-subjectivity-english-conjunction.pdf",height=3,width=3.5)
 #ggsave("../results/naturalness-subjectivity-english-conjunction.pdf",height=2.6,width=3.03)
+#ggsave("../results/english-conjunction-scatter.pdf",height=2.75,width=3.15)
+
+
