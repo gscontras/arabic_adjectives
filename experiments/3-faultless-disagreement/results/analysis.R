@@ -76,7 +76,7 @@ ggplot(o_agr, aes(x=subjectivity,y=correctresponse)) +
   #geom_text(aes(label=predicate),size=2.5,vjust=1.5)+
   ylab("preferred distance from noun\n")+
   xlab("\nsubjectivity score")+
-  #ylim(0,1)+
+  ylim(0,1)+
   theme_bw()
 #ggsave("../results/naturalness-subjectivity-arabic.pdf",height=3,width=3.5)
 #ggsave("../results/arabic-scatter.pdf",height=2.75,width=3.15)
@@ -106,7 +106,8 @@ ggplot(o_agr, aes(x=subjectivity,y=correctresponse)) +
   #geom_text(aes(label=predicate),size=2.5,vjust=1.5)+
   ylab("preferred distance from noun\n")+
   xlab("\nsubjectivity score")+
-  #ylim(0,1)+
+  ylim(0,1)+
   theme_bw()
 #ggsave("../results/naturalness-subjectivity-arabic-heritage.pdf",height=3,width=3.5)
 #ggsave("../results/naturalness-subjectivity-arabic-heritage-labeled.pdf",height=3,width=3.5)
+#ggsave("../results/heritage-arabic-scatter.pdf",height=2.75,width=3.15)
