@@ -103,6 +103,6 @@ ggplot(data=class_s,aes(x=reorder(correctclass,-correctresponse,mean),y=correctr
   #labs("order\npreference")+
   theme_bw()#+
 #theme(axis.text.x=element_text(angle=90,vjust=0.35,hjust=1))
-#ggsave("../results/class_distance.pdf",height=3)
+#ggsave("../results/heritage-distance.pdf",height=2.5)
 #ggsave("../results/LSA_class_distance.png",height=2,width=4.3)
 
