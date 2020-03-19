@@ -1,0 +1,1 @@
+python adj_adj_noun_tagger.py --source_path 'ar.2013_20.raw' --destination_path 'test_20200319.csv' --tagger_path 'stanford-postagger-full-2018-10-16/models/arabic.tagger' --jar_path 'stanford-postagger-full-2018-10-16/stanford-postagger.jar'
