@@ -36,6 +36,7 @@ t <- d
 library(tidyr)
 
 d$response = 1-d$response
+#write.csv(d,"../results/arabic-faultless.csv")
 
 class_agr = aggregate(response~class,FUN=mean,data=d)
 d_agr = aggregate(response~predicate,FUN=mean,data=d)
