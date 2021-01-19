@@ -1,0 +1,551 @@
+"","workerid","noun","gender","nounclass","slide_number","predicate","class","response","language","comments","asses","test1","test2","test3","dialect","lived","describe","years","proficiency"
+"726","vi. 29","apple","Female","food",3,"hard","texture",1,"العربيه","تجربه رائعه","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","superior"
+"727","vi. 29","carrot","Female","food",4,"purple","color",0.86,"العربيه","تجربه رائعه","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","superior"
+"728","vi. 29","tomato","Female","food",5,"big","size",0.86,"العربيه","تجربه رائعه","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","superior"
+"729","vi. 29","carrot","Female","food",6,"blue","color",0.09,"العربيه","تجربه رائعه","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","superior"
+"730","vi. 29","fan","Female","furniture",7,"long","size",0.8,"العربيه","تجربه رائعه","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","superior"
+"731","vi. 29","carrot","Female","food",8,"smooth","texture",0.78,"العربيه","تجربه رائعه","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","superior"
+"732","vi. 29","tomato","Female","food",9,"new","age",0.71,"العربيه","تجربه رائعه","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","superior"
+"733","vi. 29","apple","Female","food",10,"fresh","age",0.65,"العربيه","تجربه رائعه","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","superior"
+"734","vi. 29","TV","Female","furniture",11,"yellow","color",0.15,"العربيه","تجربه رائعه","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","superior"
+"735","vi. 29","carrot","Female","food",12,"short","size",0.88,"العربيه","تجربه رائعه","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","superior"
+"736","vi. 29","cheese","Female","food",13,"good","quality",0.87,"العربيه","تجربه رائعه","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","superior"
+"737","vi. 29","fan","Female","furniture",14,"bad","quality",0.75,"العربيه","تجربه رائعه","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","superior"
+"738","vi. 29","tomato","Female","food",15,"red","color",0.13,"العربيه","تجربه رائعه","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","superior"
+"739","vi. 29","fan","Female","furniture",16,"old","age",0.72,"العربيه","تجربه رائعه","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","superior"
+"740","vi. 29","couch","Female","furniture",17,"brown","color",0.09,"العربيه","تجربه رائعه","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","superior"
+"741","vi. 29","apple","Female","food",18,"square","shape",0.21,"العربيه","تجربه رائعه","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","superior"
+"742","vi. 29","tomato","Female","food",19,"plastic","material",0.7,"العربيه","تجربه رائعه","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","superior"
+"743","vi. 29","apple","Female","food",20,"soft","texture",0.67,"العربيه","تجربه رائعه","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","superior"
+"744","vi. 29","couch","Female","furniture",21,"rotten","age",0.69,"العربيه","تجربه رائعه","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","superior"
+"745","vi. 29","fan","Female","furniture",22,"wooden","material",0.24,"العربيه","تجربه رائعه","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","superior"
+"746","vi. 29","couch","Female","furniture",23,"green","color",0.19,"العربيه","تجربه رائعه","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","superior"
+"747","vi. 29","tomato","Female","food",24,"small","size",0.71,"العربيه","تجربه رائعه","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","superior"
+"748","vi. 29","desk","Female","furniture",25,"round","shape",0.2,"العربيه","تجربه رائعه","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","superior"
+"749","vi. 29","fan","Female","furniture",26,"metal","material",0.17,"العربيه","تجربه رائعه","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","superior"
+"750","vi. 29","carrot","Female","food",27,"huge","size",0.86,"العربيه","تجربه رائعه","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","superior"
+"876","vi. 35","cheese","Male","food",3,"fresh","age",0,"اللغة العربية","","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","intermediate"
+"877","vi. 35","TV","Male","furniture",4,"rotten","age",0,"اللغة العربية","","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","intermediate"
+"878","vi. 35","chair","Male","furniture",5,"brown","color",0.47,"اللغة العربية","","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","intermediate"
+"879","vi. 35","fan","Male","furniture",6,"old","age",1,"اللغة العربية","","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","intermediate"
+"880","vi. 35","cheese","Male","food",7,"big","size",1,"اللغة العربية","","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","intermediate"
+"881","vi. 35","fan","Male","furniture",8,"hard","texture",0,"اللغة العربية","","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","intermediate"
+"882","vi. 35","couch","Male","furniture",9,"plastic","material",0,"اللغة العربية","","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","intermediate"
+"883","vi. 35","chair","Male","furniture",10,"huge","size",1,"اللغة العربية","","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","intermediate"
+"884","vi. 35","tomato","Male","food",11,"yellow","color",0,"اللغة العربية","","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","intermediate"
+"885","vi. 35","tomato","Male","food",12,"smooth","texture",1,"اللغة العربية","","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","intermediate"
+"886","vi. 35","couch","Male","furniture",13,"square","shape",0,"اللغة العربية","","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","intermediate"
+"887","vi. 35","apple","Male","food",14,"blue","color",0,"اللغة العربية","","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","intermediate"
+"888","vi. 35","apple","Male","food",15,"bad","quality",1,"اللغة العربية","","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","intermediate"
+"889","vi. 35","couch","Male","furniture",16,"good","quality",1,"اللغة العربية","","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","intermediate"
+"890","vi. 35","chair","Male","furniture",17,"soft","texture",0.53,"اللغة العربية","","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","intermediate"
+"891","vi. 35","banana","Male","food",18,"wooden","material",0,"اللغة العربية","","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","intermediate"
+"892","vi. 35","desk","Male","furniture",19,"metal","material",0,"اللغة العربية","","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","intermediate"
+"893","vi. 35","banana","Male","food",20,"long","size",1,"اللغة العربية","","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","intermediate"
+"894","vi. 35","fan","Male","furniture",21,"green","color",0,"اللغة العربية","","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","intermediate"
+"895","vi. 35","fan","Male","furniture",22,"short","size",1,"اللغة العربية","","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","intermediate"
+"896","vi. 35","apple","Male","food",23,"new","age",1,"اللغة العربية","","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","intermediate"
+"897","vi. 35","carrot","Male","food",24,"small","size",1,"اللغة العربية","","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","intermediate"
+"898","vi. 35","couch","Male","furniture",25,"purple","color",0,"اللغة العربية","","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","intermediate"
+"899","vi. 35","cheese","Male","food",26,"red","color",0,"اللغة العربية","","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","intermediate"
+"900","vi. 35","cheese","Male","food",27,"round","shape",0,"اللغة العربية","","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","intermediate"
+"976","vi. 39","couch","Male","furniture",3,"plastic","material",0.75,"arabic","اشكركم كان اختبار جديد","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","intermediate"
+"977","vi. 39","cheese","Male","food",4,"brown","color",0.04,"arabic","اشكركم كان اختبار جديد","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","intermediate"
+"978","vi. 39","cheese","Male","food",5,"good","quality",0.84,"arabic","اشكركم كان اختبار جديد","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","intermediate"
+"979","vi. 39","banana","Male","food",6,"soft","texture",0.56,"arabic","اشكركم كان اختبار جديد","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","intermediate"
+"980","vi. 39","cheese","Male","food",7,"big","size",0.88,"arabic","اشكركم كان اختبار جديد","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","intermediate"
+"981","vi. 39","desk","Male","furniture",8,"long","size",0.85,"arabic","اشكركم كان اختبار جديد","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","intermediate"
+"982","vi. 39","TV","Male","furniture",9,"new","age",0.89,"arabic","اشكركم كان اختبار جديد","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","intermediate"
+"983","vi. 39","apple","Male","food",10,"blue","color",0.09,"arabic","اشكركم كان اختبار جديد","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","intermediate"
+"984","vi. 39","carrot","Male","food",11,"purple","color",0.09,"arabic","اشكركم كان اختبار جديد","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","intermediate"
+"985","vi. 39","apple","Male","food",12,"hard","texture",0.88,"arabic","اشكركم كان اختبار جديد","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","intermediate"
+"986","vi. 39","apple","Male","food",13,"metal","material",0.19,"arabic","اشكركم كان اختبار جديد","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","intermediate"
+"987","vi. 39","fan","Male","furniture",14,"green","color",0.1,"arabic","اشكركم كان اختبار جديد","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","intermediate"
+"988","vi. 39","fan","Male","furniture",15,"wooden","material",0.28,"arabic","اشكركم كان اختبار جديد","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","intermediate"
+"989","vi. 39","apple","Male","food",16,"bad","quality",0.77,"arabic","اشكركم كان اختبار جديد","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","intermediate"
+"990","vi. 39","TV","Male","furniture",17,"square","shape",0.03,"arabic","اشكركم كان اختبار جديد","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","intermediate"
+"991","vi. 39","carrot","Male","food",18,"round","shape",0.09,"arabic","اشكركم كان اختبار جديد","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","intermediate"
+"992","vi. 39","fan","Male","furniture",19,"rotten","age",0.48,"arabic","اشكركم كان اختبار جديد","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","intermediate"
+"993","vi. 39","couch","Male","furniture",20,"small","size",0.81,"arabic","اشكركم كان اختبار جديد","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","intermediate"
+"994","vi. 39","tomato","Male","food",21,"huge","size",0.8,"arabic","اشكركم كان اختبار جديد","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","intermediate"
+"995","vi. 39","cheese","Male","food",22,"fresh","age",0.84,"arabic","اشكركم كان اختبار جديد","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","intermediate"
+"996","vi. 39","desk","Male","furniture",23,"smooth","texture",0.48,"arabic","اشكركم كان اختبار جديد","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","intermediate"
+"997","vi. 39","apple","Male","food",24,"yellow","color",0.1,"arabic","اشكركم كان اختبار جديد","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","intermediate"
+"998","vi. 39","cheese","Male","food",25,"short","size",0.75,"arabic","اشكركم كان اختبار جديد","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","intermediate"
+"999","vi. 39","banana","Male","food",26,"red","color",0.08,"arabic","اشكركم كان اختبار جديد","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","intermediate"
+"1000","vi. 39","tomato","Male","food",27,"old","age",0.77,"arabic","اشكركم كان اختبار جديد","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","intermediate"
+"1001","vi. 40","chair","Female","furniture",3,"old","age",0.75,"اللغة ألعربية","هناك بعض ألاخطاء اللغوية وجدتها اثناء اكمال مهمتي في هذا الدراسة.
+الخطاء كان في خانة الأسالة الشخصية ، تحديداً في المستوى التعليمي
+وكان هناك خيار بعض الجامعة ! وهذا جملة خاطئة باللغة العربية
+اظن انها تمت ترجمتها حرفياً من اللغة الانجليزية
+والاصح ان يكون الخيار : لم اكمل دراستي الجامعية .
+هذا كل ما لدي. لقد استمتعت حقاً بمشاركتي في هذا الدراسة.
+اتمنى لكم حظاً سعيداً يارفاق","Yes","correct","correct","correct","iraqi","both","arabic-arabic","5+","advanced"
+"1002","vi. 40","chair","Female","furniture",4,"red","color",0.98,"اللغة ألعربية","هناك بعض ألاخطاء اللغوية وجدتها اثناء اكمال مهمتي في هذا الدراسة.
+الخطاء كان في خانة الأسالة الشخصية ، تحديداً في المستوى التعليمي
+وكان هناك خيار بعض الجامعة ! وهذا جملة خاطئة باللغة العربية
+اظن انها تمت ترجمتها حرفياً من اللغة الانجليزية
+والاصح ان يكون الخيار : لم اكمل دراستي الجامعية .
+هذا كل ما لدي. لقد استمتعت حقاً بمشاركتي في هذا الدراسة.
+اتمنى لكم حظاً سعيداً يارفاق","Yes","correct","correct","correct","iraqi","both","arabic-arabic","5+","advanced"
+"1003","vi. 40","tomato","Female","food",5,"purple","color",0.33,"اللغة ألعربية","هناك بعض ألاخطاء اللغوية وجدتها اثناء اكمال مهمتي في هذا الدراسة.
+الخطاء كان في خانة الأسالة الشخصية ، تحديداً في المستوى التعليمي
+وكان هناك خيار بعض الجامعة ! وهذا جملة خاطئة باللغة العربية
+اظن انها تمت ترجمتها حرفياً من اللغة الانجليزية
+والاصح ان يكون الخيار : لم اكمل دراستي الجامعية .
+هذا كل ما لدي. لقد استمتعت حقاً بمشاركتي في هذا الدراسة.
+اتمنى لكم حظاً سعيداً يارفاق","Yes","correct","correct","correct","iraqi","both","arabic-arabic","5+","advanced"
+"1004","vi. 40","apple","Female","food",6,"small","size",1,"اللغة ألعربية","هناك بعض ألاخطاء اللغوية وجدتها اثناء اكمال مهمتي في هذا الدراسة.
+الخطاء كان في خانة الأسالة الشخصية ، تحديداً في المستوى التعليمي
+وكان هناك خيار بعض الجامعة ! وهذا جملة خاطئة باللغة العربية
+اظن انها تمت ترجمتها حرفياً من اللغة الانجليزية
+والاصح ان يكون الخيار : لم اكمل دراستي الجامعية .
+هذا كل ما لدي. لقد استمتعت حقاً بمشاركتي في هذا الدراسة.
+اتمنى لكم حظاً سعيداً يارفاق","Yes","correct","correct","correct","iraqi","both","arabic-arabic","5+","advanced"
+"1005","vi. 40","tomato","Female","food",7,"huge","size",0.02,"اللغة ألعربية","هناك بعض ألاخطاء اللغوية وجدتها اثناء اكمال مهمتي في هذا الدراسة.
+الخطاء كان في خانة الأسالة الشخصية ، تحديداً في المستوى التعليمي
+وكان هناك خيار بعض الجامعة ! وهذا جملة خاطئة باللغة العربية
+اظن انها تمت ترجمتها حرفياً من اللغة الانجليزية
+والاصح ان يكون الخيار : لم اكمل دراستي الجامعية .
+هذا كل ما لدي. لقد استمتعت حقاً بمشاركتي في هذا الدراسة.
+اتمنى لكم حظاً سعيداً يارفاق","Yes","correct","correct","correct","iraqi","both","arabic-arabic","5+","advanced"
+"1006","vi. 40","couch","Female","furniture",8,"yellow","color",0.01,"اللغة ألعربية","هناك بعض ألاخطاء اللغوية وجدتها اثناء اكمال مهمتي في هذا الدراسة.
+الخطاء كان في خانة الأسالة الشخصية ، تحديداً في المستوى التعليمي
+وكان هناك خيار بعض الجامعة ! وهذا جملة خاطئة باللغة العربية
+اظن انها تمت ترجمتها حرفياً من اللغة الانجليزية
+والاصح ان يكون الخيار : لم اكمل دراستي الجامعية .
+هذا كل ما لدي. لقد استمتعت حقاً بمشاركتي في هذا الدراسة.
+اتمنى لكم حظاً سعيداً يارفاق","Yes","correct","correct","correct","iraqi","both","arabic-arabic","5+","advanced"
+"1007","vi. 40","desk","Female","furniture",9,"long","size",0.96,"اللغة ألعربية","هناك بعض ألاخطاء اللغوية وجدتها اثناء اكمال مهمتي في هذا الدراسة.
+الخطاء كان في خانة الأسالة الشخصية ، تحديداً في المستوى التعليمي
+وكان هناك خيار بعض الجامعة ! وهذا جملة خاطئة باللغة العربية
+اظن انها تمت ترجمتها حرفياً من اللغة الانجليزية
+والاصح ان يكون الخيار : لم اكمل دراستي الجامعية .
+هذا كل ما لدي. لقد استمتعت حقاً بمشاركتي في هذا الدراسة.
+اتمنى لكم حظاً سعيداً يارفاق","Yes","correct","correct","correct","iraqi","both","arabic-arabic","5+","advanced"
+"1008","vi. 40","couch","Female","furniture",10,"big","size",0.02,"اللغة ألعربية","هناك بعض ألاخطاء اللغوية وجدتها اثناء اكمال مهمتي في هذا الدراسة.
+الخطاء كان في خانة الأسالة الشخصية ، تحديداً في المستوى التعليمي
+وكان هناك خيار بعض الجامعة ! وهذا جملة خاطئة باللغة العربية
+اظن انها تمت ترجمتها حرفياً من اللغة الانجليزية
+والاصح ان يكون الخيار : لم اكمل دراستي الجامعية .
+هذا كل ما لدي. لقد استمتعت حقاً بمشاركتي في هذا الدراسة.
+اتمنى لكم حظاً سعيداً يارفاق","Yes","correct","correct","correct","iraqi","both","arabic-arabic","5+","advanced"
+"1009","vi. 40","tomato","Female","food",11,"green","color",0.99,"اللغة ألعربية","هناك بعض ألاخطاء اللغوية وجدتها اثناء اكمال مهمتي في هذا الدراسة.
+الخطاء كان في خانة الأسالة الشخصية ، تحديداً في المستوى التعليمي
+وكان هناك خيار بعض الجامعة ! وهذا جملة خاطئة باللغة العربية
+اظن انها تمت ترجمتها حرفياً من اللغة الانجليزية
+والاصح ان يكون الخيار : لم اكمل دراستي الجامعية .
+هذا كل ما لدي. لقد استمتعت حقاً بمشاركتي في هذا الدراسة.
+اتمنى لكم حظاً سعيداً يارفاق","Yes","correct","correct","correct","iraqi","both","arabic-arabic","5+","advanced"
+"1010","vi. 40","TV","Female","furniture",12,"blue","color",0.95,"اللغة ألعربية","هناك بعض ألاخطاء اللغوية وجدتها اثناء اكمال مهمتي في هذا الدراسة.
+الخطاء كان في خانة الأسالة الشخصية ، تحديداً في المستوى التعليمي
+وكان هناك خيار بعض الجامعة ! وهذا جملة خاطئة باللغة العربية
+اظن انها تمت ترجمتها حرفياً من اللغة الانجليزية
+والاصح ان يكون الخيار : لم اكمل دراستي الجامعية .
+هذا كل ما لدي. لقد استمتعت حقاً بمشاركتي في هذا الدراسة.
+اتمنى لكم حظاً سعيداً يارفاق","Yes","correct","correct","correct","iraqi","both","arabic-arabic","5+","advanced"
+"1011","vi. 40","banana","Female","food",13,"wooden","material",0.04,"اللغة ألعربية","هناك بعض ألاخطاء اللغوية وجدتها اثناء اكمال مهمتي في هذا الدراسة.
+الخطاء كان في خانة الأسالة الشخصية ، تحديداً في المستوى التعليمي
+وكان هناك خيار بعض الجامعة ! وهذا جملة خاطئة باللغة العربية
+اظن انها تمت ترجمتها حرفياً من اللغة الانجليزية
+والاصح ان يكون الخيار : لم اكمل دراستي الجامعية .
+هذا كل ما لدي. لقد استمتعت حقاً بمشاركتي في هذا الدراسة.
+اتمنى لكم حظاً سعيداً يارفاق","Yes","correct","correct","correct","iraqi","both","arabic-arabic","5+","advanced"
+"1012","vi. 40","cheese","Female","food",14,"smooth","texture",0.91,"اللغة ألعربية","هناك بعض ألاخطاء اللغوية وجدتها اثناء اكمال مهمتي في هذا الدراسة.
+الخطاء كان في خانة الأسالة الشخصية ، تحديداً في المستوى التعليمي
+وكان هناك خيار بعض الجامعة ! وهذا جملة خاطئة باللغة العربية
+اظن انها تمت ترجمتها حرفياً من اللغة الانجليزية
+والاصح ان يكون الخيار : لم اكمل دراستي الجامعية .
+هذا كل ما لدي. لقد استمتعت حقاً بمشاركتي في هذا الدراسة.
+اتمنى لكم حظاً سعيداً يارفاق","Yes","correct","correct","correct","iraqi","both","arabic-arabic","5+","advanced"
+"1013","vi. 40","desk","Female","furniture",15,"fresh","age",0,"اللغة ألعربية","هناك بعض ألاخطاء اللغوية وجدتها اثناء اكمال مهمتي في هذا الدراسة.
+الخطاء كان في خانة الأسالة الشخصية ، تحديداً في المستوى التعليمي
+وكان هناك خيار بعض الجامعة ! وهذا جملة خاطئة باللغة العربية
+اظن انها تمت ترجمتها حرفياً من اللغة الانجليزية
+والاصح ان يكون الخيار : لم اكمل دراستي الجامعية .
+هذا كل ما لدي. لقد استمتعت حقاً بمشاركتي في هذا الدراسة.
+اتمنى لكم حظاً سعيداً يارفاق","Yes","correct","correct","correct","iraqi","both","arabic-arabic","5+","advanced"
+"1014","vi. 40","cheese","Female","food",16,"rotten","age",1,"اللغة ألعربية","هناك بعض ألاخطاء اللغوية وجدتها اثناء اكمال مهمتي في هذا الدراسة.
+الخطاء كان في خانة الأسالة الشخصية ، تحديداً في المستوى التعليمي
+وكان هناك خيار بعض الجامعة ! وهذا جملة خاطئة باللغة العربية
+اظن انها تمت ترجمتها حرفياً من اللغة الانجليزية
+والاصح ان يكون الخيار : لم اكمل دراستي الجامعية .
+هذا كل ما لدي. لقد استمتعت حقاً بمشاركتي في هذا الدراسة.
+اتمنى لكم حظاً سعيداً يارفاق","Yes","correct","correct","correct","iraqi","both","arabic-arabic","5+","advanced"
+"1015","vi. 40","couch","Female","furniture",17,"hard","texture",0.03,"اللغة ألعربية","هناك بعض ألاخطاء اللغوية وجدتها اثناء اكمال مهمتي في هذا الدراسة.
+الخطاء كان في خانة الأسالة الشخصية ، تحديداً في المستوى التعليمي
+وكان هناك خيار بعض الجامعة ! وهذا جملة خاطئة باللغة العربية
+اظن انها تمت ترجمتها حرفياً من اللغة الانجليزية
+والاصح ان يكون الخيار : لم اكمل دراستي الجامعية .
+هذا كل ما لدي. لقد استمتعت حقاً بمشاركتي في هذا الدراسة.
+اتمنى لكم حظاً سعيداً يارفاق","Yes","correct","correct","correct","iraqi","both","arabic-arabic","5+","advanced"
+"1016","vi. 40","banana","Female","food",18,"short","size",0.01,"اللغة ألعربية","هناك بعض ألاخطاء اللغوية وجدتها اثناء اكمال مهمتي في هذا الدراسة.
+الخطاء كان في خانة الأسالة الشخصية ، تحديداً في المستوى التعليمي
+وكان هناك خيار بعض الجامعة ! وهذا جملة خاطئة باللغة العربية
+اظن انها تمت ترجمتها حرفياً من اللغة الانجليزية
+والاصح ان يكون الخيار : لم اكمل دراستي الجامعية .
+هذا كل ما لدي. لقد استمتعت حقاً بمشاركتي في هذا الدراسة.
+اتمنى لكم حظاً سعيداً يارفاق","Yes","correct","correct","correct","iraqi","both","arabic-arabic","5+","advanced"
+"1017","vi. 40","banana","Female","food",19,"bad","quality",0.96,"اللغة ألعربية","هناك بعض ألاخطاء اللغوية وجدتها اثناء اكمال مهمتي في هذا الدراسة.
+الخطاء كان في خانة الأسالة الشخصية ، تحديداً في المستوى التعليمي
+وكان هناك خيار بعض الجامعة ! وهذا جملة خاطئة باللغة العربية
+اظن انها تمت ترجمتها حرفياً من اللغة الانجليزية
+والاصح ان يكون الخيار : لم اكمل دراستي الجامعية .
+هذا كل ما لدي. لقد استمتعت حقاً بمشاركتي في هذا الدراسة.
+اتمنى لكم حظاً سعيداً يارفاق","Yes","correct","correct","correct","iraqi","both","arabic-arabic","5+","advanced"
+"1018","vi. 40","cheese","Female","food",20,"round","shape",0.99,"اللغة ألعربية","هناك بعض ألاخطاء اللغوية وجدتها اثناء اكمال مهمتي في هذا الدراسة.
+الخطاء كان في خانة الأسالة الشخصية ، تحديداً في المستوى التعليمي
+وكان هناك خيار بعض الجامعة ! وهذا جملة خاطئة باللغة العربية
+اظن انها تمت ترجمتها حرفياً من اللغة الانجليزية
+والاصح ان يكون الخيار : لم اكمل دراستي الجامعية .
+هذا كل ما لدي. لقد استمتعت حقاً بمشاركتي في هذا الدراسة.
+اتمنى لكم حظاً سعيداً يارفاق","Yes","correct","correct","correct","iraqi","both","arabic-arabic","5+","advanced"
+"1019","vi. 40","chair","Female","furniture",21,"new","age",1,"اللغة ألعربية","هناك بعض ألاخطاء اللغوية وجدتها اثناء اكمال مهمتي في هذا الدراسة.
+الخطاء كان في خانة الأسالة الشخصية ، تحديداً في المستوى التعليمي
+وكان هناك خيار بعض الجامعة ! وهذا جملة خاطئة باللغة العربية
+اظن انها تمت ترجمتها حرفياً من اللغة الانجليزية
+والاصح ان يكون الخيار : لم اكمل دراستي الجامعية .
+هذا كل ما لدي. لقد استمتعت حقاً بمشاركتي في هذا الدراسة.
+اتمنى لكم حظاً سعيداً يارفاق","Yes","correct","correct","correct","iraqi","both","arabic-arabic","5+","advanced"
+"1020","vi. 40","apple","Female","food",22,"good","quality",1,"اللغة ألعربية","هناك بعض ألاخطاء اللغوية وجدتها اثناء اكمال مهمتي في هذا الدراسة.
+الخطاء كان في خانة الأسالة الشخصية ، تحديداً في المستوى التعليمي
+وكان هناك خيار بعض الجامعة ! وهذا جملة خاطئة باللغة العربية
+اظن انها تمت ترجمتها حرفياً من اللغة الانجليزية
+والاصح ان يكون الخيار : لم اكمل دراستي الجامعية .
+هذا كل ما لدي. لقد استمتعت حقاً بمشاركتي في هذا الدراسة.
+اتمنى لكم حظاً سعيداً يارفاق","Yes","correct","correct","correct","iraqi","both","arabic-arabic","5+","advanced"
+"1021","vi. 40","couch","Female","furniture",23,"plastic","material",0.02,"اللغة ألعربية","هناك بعض ألاخطاء اللغوية وجدتها اثناء اكمال مهمتي في هذا الدراسة.
+الخطاء كان في خانة الأسالة الشخصية ، تحديداً في المستوى التعليمي
+وكان هناك خيار بعض الجامعة ! وهذا جملة خاطئة باللغة العربية
+اظن انها تمت ترجمتها حرفياً من اللغة الانجليزية
+والاصح ان يكون الخيار : لم اكمل دراستي الجامعية .
+هذا كل ما لدي. لقد استمتعت حقاً بمشاركتي في هذا الدراسة.
+اتمنى لكم حظاً سعيداً يارفاق","Yes","correct","correct","correct","iraqi","both","arabic-arabic","5+","advanced"
+"1022","vi. 40","couch","Female","furniture",24,"square","shape",0.07,"اللغة ألعربية","هناك بعض ألاخطاء اللغوية وجدتها اثناء اكمال مهمتي في هذا الدراسة.
+الخطاء كان في خانة الأسالة الشخصية ، تحديداً في المستوى التعليمي
+وكان هناك خيار بعض الجامعة ! وهذا جملة خاطئة باللغة العربية
+اظن انها تمت ترجمتها حرفياً من اللغة الانجليزية
+والاصح ان يكون الخيار : لم اكمل دراستي الجامعية .
+هذا كل ما لدي. لقد استمتعت حقاً بمشاركتي في هذا الدراسة.
+اتمنى لكم حظاً سعيداً يارفاق","Yes","correct","correct","correct","iraqi","both","arabic-arabic","5+","advanced"
+"1023","vi. 40","tomato","Female","food",25,"brown","color",0.17,"اللغة ألعربية","هناك بعض ألاخطاء اللغوية وجدتها اثناء اكمال مهمتي في هذا الدراسة.
+الخطاء كان في خانة الأسالة الشخصية ، تحديداً في المستوى التعليمي
+وكان هناك خيار بعض الجامعة ! وهذا جملة خاطئة باللغة العربية
+اظن انها تمت ترجمتها حرفياً من اللغة الانجليزية
+والاصح ان يكون الخيار : لم اكمل دراستي الجامعية .
+هذا كل ما لدي. لقد استمتعت حقاً بمشاركتي في هذا الدراسة.
+اتمنى لكم حظاً سعيداً يارفاق","Yes","correct","correct","correct","iraqi","both","arabic-arabic","5+","advanced"
+"1024","vi. 40","fan","Female","furniture",26,"soft","texture",0.05,"اللغة ألعربية","هناك بعض ألاخطاء اللغوية وجدتها اثناء اكمال مهمتي في هذا الدراسة.
+الخطاء كان في خانة الأسالة الشخصية ، تحديداً في المستوى التعليمي
+وكان هناك خيار بعض الجامعة ! وهذا جملة خاطئة باللغة العربية
+اظن انها تمت ترجمتها حرفياً من اللغة الانجليزية
+والاصح ان يكون الخيار : لم اكمل دراستي الجامعية .
+هذا كل ما لدي. لقد استمتعت حقاً بمشاركتي في هذا الدراسة.
+اتمنى لكم حظاً سعيداً يارفاق","Yes","correct","correct","correct","iraqi","both","arabic-arabic","5+","advanced"
+"1025","vi. 40","apple","Female","food",27,"metal","material",0.09,"اللغة ألعربية","هناك بعض ألاخطاء اللغوية وجدتها اثناء اكمال مهمتي في هذا الدراسة.
+الخطاء كان في خانة الأسالة الشخصية ، تحديداً في المستوى التعليمي
+وكان هناك خيار بعض الجامعة ! وهذا جملة خاطئة باللغة العربية
+اظن انها تمت ترجمتها حرفياً من اللغة الانجليزية
+والاصح ان يكون الخيار : لم اكمل دراستي الجامعية .
+هذا كل ما لدي. لقد استمتعت حقاً بمشاركتي في هذا الدراسة.
+اتمنى لكم حظاً سعيداً يارفاق","Yes","correct","correct","correct","iraqi","both","arabic-arabic","5+","advanced"
+"1026","vi. 41","couch","Male","furniture",3,"old","age",1,"العربية","","Yes","correct","correct","correct","other","both","arabic-arabic","5+","advanced"
+"1027","vi. 41","couch","Male","furniture",4,"square","shape",0,"العربية","","Yes","correct","correct","correct","other","both","arabic-arabic","5+","advanced"
+"1028","vi. 41","fan","Male","furniture",5,"hard","texture",0.54,"العربية","","Yes","correct","correct","correct","other","both","arabic-arabic","5+","advanced"
+"1029","vi. 41","desk","Male","furniture",6,"round","shape",0,"العربية","","Yes","correct","correct","correct","other","both","arabic-arabic","5+","advanced"
+"1030","vi. 41","TV","Male","furniture",7,"yellow","color",0.56,"العربية","","Yes","correct","correct","correct","other","both","arabic-arabic","5+","advanced"
+"1031","vi. 41","desk","Male","furniture",8,"good","quality",1,"العربية","","Yes","correct","correct","correct","other","both","arabic-arabic","5+","advanced"
+"1032","vi. 41","TV","Male","furniture",9,"metal","material",0.31,"العربية","","Yes","correct","correct","correct","other","both","arabic-arabic","5+","advanced"
+"1033","vi. 41","couch","Male","furniture",10,"long","size",0.56,"العربية","","Yes","correct","correct","correct","other","both","arabic-arabic","5+","advanced"
+"1034","vi. 41","carrot","Male","food",11,"blue","color",0,"العربية","","Yes","correct","correct","correct","other","both","arabic-arabic","5+","advanced"
+"1035","vi. 41","carrot","Male","food",12,"purple","color",0,"العربية","","Yes","correct","correct","correct","other","both","arabic-arabic","5+","advanced"
+"1036","vi. 41","TV","Male","furniture",13,"green","color",0.58,"العربية","","Yes","correct","correct","correct","other","both","arabic-arabic","5+","advanced"
+"1037","vi. 41","cheese","Male","food",14,"red","color",0.58,"العربية","","Yes","correct","correct","correct","other","both","arabic-arabic","5+","advanced"
+"1038","vi. 41","tomato","Male","food",15,"small","size",0.7,"العربية","","Yes","correct","correct","correct","other","both","arabic-arabic","5+","advanced"
+"1039","vi. 41","desk","Male","furniture",16,"wooden","material",0.54,"العربية","","Yes","correct","correct","correct","other","both","arabic-arabic","5+","advanced"
+"1040","vi. 41","cheese","Male","food",17,"plastic","material",0.53,"العربية","","Yes","correct","correct","correct","other","both","arabic-arabic","5+","advanced"
+"1041","vi. 41","cheese","Male","food",18,"smooth","texture",1,"العربية","","Yes","correct","correct","correct","other","both","arabic-arabic","5+","advanced"
+"1042","vi. 41","chair","Male","furniture",19,"rotten","age",1,"العربية","","Yes","correct","correct","correct","other","both","arabic-arabic","5+","advanced"
+"1043","vi. 41","apple","Male","food",20,"new","age",1,"العربية","","Yes","correct","correct","correct","other","both","arabic-arabic","5+","advanced"
+"1044","vi. 41","apple","Male","food",21,"soft","texture",1,"العربية","","Yes","correct","correct","correct","other","both","arabic-arabic","5+","advanced"
+"1045","vi. 41","desk","Male","furniture",22,"short","size",0.75,"العربية","","Yes","correct","correct","correct","other","both","arabic-arabic","5+","advanced"
+"1046","vi. 41","cheese","Male","food",23,"fresh","age",1,"العربية","","Yes","correct","correct","correct","other","both","arabic-arabic","5+","advanced"
+"1047","vi. 41","carrot","Male","food",24,"huge","size",1,"العربية","","Yes","correct","correct","correct","other","both","arabic-arabic","5+","advanced"
+"1048","vi. 41","apple","Male","food",25,"big","size",1,"العربية","","Yes","correct","correct","correct","other","both","arabic-arabic","5+","advanced"
+"1049","vi. 41","carrot","Male","food",26,"bad","quality",1,"العربية","","Yes","correct","correct","correct","other","both","arabic-arabic","5+","advanced"
+"1050","vi. 41","apple","Male","food",27,"brown","color",0,"العربية","","Yes","correct","correct","correct","other","both","arabic-arabic","5+","advanced"
+"1126","vi. 45","TV","Male","furniture",3,"old","age",0.03,"العربية","","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","advanced"
+"1127","vi. 45","TV","Male","furniture",4,"bad","quality",1,"العربية","","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","advanced"
+"1128","vi. 45","desk","Male","furniture",5,"good","quality",0.99,"العربية","","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","advanced"
+"1129","vi. 45","fan","Male","furniture",6,"rotten","age",0.04,"العربية","","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","advanced"
+"1130","vi. 45","chair","Male","furniture",7,"huge","size",0.68,"العربية","","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","advanced"
+"1131","vi. 45","apple","Male","food",8,"fresh","age",0.17,"العربية","","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","advanced"
+"1132","vi. 45","desk","Male","furniture",9,"new","age",0.26,"العربية","","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","advanced"
+"1133","vi. 45","apple","Male","food",10,"hard","texture",0.68,"العربية","","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","advanced"
+"1134","vi. 45","carrot","Male","food",11,"metal","material",0,"العربية","","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","advanced"
+"1135","vi. 45","tomato","Male","food",12,"wooden","material",0,"العربية","","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","advanced"
+"1136","vi. 45","banana","Male","food",13,"brown","color",0.13,"العربية","","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","advanced"
+"1137","vi. 45","banana","Male","food",14,"big","size",0.32,"العربية","","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","advanced"
+"1138","vi. 45","apple","Male","food",15,"red","color",0,"العربية","","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","advanced"
+"1139","vi. 45","couch","Male","furniture",16,"yellow","color",0,"العربية","","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","advanced"
+"1140","vi. 45","desk","Male","furniture",17,"green","color",0,"العربية","","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","advanced"
+"1141","vi. 45","chair","Male","furniture",18,"small","size",0.42,"العربية","","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","advanced"
+"1142","vi. 45","chair","Male","furniture",19,"plastic","material",0,"العربية","","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","advanced"
+"1143","vi. 45","TV","Male","furniture",20,"long","size",0.38,"العربية","","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","advanced"
+"1144","vi. 45","carrot","Male","food",21,"soft","texture",0.22,"العربية","","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","advanced"
+"1145","vi. 45","tomato","Male","food",22,"smooth","texture",0.41,"العربية","","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","advanced"
+"1146","vi. 45","apple","Male","food",23,"square","shape",0,"العربية","","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","advanced"
+"1147","vi. 45","banana","Male","food",24,"blue","color",0,"العربية","","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","advanced"
+"1148","vi. 45","TV","Male","furniture",25,"round","shape",0,"العربية","","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","advanced"
+"1149","vi. 45","fan","Male","furniture",26,"purple","color",0,"العربية","","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","advanced"
+"1150","vi. 45","carrot","Male","food",27,"short","size",0.28,"العربية","","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","advanced"
+"1501","vi. 60","TV","Male","furniture",3,"round","shape",0," العربية","الغة الجزائرية هي لغة عربية ولكن يوجد كلمات أمازغية و كلمات فرنسية  في اللهجة الجزائرية، و لكن نحن نطقن العرية الفصحى جيدا، انا اتكلم بطلاقة، العربية، والفرنسية و الانجليزية و الالمانية والامازغية و الجزائرية التي يتكلم بها  42 مليون نسمة و للجزائرية عدة لهجاة حوالي 48 لهجة","Yes","correct","correct","correct","other","both","arabic-arabic","5+","superior"
+"1502","vi. 60","chair","Male","furniture",4,"fresh","age",0.48," العربية","الغة الجزائرية هي لغة عربية ولكن يوجد كلمات أمازغية و كلمات فرنسية  في اللهجة الجزائرية، و لكن نحن نطقن العرية الفصحى جيدا، انا اتكلم بطلاقة، العربية، والفرنسية و الانجليزية و الالمانية والامازغية و الجزائرية التي يتكلم بها  42 مليون نسمة و للجزائرية عدة لهجاة حوالي 48 لهجة","Yes","correct","correct","correct","other","both","arabic-arabic","5+","superior"
+"1503","vi. 60","desk","Male","furniture",5,"brown","color",0," العربية","الغة الجزائرية هي لغة عربية ولكن يوجد كلمات أمازغية و كلمات فرنسية  في اللهجة الجزائرية، و لكن نحن نطقن العرية الفصحى جيدا، انا اتكلم بطلاقة، العربية، والفرنسية و الانجليزية و الالمانية والامازغية و الجزائرية التي يتكلم بها  42 مليون نسمة و للجزائرية عدة لهجاة حوالي 48 لهجة","Yes","correct","correct","correct","other","both","arabic-arabic","5+","superior"
+"1504","vi. 60","desk","Male","furniture",6,"soft","texture",0," العربية","الغة الجزائرية هي لغة عربية ولكن يوجد كلمات أمازغية و كلمات فرنسية  في اللهجة الجزائرية، و لكن نحن نطقن العرية الفصحى جيدا، انا اتكلم بطلاقة، العربية، والفرنسية و الانجليزية و الالمانية والامازغية و الجزائرية التي يتكلم بها  42 مليون نسمة و للجزائرية عدة لهجاة حوالي 48 لهجة","Yes","correct","correct","correct","other","both","arabic-arabic","5+","superior"
+"1505","vi. 60","TV","Male","furniture",7,"smooth","texture",0," العربية","الغة الجزائرية هي لغة عربية ولكن يوجد كلمات أمازغية و كلمات فرنسية  في اللهجة الجزائرية، و لكن نحن نطقن العرية الفصحى جيدا، انا اتكلم بطلاقة، العربية، والفرنسية و الانجليزية و الالمانية والامازغية و الجزائرية التي يتكلم بها  42 مليون نسمة و للجزائرية عدة لهجاة حوالي 48 لهجة","Yes","correct","correct","correct","other","both","arabic-arabic","5+","superior"
+"1506","vi. 60","carrot","Male","food",8,"metal","material",0," العربية","الغة الجزائرية هي لغة عربية ولكن يوجد كلمات أمازغية و كلمات فرنسية  في اللهجة الجزائرية، و لكن نحن نطقن العرية الفصحى جيدا، انا اتكلم بطلاقة، العربية، والفرنسية و الانجليزية و الالمانية والامازغية و الجزائرية التي يتكلم بها  42 مليون نسمة و للجزائرية عدة لهجاة حوالي 48 لهجة","Yes","correct","correct","correct","other","both","arabic-arabic","5+","superior"
+"1507","vi. 60","apple","Male","food",9,"small","size",0," العربية","الغة الجزائرية هي لغة عربية ولكن يوجد كلمات أمازغية و كلمات فرنسية  في اللهجة الجزائرية، و لكن نحن نطقن العرية الفصحى جيدا، انا اتكلم بطلاقة، العربية، والفرنسية و الانجليزية و الالمانية والامازغية و الجزائرية التي يتكلم بها  42 مليون نسمة و للجزائرية عدة لهجاة حوالي 48 لهجة","Yes","correct","correct","correct","other","both","arabic-arabic","5+","superior"
+"1508","vi. 60","TV","Male","furniture",10,"new","age",0," العربية","الغة الجزائرية هي لغة عربية ولكن يوجد كلمات أمازغية و كلمات فرنسية  في اللهجة الجزائرية، و لكن نحن نطقن العرية الفصحى جيدا، انا اتكلم بطلاقة، العربية، والفرنسية و الانجليزية و الالمانية والامازغية و الجزائرية التي يتكلم بها  42 مليون نسمة و للجزائرية عدة لهجاة حوالي 48 لهجة","Yes","correct","correct","correct","other","both","arabic-arabic","5+","superior"
+"1509","vi. 60","banana","Male","food",11,"big","size",0," العربية","الغة الجزائرية هي لغة عربية ولكن يوجد كلمات أمازغية و كلمات فرنسية  في اللهجة الجزائرية، و لكن نحن نطقن العرية الفصحى جيدا، انا اتكلم بطلاقة، العربية، والفرنسية و الانجليزية و الالمانية والامازغية و الجزائرية التي يتكلم بها  42 مليون نسمة و للجزائرية عدة لهجاة حوالي 48 لهجة","Yes","correct","correct","correct","other","both","arabic-arabic","5+","superior"
+"1510","vi. 60","desk","Male","furniture",12,"blue","color",0," العربية","الغة الجزائرية هي لغة عربية ولكن يوجد كلمات أمازغية و كلمات فرنسية  في اللهجة الجزائرية، و لكن نحن نطقن العرية الفصحى جيدا، انا اتكلم بطلاقة، العربية، والفرنسية و الانجليزية و الالمانية والامازغية و الجزائرية التي يتكلم بها  42 مليون نسمة و للجزائرية عدة لهجاة حوالي 48 لهجة","Yes","correct","correct","correct","other","both","arabic-arabic","5+","superior"
+"1511","vi. 60","banana","Male","food",13,"red","color",0," العربية","الغة الجزائرية هي لغة عربية ولكن يوجد كلمات أمازغية و كلمات فرنسية  في اللهجة الجزائرية، و لكن نحن نطقن العرية الفصحى جيدا، انا اتكلم بطلاقة، العربية، والفرنسية و الانجليزية و الالمانية والامازغية و الجزائرية التي يتكلم بها  42 مليون نسمة و للجزائرية عدة لهجاة حوالي 48 لهجة","Yes","correct","correct","correct","other","both","arabic-arabic","5+","superior"
+"1512","vi. 60","couch","Male","furniture",14,"square","shape",0," العربية","الغة الجزائرية هي لغة عربية ولكن يوجد كلمات أمازغية و كلمات فرنسية  في اللهجة الجزائرية، و لكن نحن نطقن العرية الفصحى جيدا، انا اتكلم بطلاقة، العربية، والفرنسية و الانجليزية و الالمانية والامازغية و الجزائرية التي يتكلم بها  42 مليون نسمة و للجزائرية عدة لهجاة حوالي 48 لهجة","Yes","correct","correct","correct","other","both","arabic-arabic","5+","superior"
+"1513","vi. 60","cheese","Male","food",15,"yellow","color",0," العربية","الغة الجزائرية هي لغة عربية ولكن يوجد كلمات أمازغية و كلمات فرنسية  في اللهجة الجزائرية، و لكن نحن نطقن العرية الفصحى جيدا، انا اتكلم بطلاقة، العربية، والفرنسية و الانجليزية و الالمانية والامازغية و الجزائرية التي يتكلم بها  42 مليون نسمة و للجزائرية عدة لهجاة حوالي 48 لهجة","Yes","correct","correct","correct","other","both","arabic-arabic","5+","superior"
+"1514","vi. 60","chair","Male","furniture",16,"huge","size",0," العربية","الغة الجزائرية هي لغة عربية ولكن يوجد كلمات أمازغية و كلمات فرنسية  في اللهجة الجزائرية، و لكن نحن نطقن العرية الفصحى جيدا، انا اتكلم بطلاقة، العربية، والفرنسية و الانجليزية و الالمانية والامازغية و الجزائرية التي يتكلم بها  42 مليون نسمة و للجزائرية عدة لهجاة حوالي 48 لهجة","Yes","correct","correct","correct","other","both","arabic-arabic","5+","superior"
+"1515","vi. 60","carrot","Male","food",17,"old","age",0," العربية","الغة الجزائرية هي لغة عربية ولكن يوجد كلمات أمازغية و كلمات فرنسية  في اللهجة الجزائرية، و لكن نحن نطقن العرية الفصحى جيدا، انا اتكلم بطلاقة، العربية، والفرنسية و الانجليزية و الالمانية والامازغية و الجزائرية التي يتكلم بها  42 مليون نسمة و للجزائرية عدة لهجاة حوالي 48 لهجة","Yes","correct","correct","correct","other","both","arabic-arabic","5+","superior"
+"1516","vi. 60","carrot","Male","food",18,"wooden","material",0," العربية","الغة الجزائرية هي لغة عربية ولكن يوجد كلمات أمازغية و كلمات فرنسية  في اللهجة الجزائرية، و لكن نحن نطقن العرية الفصحى جيدا، انا اتكلم بطلاقة، العربية، والفرنسية و الانجليزية و الالمانية والامازغية و الجزائرية التي يتكلم بها  42 مليون نسمة و للجزائرية عدة لهجاة حوالي 48 لهجة","Yes","correct","correct","correct","other","both","arabic-arabic","5+","superior"
+"1517","vi. 60","couch","Male","furniture",19,"good","quality",0," العربية","الغة الجزائرية هي لغة عربية ولكن يوجد كلمات أمازغية و كلمات فرنسية  في اللهجة الجزائرية، و لكن نحن نطقن العرية الفصحى جيدا، انا اتكلم بطلاقة، العربية، والفرنسية و الانجليزية و الالمانية والامازغية و الجزائرية التي يتكلم بها  42 مليون نسمة و للجزائرية عدة لهجاة حوالي 48 لهجة","Yes","correct","correct","correct","other","both","arabic-arabic","5+","superior"
+"1518","vi. 60","fan","Male","furniture",20,"bad","quality",0," العربية","الغة الجزائرية هي لغة عربية ولكن يوجد كلمات أمازغية و كلمات فرنسية  في اللهجة الجزائرية، و لكن نحن نطقن العرية الفصحى جيدا، انا اتكلم بطلاقة، العربية، والفرنسية و الانجليزية و الالمانية والامازغية و الجزائرية التي يتكلم بها  42 مليون نسمة و للجزائرية عدة لهجاة حوالي 48 لهجة","Yes","correct","correct","correct","other","both","arabic-arabic","5+","superior"
+"1519","vi. 60","couch","Male","furniture",21,"plastic","material",0," العربية","الغة الجزائرية هي لغة عربية ولكن يوجد كلمات أمازغية و كلمات فرنسية  في اللهجة الجزائرية، و لكن نحن نطقن العرية الفصحى جيدا، انا اتكلم بطلاقة، العربية، والفرنسية و الانجليزية و الالمانية والامازغية و الجزائرية التي يتكلم بها  42 مليون نسمة و للجزائرية عدة لهجاة حوالي 48 لهجة","Yes","correct","correct","correct","other","both","arabic-arabic","5+","superior"
+"1520","vi. 60","banana","Male","food",22,"rotten","age",0," العربية","الغة الجزائرية هي لغة عربية ولكن يوجد كلمات أمازغية و كلمات فرنسية  في اللهجة الجزائرية، و لكن نحن نطقن العرية الفصحى جيدا، انا اتكلم بطلاقة، العربية، والفرنسية و الانجليزية و الالمانية والامازغية و الجزائرية التي يتكلم بها  42 مليون نسمة و للجزائرية عدة لهجاة حوالي 48 لهجة","Yes","correct","correct","correct","other","both","arabic-arabic","5+","superior"
+"1521","vi. 60","TV","Male","furniture",23,"hard","texture",0.03," العربية","الغة الجزائرية هي لغة عربية ولكن يوجد كلمات أمازغية و كلمات فرنسية  في اللهجة الجزائرية، و لكن نحن نطقن العرية الفصحى جيدا، انا اتكلم بطلاقة، العربية، والفرنسية و الانجليزية و الالمانية والامازغية و الجزائرية التي يتكلم بها  42 مليون نسمة و للجزائرية عدة لهجاة حوالي 48 لهجة","Yes","correct","correct","correct","other","both","arabic-arabic","5+","superior"
+"1522","vi. 60","couch","Male","furniture",24,"short","size",0.02," العربية","الغة الجزائرية هي لغة عربية ولكن يوجد كلمات أمازغية و كلمات فرنسية  في اللهجة الجزائرية، و لكن نحن نطقن العرية الفصحى جيدا، انا اتكلم بطلاقة، العربية، والفرنسية و الانجليزية و الالمانية والامازغية و الجزائرية التي يتكلم بها  42 مليون نسمة و للجزائرية عدة لهجاة حوالي 48 لهجة","Yes","correct","correct","correct","other","both","arabic-arabic","5+","superior"
+"1523","vi. 60","chair","Male","furniture",25,"green","color",0.0600000000000001," العربية","الغة الجزائرية هي لغة عربية ولكن يوجد كلمات أمازغية و كلمات فرنسية  في اللهجة الجزائرية، و لكن نحن نطقن العرية الفصحى جيدا، انا اتكلم بطلاقة، العربية، والفرنسية و الانجليزية و الالمانية والامازغية و الجزائرية التي يتكلم بها  42 مليون نسمة و للجزائرية عدة لهجاة حوالي 48 لهجة","Yes","correct","correct","correct","other","both","arabic-arabic","5+","superior"
+"1524","vi. 60","couch","Male","furniture",26,"purple","color",0.01," العربية","الغة الجزائرية هي لغة عربية ولكن يوجد كلمات أمازغية و كلمات فرنسية  في اللهجة الجزائرية، و لكن نحن نطقن العرية الفصحى جيدا، انا اتكلم بطلاقة، العربية، والفرنسية و الانجليزية و الالمانية والامازغية و الجزائرية التي يتكلم بها  42 مليون نسمة و للجزائرية عدة لهجاة حوالي 48 لهجة","Yes","correct","correct","correct","other","both","arabic-arabic","5+","superior"
+"1525","vi. 60","fan","Male","furniture",27,"long","size",0.03," العربية","الغة الجزائرية هي لغة عربية ولكن يوجد كلمات أمازغية و كلمات فرنسية  في اللهجة الجزائرية، و لكن نحن نطقن العرية الفصحى جيدا، انا اتكلم بطلاقة، العربية، والفرنسية و الانجليزية و الالمانية والامازغية و الجزائرية التي يتكلم بها  42 مليون نسمة و للجزائرية عدة لهجاة حوالي 48 لهجة","Yes","correct","correct","correct","other","both","arabic-arabic","5+","superior"
+"1551","vi. 62","chair","Female","furniture",3,"bad","quality",1,"Arabic","","Yes","correct","correct","correct","levantine","both","arabic-arabic","5+","advanced"
+"1552","vi. 62","chair","Female","furniture",4,"round","shape",0,"Arabic","","Yes","correct","correct","correct","levantine","both","arabic-arabic","5+","advanced"
+"1553","vi. 62","desk","Female","furniture",5,"red","color",0,"Arabic","","Yes","correct","correct","correct","levantine","both","arabic-arabic","5+","advanced"
+"1554","vi. 62","banana","Female","food",6,"green","color",0.56,"Arabic","","Yes","correct","correct","correct","levantine","both","arabic-arabic","5+","advanced"
+"1555","vi. 62","banana","Female","food",7,"small","size",0,"Arabic","","Yes","correct","correct","correct","levantine","both","arabic-arabic","5+","advanced"
+"1556","vi. 62","carrot","Female","food",8,"fresh","age",0,"Arabic","","Yes","correct","correct","correct","levantine","both","arabic-arabic","5+","advanced"
+"1557","vi. 62","fan","Female","furniture",9,"new","age",0.51,"Arabic","","Yes","correct","correct","correct","levantine","both","arabic-arabic","5+","advanced"
+"1558","vi. 62","apple","Female","food",10,"plastic","material",0,"Arabic","","Yes","correct","correct","correct","levantine","both","arabic-arabic","5+","advanced"
+"1559","vi. 62","fan","Female","furniture",11,"hard","texture",1,"Arabic","","Yes","correct","correct","correct","levantine","both","arabic-arabic","5+","advanced"
+"1560","vi. 62","tomato","Female","food",12,"wooden","material",0,"Arabic","","Yes","correct","correct","correct","levantine","both","arabic-arabic","5+","advanced"
+"1561","vi. 62","carrot","Female","food",13,"purple","color",0,"Arabic","","Yes","correct","correct","correct","levantine","both","arabic-arabic","5+","advanced"
+"1562","vi. 62","banana","Female","food",14,"big","size",0,"Arabic","","Yes","correct","correct","correct","levantine","both","arabic-arabic","5+","advanced"
+"1563","vi. 62","tomato","Female","food",15,"square","shape",0,"Arabic","","Yes","correct","correct","correct","levantine","both","arabic-arabic","5+","advanced"
+"1564","vi. 62","chair","Female","furniture",16,"huge","size",1,"Arabic","","Yes","correct","correct","correct","levantine","both","arabic-arabic","5+","advanced"
+"1565","vi. 62","cheese","Female","food",17,"smooth","texture",1,"Arabic","","Yes","correct","correct","correct","levantine","both","arabic-arabic","5+","advanced"
+"1566","vi. 62","apple","Female","food",18,"old","age",1,"Arabic","","Yes","correct","correct","correct","levantine","both","arabic-arabic","5+","advanced"
+"1567","vi. 62","cheese","Female","food",19,"metal","material",0,"Arabic","","Yes","correct","correct","correct","levantine","both","arabic-arabic","5+","advanced"
+"1568","vi. 62","cheese","Female","food",20,"brown","color",0,"Arabic","","Yes","correct","correct","correct","levantine","both","arabic-arabic","5+","advanced"
+"1569","vi. 62","carrot","Female","food",21,"long","size",0,"Arabic","","Yes","correct","correct","correct","levantine","both","arabic-arabic","5+","advanced"
+"1570","vi. 62","TV","Female","furniture",22,"good","quality",1,"Arabic","","Yes","correct","correct","correct","levantine","both","arabic-arabic","5+","advanced"
+"1571","vi. 62","tomato","Female","food",23,"blue","color",0,"Arabic","","Yes","correct","correct","correct","levantine","both","arabic-arabic","5+","advanced"
+"1572","vi. 62","carrot","Female","food",24,"soft","texture",0.45,"Arabic","","Yes","correct","correct","correct","levantine","both","arabic-arabic","5+","advanced"
+"1573","vi. 62","tomato","Female","food",25,"yellow","color",0,"Arabic","","Yes","correct","correct","correct","levantine","both","arabic-arabic","5+","advanced"
+"1574","vi. 62","apple","Female","food",26,"rotten","age",1,"Arabic","","Yes","correct","correct","correct","levantine","both","arabic-arabic","5+","advanced"
+"1575","vi. 62","banana","Female","food",27,"short","size",0.52,"Arabic","","Yes","correct","correct","correct","levantine","both","arabic-arabic","5+","advanced"
+"1576","vi. 63","cheese","Male","food",3,"blue","color",0.05,"العربيه","","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","superior"
+"1577","vi. 63","banana","Male","food",4,"hard","texture",0.79,"العربيه","","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","superior"
+"1578","vi. 63","couch","Male","furniture",5,"round","shape",0,"العربيه","","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","superior"
+"1579","vi. 63","banana","Male","food",6,"smooth","texture",0.89,"العربيه","","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","superior"
+"1580","vi. 63","fan","Male","furniture",7,"bad","quality",0.93,"العربيه","","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","superior"
+"1581","vi. 63","desk","Male","furniture",8,"rotten","age",0.84,"العربيه","","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","superior"
+"1582","vi. 63","apple","Male","food",9,"metal","material",0.73,"العربيه","","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","superior"
+"1583","vi. 63","carrot","Male","food",10,"square","shape",0.04,"العربيه","","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","superior"
+"1584","vi. 63","fan","Male","furniture",11,"red","color",0.08,"العربيه","","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","superior"
+"1585","vi. 63","carrot","Male","food",12,"huge","size",0.93,"العربيه","","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","superior"
+"1586","vi. 63","TV","Male","furniture",13,"soft","texture",0.73,"العربيه","","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","superior"
+"1587","vi. 63","couch","Male","furniture",14,"long","size",0.85,"العربيه","","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","superior"
+"1588","vi. 63","cheese","Male","food",15,"plastic","material",0.02,"العربيه","","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","superior"
+"1589","vi. 63","fan","Male","furniture",16,"short","size",0.91,"العربيه","","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","superior"
+"1590","vi. 63","cheese","Male","food",17,"purple","color",0.04,"العربيه","","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","superior"
+"1591","vi. 63","banana","Male","food",18,"wooden","material",0.16,"العربيه","","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","superior"
+"1592","vi. 63","chair","Male","furniture",19,"brown","color",0.13,"العربيه","","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","superior"
+"1593","vi. 63","fan","Male","furniture",20,"fresh","age",0.75,"العربيه","","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","superior"
+"1594","vi. 63","fan","Male","furniture",21,"new","age",0.66,"العربيه","","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","superior"
+"1595","vi. 63","apple","Male","food",22,"big","size",0.9,"العربيه","","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","superior"
+"1596","vi. 63","banana","Male","food",23,"small","size",0.87,"العربيه","","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","superior"
+"1597","vi. 63","desk","Male","furniture",24,"yellow","color",0.09,"العربيه","","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","superior"
+"1598","vi. 63","chair","Male","furniture",25,"old","age",0.83,"العربيه","","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","superior"
+"1599","vi. 63","banana","Male","food",26,"good","quality",0.87,"العربيه","","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","superior"
+"1600","vi. 63","couch","Male","furniture",27,"green","color",0.12,"العربيه","","Yes","correct","correct","correct","egyptian","both","arabic-arabic","5+","superior"
+"1651","vi. 66","fan","Male","furniture",3,"square","shape",1,"arabic","",NA,"correct","correct","correct","levantine","both","arabic-arabic","5+","superior"
+"1652","vi. 66","desk","Male","furniture",4,"smooth","texture",0.08,"arabic","",NA,"correct","correct","correct","levantine","both","arabic-arabic","5+","superior"
+"1653","vi. 66","couch","Male","furniture",5,"bad","quality",0.55,"arabic","",NA,"correct","correct","correct","levantine","both","arabic-arabic","5+","superior"
+"1654","vi. 66","TV","Male","furniture",6,"soft","texture",1,"arabic","",NA,"correct","correct","correct","levantine","both","arabic-arabic","5+","superior"
+"1655","vi. 66","apple","Male","food",7,"metal","material",0.02,"arabic","",NA,"correct","correct","correct","levantine","both","arabic-arabic","5+","superior"
+"1656","vi. 66","tomato","Male","food",8,"old","age",0.71,"arabic","",NA,"correct","correct","correct","levantine","both","arabic-arabic","5+","superior"
+"1657","vi. 66","cheese","Male","food",9,"purple","color",0.6,"arabic","",NA,"correct","correct","correct","levantine","both","arabic-arabic","5+","superior"
+"1658","vi. 66","desk","Male","furniture",10,"huge","size",0.99,"arabic","",NA,"correct","correct","correct","levantine","both","arabic-arabic","5+","superior"
+"1659","vi. 66","desk","Male","furniture",11,"blue","color",0.95,"arabic","",NA,"correct","correct","correct","levantine","both","arabic-arabic","5+","superior"
+"1660","vi. 66","desk","Male","furniture",12,"new","age",0.48,"arabic","",NA,"correct","correct","correct","levantine","both","arabic-arabic","5+","superior"
+"1661","vi. 66","desk","Male","furniture",13,"plastic","material",0.58,"arabic","",NA,"correct","correct","correct","levantine","both","arabic-arabic","5+","superior"
+"1662","vi. 66","couch","Male","furniture",14,"wooden","material",0,"arabic","",NA,"correct","correct","correct","levantine","both","arabic-arabic","5+","superior"
+"1663","vi. 66","desk","Male","furniture",15,"yellow","color",0.73,"arabic","",NA,"correct","correct","correct","levantine","both","arabic-arabic","5+","superior"
+"1664","vi. 66","carrot","Male","food",16,"big","size",1,"arabic","",NA,"correct","correct","correct","levantine","both","arabic-arabic","5+","superior"
+"1665","vi. 66","couch","Male","furniture",17,"green","color",0,"arabic","",NA,"correct","correct","correct","levantine","both","arabic-arabic","5+","superior"
+"1666","vi. 66","fan","Male","furniture",18,"small","size",0.98,"arabic","",NA,"correct","correct","correct","levantine","both","arabic-arabic","5+","superior"
+"1667","vi. 66","banana","Male","food",19,"hard","texture",0,"arabic","",NA,"correct","correct","correct","levantine","both","arabic-arabic","5+","superior"
+"1668","vi. 66","tomato","Male","food",20,"brown","color",0,"arabic","",NA,"correct","correct","correct","levantine","both","arabic-arabic","5+","superior"
+"1669","vi. 66","chair","Male","furniture",21,"round","shape",1,"arabic","",NA,"correct","correct","correct","levantine","both","arabic-arabic","5+","superior"
+"1670","vi. 66","fan","Male","furniture",22,"red","color",0,"arabic","",NA,"correct","correct","correct","levantine","both","arabic-arabic","5+","superior"
+"1671","vi. 66","fan","Male","furniture",23,"rotten","age",0.98,"arabic","",NA,"correct","correct","correct","levantine","both","arabic-arabic","5+","superior"
+"1672","vi. 66","TV","Male","furniture",24,"long","size",0.99,"arabic","",NA,"correct","correct","correct","levantine","both","arabic-arabic","5+","superior"
+"1673","vi. 66","TV","Male","furniture",25,"good","quality",1,"arabic","",NA,"correct","correct","correct","levantine","both","arabic-arabic","5+","superior"
+"1674","vi. 66","apple","Male","food",26,"short","size",1,"arabic","",NA,"correct","correct","correct","levantine","both","arabic-arabic","5+","superior"
+"1675","vi. 66","cheese","Male","food",27,"fresh","age",0,"arabic","",NA,"correct","correct","correct","levantine","both","arabic-arabic","5+","superior"
+"2076","vi. 83","chair","Female","furniture",3,"purple","color",0.27,"العربية","","No","correct","correct","correct","egyptian","both","arabic-arabic","5+","superior"
+"2077","vi. 83","fan","Female","furniture",4,"hard","texture",0.01,"العربية","","No","correct","correct","correct","egyptian","both","arabic-arabic","5+","superior"
+"2078","vi. 83","fan","Female","furniture",5,"good","quality",0.98,"العربية","","No","correct","correct","correct","egyptian","both","arabic-arabic","5+","superior"
+"2079","vi. 83","TV","Female","furniture",6,"bad","quality",0.99,"العربية","","No","correct","correct","correct","egyptian","both","arabic-arabic","5+","superior"
+"2080","vi. 83","chair","Female","furniture",7,"brown","color",0.39,"العربية","","No","correct","correct","correct","egyptian","both","arabic-arabic","5+","superior"
+"2081","vi. 83","tomato","Female","food",8,"metal","material",0.98,"العربية","","No","correct","correct","correct","egyptian","both","arabic-arabic","5+","superior"
+"2082","vi. 83","cheese","Female","food",9,"red","color",0.13,"العربية","","No","correct","correct","correct","egyptian","both","arabic-arabic","5+","superior"
+"2083","vi. 83","banana","Female","food",10,"new","age",0.48,"العربية","","No","correct","correct","correct","egyptian","both","arabic-arabic","5+","superior"
+"2084","vi. 83","fan","Female","furniture",11,"small","size",0.3,"العربية","","No","correct","correct","correct","egyptian","both","arabic-arabic","5+","superior"
+"2085","vi. 83","fan","Female","furniture",12,"rotten","age",0.73,"العربية","","No","correct","correct","correct","egyptian","both","arabic-arabic","5+","superior"
+"2086","vi. 83","chair","Female","furniture",13,"round","shape",0.29,"العربية","","No","correct","correct","correct","egyptian","both","arabic-arabic","5+","superior"
+"2087","vi. 83","couch","Female","furniture",14,"long","size",0.75,"العربية","","No","correct","correct","correct","egyptian","both","arabic-arabic","5+","superior"
+"2088","vi. 83","tomato","Female","food",15,"short","size",0.48,"العربية","","No","correct","correct","correct","egyptian","both","arabic-arabic","5+","superior"
+"2089","vi. 83","fan","Female","furniture",16,"big","size",0.59,"العربية","","No","correct","correct","correct","egyptian","both","arabic-arabic","5+","superior"
+"2090","vi. 83","fan","Female","furniture",17,"blue","color",0.26,"العربية","","No","correct","correct","correct","egyptian","both","arabic-arabic","5+","superior"
+"2091","vi. 83","cheese","Female","food",18,"square","shape",0.5,"العربية","","No","correct","correct","correct","egyptian","both","arabic-arabic","5+","superior"
+"2092","vi. 83","cheese","Female","food",19,"old","age",0.66,"العربية","","No","correct","correct","correct","egyptian","both","arabic-arabic","5+","superior"
+"2093","vi. 83","desk","Female","furniture",20,"plastic","material",0.18,"العربية","","No","correct","correct","correct","egyptian","both","arabic-arabic","5+","superior"
+"2094","vi. 83","banana","Female","food",21,"huge","size",0.54,"العربية","","No","correct","correct","correct","egyptian","both","arabic-arabic","5+","superior"
+"2095","vi. 83","cheese","Female","food",22,"green","color",0.09,"العربية","","No","correct","correct","correct","egyptian","both","arabic-arabic","5+","superior"
+"2096","vi. 83","apple","Female","food",23,"smooth","texture",0.49,"العربية","","No","correct","correct","correct","egyptian","both","arabic-arabic","5+","superior"
+"2097","vi. 83","fan","Female","furniture",24,"wooden","material",0.02,"العربية","","No","correct","correct","correct","egyptian","both","arabic-arabic","5+","superior"
+"2098","vi. 83","carrot","Female","food",25,"fresh","age",0.51,"العربية","","No","correct","correct","correct","egyptian","both","arabic-arabic","5+","superior"
+"2099","vi. 83","TV","Female","furniture",26,"yellow","color",0.19,"العربية","","No","correct","correct","correct","egyptian","both","arabic-arabic","5+","superior"
+"2100","vi. 83","cheese","Female","food",27,"soft","texture",0.75,"العربية","","No","correct","correct","correct","egyptian","both","arabic-arabic","5+","superior"
+"2626","vi. 105","tomato","Male","food",3,"huge","size",0,"العربية","","Yes","correct","correct","correct","moroccan","both","arabic-arabic","5+","superior"
+"2627","vi. 105","carrot","Male","food",4,"new","age",0,"العربية","","Yes","correct","correct","correct","moroccan","both","arabic-arabic","5+","superior"
+"2628","vi. 105","fan","Male","furniture",5,"rotten","age",0,"العربية","","Yes","correct","correct","correct","moroccan","both","arabic-arabic","5+","superior"
+"2629","vi. 105","apple","Male","food",6,"yellow","color",0,"العربية","","Yes","correct","correct","correct","moroccan","both","arabic-arabic","5+","superior"
+"2630","vi. 105","cheese","Male","food",7,"short","size",0,"العربية","","Yes","correct","correct","correct","moroccan","both","arabic-arabic","5+","superior"
+"2631","vi. 105","fan","Male","furniture",8,"old","age",0,"العربية","","Yes","correct","correct","correct","moroccan","both","arabic-arabic","5+","superior"
+"2632","vi. 105","couch","Male","furniture",9,"red","color",0,"العربية","","Yes","correct","correct","correct","moroccan","both","arabic-arabic","5+","superior"
+"2633","vi. 105","tomato","Male","food",10,"brown","color",0,"العربية","","Yes","correct","correct","correct","moroccan","both","arabic-arabic","5+","superior"
+"2634","vi. 105","apple","Male","food",11,"big","size",0,"العربية","","Yes","correct","correct","correct","moroccan","both","arabic-arabic","5+","superior"
+"2635","vi. 105","couch","Male","furniture",12,"square","shape",0,"العربية","","Yes","correct","correct","correct","moroccan","both","arabic-arabic","5+","superior"
+"2636","vi. 105","cheese","Male","food",13,"plastic","material",0,"العربية","","Yes","correct","correct","correct","moroccan","both","arabic-arabic","5+","superior"
+"2637","vi. 105","chair","Male","furniture",14,"fresh","age",0.5,"العربية","","Yes","correct","correct","correct","moroccan","both","arabic-arabic","5+","superior"
+"2638","vi. 105","cheese","Male","food",15,"blue","color",0,"العربية","","Yes","correct","correct","correct","moroccan","both","arabic-arabic","5+","superior"
+"2639","vi. 105","tomato","Male","food",16,"smooth","texture",0,"العربية","","Yes","correct","correct","correct","moroccan","both","arabic-arabic","5+","superior"
+"2640","vi. 105","desk","Male","furniture",17,"purple","color",0,"العربية","","Yes","correct","correct","correct","moroccan","both","arabic-arabic","5+","superior"
+"2641","vi. 105","desk","Male","furniture",18,"soft","texture",0,"العربية","","Yes","correct","correct","correct","moroccan","both","arabic-arabic","5+","superior"
+"2642","vi. 105","tomato","Male","food",19,"small","size",0,"العربية","","Yes","correct","correct","correct","moroccan","both","arabic-arabic","5+","superior"
+"2643","vi. 105","fan","Male","furniture",20,"good","quality",0,"العربية","","Yes","correct","correct","correct","moroccan","both","arabic-arabic","5+","superior"
+"2644","vi. 105","couch","Male","furniture",21,"round","shape",0,"العربية","","Yes","correct","correct","correct","moroccan","both","arabic-arabic","5+","superior"
+"2645","vi. 105","apple","Male","food",22,"bad","quality",0,"العربية","","Yes","correct","correct","correct","moroccan","both","arabic-arabic","5+","superior"
+"2646","vi. 105","banana","Male","food",23,"green","color",0,"العربية","","Yes","correct","correct","correct","moroccan","both","arabic-arabic","5+","superior"
+"2647","vi. 105","tomato","Male","food",24,"hard","texture",0,"العربية","","Yes","correct","correct","correct","moroccan","both","arabic-arabic","5+","superior"
+"2648","vi. 105","TV","Male","furniture",25,"metal","material",0,"العربية","","Yes","correct","correct","correct","moroccan","both","arabic-arabic","5+","superior"
+"2649","vi. 105","banana","Male","food",26,"long","size",0,"العربية","","Yes","correct","correct","correct","moroccan","both","arabic-arabic","5+","superior"
+"2650","vi. 105","couch","Male","furniture",27,"wooden","material",0,"العربية","","Yes","correct","correct","correct","moroccan","both","arabic-arabic","5+","superior"
+"2651","vi. 106","carrot","Male","food",3,"small","size",0.18,"العربيه","",NA,"correct","correct","correct","levantine","both","arabic-arabic","5+","advanced"
+"2652","vi. 106","tomato","Male","food",4,"rotten","age",0.02,"العربيه","",NA,"correct","correct","correct","levantine","both","arabic-arabic","5+","advanced"
+"2653","vi. 106","apple","Male","food",5,"metal","material",0.04,"العربيه","",NA,"correct","correct","correct","levantine","both","arabic-arabic","5+","advanced"
+"2654","vi. 106","fan","Male","furniture",6,"purple","color",0.04,"العربيه","",NA,"correct","correct","correct","levantine","both","arabic-arabic","5+","advanced"
+"2655","vi. 106","carrot","Male","food",7,"plastic","material",0.03,"العربيه","",NA,"correct","correct","correct","levantine","both","arabic-arabic","5+","advanced"
+"2656","vi. 106","carrot","Male","food",8,"yellow","color",0.97,"العربيه","",NA,"correct","correct","correct","levantine","both","arabic-arabic","5+","advanced"
+"2657","vi. 106","TV","Male","furniture",9,"blue","color",0.02,"العربيه","",NA,"correct","correct","correct","levantine","both","arabic-arabic","5+","advanced"
+"2658","vi. 106","cheese","Male","food",10,"smooth","texture",0.99,"العربيه","",NA,"correct","correct","correct","levantine","both","arabic-arabic","5+","advanced"
+"2659","vi. 106","chair","Male","furniture",11,"square","shape",0.98,"العربيه","",NA,"correct","correct","correct","levantine","both","arabic-arabic","5+","advanced"
+"2660","vi. 106","chair","Male","furniture",12,"short","size",0.96,"العربيه","",NA,"correct","correct","correct","levantine","both","arabic-arabic","5+","advanced"
+"2661","vi. 106","apple","Male","food",13,"fresh","age",0.97,"العربيه","",NA,"correct","correct","correct","levantine","both","arabic-arabic","5+","advanced"
+"2662","vi. 106","TV","Male","furniture",14,"round","shape",0.04,"العربيه","",NA,"correct","correct","correct","levantine","both","arabic-arabic","5+","advanced"
+"2663","vi. 106","cheese","Male","food",15,"hard","texture",0.95,"العربيه","",NA,"correct","correct","correct","levantine","both","arabic-arabic","5+","advanced"
+"2664","vi. 106","TV","Male","furniture",16,"huge","size",0.94,"العربيه","",NA,"correct","correct","correct","levantine","both","arabic-arabic","5+","advanced"
+"2665","vi. 106","chair","Male","furniture",17,"soft","texture",0.98,"العربيه","",NA,"correct","correct","correct","levantine","both","arabic-arabic","5+","advanced"
+"2666","vi. 106","chair","Male","furniture",18,"big","size",0.98,"العربيه","",NA,"correct","correct","correct","levantine","both","arabic-arabic","5+","advanced"
+"2667","vi. 106","couch","Male","furniture",19,"brown","color",0.04,"العربيه","",NA,"correct","correct","correct","levantine","both","arabic-arabic","5+","advanced"
+"2668","vi. 106","fan","Male","furniture",20,"red","color",0.03,"العربيه","",NA,"correct","correct","correct","levantine","both","arabic-arabic","5+","advanced"
+"2669","vi. 106","carrot","Male","food",21,"long","size",0.98,"العربيه","",NA,"correct","correct","correct","levantine","both","arabic-arabic","5+","advanced"
+"2670","vi. 106","desk","Male","furniture",22,"green","color",0.05,"العربيه","",NA,"correct","correct","correct","levantine","both","arabic-arabic","5+","advanced"
+"2671","vi. 106","tomato","Male","food",23,"bad","quality",0.98,"العربيه","",NA,"correct","correct","correct","levantine","both","arabic-arabic","5+","advanced"
+"2672","vi. 106","chair","Male","furniture",24,"new","age",0.03,"العربيه","",NA,"correct","correct","correct","levantine","both","arabic-arabic","5+","advanced"
+"2673","vi. 106","tomato","Male","food",25,"old","age",0.04,"العربيه","",NA,"correct","correct","correct","levantine","both","arabic-arabic","5+","advanced"
+"2674","vi. 106","couch","Male","furniture",26,"wooden","material",0.03,"العربيه","",NA,"correct","correct","correct","levantine","both","arabic-arabic","5+","advanced"
+"2675","vi. 106","apple","Male","food",27,"good","quality",1,"العربيه","",NA,"correct","correct","correct","levantine","both","arabic-arabic","5+","advanced"
+"2676","vi. 107","chair","Male","furniture",3,"small","size",0.83,"العربيه","","Yes","correct","correct","correct","gulf","both","arabic-arabic","5+","superior"
+"2677","vi. 107","TV","Male","furniture",4,"big","size",1,"العربيه","","Yes","correct","correct","correct","gulf","both","arabic-arabic","5+","superior"
+"2678","vi. 107","couch","Male","furniture",5,"long","size",0.97,"العربيه","","Yes","correct","correct","correct","gulf","both","arabic-arabic","5+","superior"
+"2679","vi. 107","banana","Male","food",6,"hard","texture",0.4,"العربيه","","Yes","correct","correct","correct","gulf","both","arabic-arabic","5+","superior"
+"2680","vi. 107","chair","Male","furniture",7,"square","shape",0,"العربيه","","Yes","correct","correct","correct","gulf","both","arabic-arabic","5+","superior"
+"2681","vi. 107","chair","Male","furniture",8,"smooth","texture",0,"العربيه","","Yes","correct","correct","correct","gulf","both","arabic-arabic","5+","superior"
+"2682","vi. 107","cheese","Male","food",9,"bad","quality",0.67,"العربيه","","Yes","correct","correct","correct","gulf","both","arabic-arabic","5+","superior"
+"2683","vi. 107","carrot","Male","food",10,"good","quality",0.5,"العربيه","","Yes","correct","correct","correct","gulf","both","arabic-arabic","5+","superior"
+"2684","vi. 107","tomato","Male","food",11,"green","color",0,"العربيه","","Yes","correct","correct","correct","gulf","both","arabic-arabic","5+","superior"
+"2685","vi. 107","apple","Male","food",12,"huge","size",1,"العربيه","","Yes","correct","correct","correct","gulf","both","arabic-arabic","5+","superior"
+"2686","vi. 107","banana","Male","food",13,"new","age",1,"العربيه","","Yes","correct","correct","correct","gulf","both","arabic-arabic","5+","superior"
+"2687","vi. 107","TV","Male","furniture",14,"blue","color",0,"العربيه","","Yes","correct","correct","correct","gulf","both","arabic-arabic","5+","superior"
+"2688","vi. 107","carrot","Male","food",15,"red","color",0,"العربيه","","Yes","correct","correct","correct","gulf","both","arabic-arabic","5+","superior"
+"2689","vi. 107","banana","Male","food",16,"rotten","age",0.52,"العربيه","","Yes","correct","correct","correct","gulf","both","arabic-arabic","5+","superior"
+"2690","vi. 107","tomato","Male","food",17,"old","age",0.67,"العربيه","","Yes","correct","correct","correct","gulf","both","arabic-arabic","5+","superior"
+"2691","vi. 107","banana","Male","food",18,"short","size",0.89,"العربيه","","Yes","correct","correct","correct","gulf","both","arabic-arabic","5+","superior"
+"2692","vi. 107","desk","Male","furniture",19,"yellow","color",0,"العربيه","","Yes","correct","correct","correct","gulf","both","arabic-arabic","5+","superior"
+"2693","vi. 107","tomato","Male","food",20,"metal","material",1,"العربيه","","Yes","correct","correct","correct","gulf","both","arabic-arabic","5+","superior"
+"2694","vi. 107","tomato","Male","food",21,"plastic","material",0,"العربيه","","Yes","correct","correct","correct","gulf","both","arabic-arabic","5+","superior"
+"2695","vi. 107","TV","Male","furniture",22,"brown","color",0,"العربيه","","Yes","correct","correct","correct","gulf","both","arabic-arabic","5+","superior"
+"2696","vi. 107","chair","Male","furniture",23,"round","shape",0,"العربيه","","Yes","correct","correct","correct","gulf","both","arabic-arabic","5+","superior"
+"2697","vi. 107","desk","Male","furniture",24,"fresh","age",0,"العربيه","","Yes","correct","correct","correct","gulf","both","arabic-arabic","5+","superior"
+"2698","vi. 107","banana","Male","food",25,"purple","color",0,"العربيه","","Yes","correct","correct","correct","gulf","both","arabic-arabic","5+","superior"
+"2699","vi. 107","TV","Male","furniture",26,"wooden","material",0,"العربيه","","Yes","correct","correct","correct","gulf","both","arabic-arabic","5+","superior"
+"2700","vi. 107","carrot","Male","food",27,"soft","texture",0,"العربيه","","Yes","correct","correct","correct","gulf","both","arabic-arabic","5+","superior"
+"2826","vi. 113","tomato","Male","food",3,"hard","texture",0,"العربية","","Yes","correct","correct","correct","saudi","both","arabic-arabic","5+","advanced"
+"2827","vi. 113","fan","Male","furniture",4,"wooden","material",0,"العربية","","Yes","correct","correct","correct","saudi","both","arabic-arabic","5+","advanced"
+"2828","vi. 113","tomato","Male","food",5,"purple","color",0,"العربية","","Yes","correct","correct","correct","saudi","both","arabic-arabic","5+","advanced"
+"2829","vi. 113","cheese","Male","food",6,"rotten","age",0,"العربية","","Yes","correct","correct","correct","saudi","both","arabic-arabic","5+","advanced"
+"2830","vi. 113","cheese","Male","food",7,"smooth","texture",0,"العربية","","Yes","correct","correct","correct","saudi","both","arabic-arabic","5+","advanced"
+"2831","vi. 113","couch","Male","furniture",8,"soft","texture",1,"العربية","","Yes","correct","correct","correct","saudi","both","arabic-arabic","5+","advanced"
+"2832","vi. 113","desk","Male","furniture",9,"huge","size",1,"العربية","","Yes","correct","correct","correct","saudi","both","arabic-arabic","5+","advanced"
+"2833","vi. 113","TV","Male","furniture",10,"blue","color",0,"العربية","","Yes","correct","correct","correct","saudi","both","arabic-arabic","5+","advanced"
+"2834","vi. 113","cheese","Male","food",11,"old","age",0,"العربية","","Yes","correct","correct","correct","saudi","both","arabic-arabic","5+","advanced"
+"2835","vi. 113","fan","Male","furniture",12,"fresh","age",0,"العربية","","Yes","correct","correct","correct","saudi","both","arabic-arabic","5+","advanced"
+"2836","vi. 113","cheese","Male","food",13,"plastic","material",0,"العربية","","Yes","correct","correct","correct","saudi","both","arabic-arabic","5+","advanced"
+"2837","vi. 113","TV","Male","furniture",14,"good","quality",1,"العربية","","Yes","correct","correct","correct","saudi","both","arabic-arabic","5+","advanced"
+"2838","vi. 113","desk","Male","furniture",15,"yellow","color",0,"العربية","","Yes","correct","correct","correct","saudi","both","arabic-arabic","5+","advanced"
+"2839","vi. 113","cheese","Male","food",16,"round","shape",0,"العربية","","Yes","correct","correct","correct","saudi","both","arabic-arabic","5+","advanced"
+"2840","vi. 113","banana","Male","food",17,"green","color",0,"العربية","","Yes","correct","correct","correct","saudi","both","arabic-arabic","5+","advanced"
+"2841","vi. 113","apple","Male","food",18,"big","size",0,"العربية","","Yes","correct","correct","correct","saudi","both","arabic-arabic","5+","advanced"
+"2842","vi. 113","TV","Male","furniture",19,"square","shape",0,"العربية","","Yes","correct","correct","correct","saudi","both","arabic-arabic","5+","advanced"
+"2843","vi. 113","tomato","Male","food",20,"new","age",0,"العربية","","Yes","correct","correct","correct","saudi","both","arabic-arabic","5+","advanced"
+"2844","vi. 113","fan","Male","furniture",21,"metal","material",0,"العربية","","Yes","correct","correct","correct","saudi","both","arabic-arabic","5+","advanced"
+"2845","vi. 113","apple","Male","food",22,"red","color",0,"العربية","","Yes","correct","correct","correct","saudi","both","arabic-arabic","5+","advanced"
+"2846","vi. 113","apple","Male","food",23,"long","size",1,"العربية","","Yes","correct","correct","correct","saudi","both","arabic-arabic","5+","advanced"
+"2847","vi. 113","banana","Male","food",24,"small","size",1,"العربية","","Yes","correct","correct","correct","saudi","both","arabic-arabic","5+","advanced"
+"2848","vi. 113","TV","Male","furniture",25,"short","size",1,"العربية","","Yes","correct","correct","correct","saudi","both","arabic-arabic","5+","advanced"
+"2849","vi. 113","carrot","Male","food",26,"bad","quality",1,"العربية","","Yes","correct","correct","correct","saudi","both","arabic-arabic","5+","advanced"
+"2850","vi. 113","chair","Male","furniture",27,"brown","color",0,"العربية","","Yes","correct","correct","correct","saudi","both","arabic-arabic","5+","advanced"
+"3326","vi. 133","cheese","Male","food",3,"wooden","material",0.66,"Arabe","",NA,"correct","correct","correct","moroccan","both","arabic-arabic","5+","superior"
+"3327","vi. 133","desk","Male","furniture",4,"round","shape",0.16,"Arabe","",NA,"correct","correct","correct","moroccan","both","arabic-arabic","5+","superior"
+"3328","vi. 133","banana","Male","food",5,"smooth","texture",0.7,"Arabe","",NA,"correct","correct","correct","moroccan","both","arabic-arabic","5+","superior"
+"3329","vi. 133","fan","Male","furniture",6,"plastic","material",0.16,"Arabe","",NA,"correct","correct","correct","moroccan","both","arabic-arabic","5+","superior"
+"3330","vi. 133","banana","Male","food",7,"short","size",0.19,"Arabe","",NA,"correct","correct","correct","moroccan","both","arabic-arabic","5+","superior"
+"3331","vi. 133","cheese","Male","food",8,"good","quality",0.75,"Arabe","",NA,"correct","correct","correct","moroccan","both","arabic-arabic","5+","superior"
+"3332","vi. 133","fan","Male","furniture",9,"blue","color",0.8,"Arabe","",NA,"correct","correct","correct","moroccan","both","arabic-arabic","5+","superior"
+"3333","vi. 133","desk","Male","furniture",10,"big","size",0.7,"Arabe","",NA,"correct","correct","correct","moroccan","both","arabic-arabic","5+","superior"
+"3334","vi. 133","desk","Male","furniture",11,"rotten","age",0.73,"Arabe","",NA,"correct","correct","correct","moroccan","both","arabic-arabic","5+","superior"
+"3335","vi. 133","apple","Male","food",12,"yellow","color",0.7,"Arabe","",NA,"correct","correct","correct","moroccan","both","arabic-arabic","5+","superior"
+"3336","vi. 133","carrot","Male","food",13,"purple","color",0.73,"Arabe","",NA,"correct","correct","correct","moroccan","both","arabic-arabic","5+","superior"
+"3337","vi. 133","carrot","Male","food",14,"soft","texture",0.75,"Arabe","",NA,"correct","correct","correct","moroccan","both","arabic-arabic","5+","superior"
+"3338","vi. 133","couch","Male","furniture",15,"brown","color",0.7,"Arabe","",NA,"correct","correct","correct","moroccan","both","arabic-arabic","5+","superior"
+"3339","vi. 133","tomato","Male","food",16,"hard","texture",0.77,"Arabe","",NA,"correct","correct","correct","moroccan","both","arabic-arabic","5+","superior"
+"3340","vi. 133","cheese","Male","food",17,"long","size",0.77,"Arabe","",NA,"correct","correct","correct","moroccan","both","arabic-arabic","5+","superior"
+"3341","vi. 133","TV","Male","furniture",18,"bad","quality",0.7,"Arabe","",NA,"correct","correct","correct","moroccan","both","arabic-arabic","5+","superior"
+"3342","vi. 133","carrot","Male","food",19,"huge","size",0.71,"Arabe","",NA,"correct","correct","correct","moroccan","both","arabic-arabic","5+","superior"
+"3343","vi. 133","chair","Male","furniture",20,"red","color",0.73,"Arabe","",NA,"correct","correct","correct","moroccan","both","arabic-arabic","5+","superior"
+"3344","vi. 133","TV","Male","furniture",21,"old","age",0.64,"Arabe","",NA,"correct","correct","correct","moroccan","both","arabic-arabic","5+","superior"
+"3345","vi. 133","TV","Male","furniture",22,"square","shape",0.77,"Arabe","",NA,"correct","correct","correct","moroccan","both","arabic-arabic","5+","superior"
+"3346","vi. 133","couch","Male","furniture",23,"fresh","age",0.7,"Arabe","",NA,"correct","correct","correct","moroccan","both","arabic-arabic","5+","superior"
+"3347","vi. 133","TV","Male","furniture",24,"new","age",0.79,"Arabe","",NA,"correct","correct","correct","moroccan","both","arabic-arabic","5+","superior"
+"3348","vi. 133","carrot","Male","food",25,"green","color",0.83,"Arabe","",NA,"correct","correct","correct","moroccan","both","arabic-arabic","5+","superior"
+"3349","vi. 133","tomato","Male","food",26,"small","size",0.79,"Arabe","",NA,"correct","correct","correct","moroccan","both","arabic-arabic","5+","superior"
+"3350","vi. 133","desk","Male","furniture",27,"metal","material",0.14,"Arabe","",NA,"correct","correct","correct","moroccan","both","arabic-arabic","5+","superior"
